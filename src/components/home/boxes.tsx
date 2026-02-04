@@ -1,0 +1,87 @@
+import React from 'react'
+import { HiOutlineHomeModern } from 'react-icons/hi2'
+
+function Homeoxes() {
+    const boxesData = [{
+        icon:<HiOutlineHomeModern />,
+        title:"Residential Building",
+        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+    },
+    {
+        icon:<HiOutlineHomeModern />,
+        title:"Residential Building",
+        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+    },
+    {
+        icon:<HiOutlineHomeModern />,
+        title:"Residential Building",
+        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+    },
+    {
+        icon:<HiOutlineHomeModern />,
+        title:"Residential Building",
+        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+    },
+]
+  return (
+    <section className=' lg:p-16 !pb-6 w-full p-6 mx-auto font1 bg-color1 flex flex-wrap justify-between gap-y-6 relative'>
+     {boxesData.map((box, index) => (
+  <div
+    key={index}
+    className="group md:w-[48%] lg:w-[23%] w-full
+               rounded-2xl p-6
+               bg-white
+               border border-zinc-100
+               shadow-md hover:shadow-lg 
+               transition-all duration-500
+               hover:-translate-y-2"
+  >
+   
+
+    {/* Icon */}
+    <div className="relative z-10 flex items-center justify-center mb-5">
+      <div
+        className="w-16 h-16 flex items-center justify-center
+                   rounded-full
+                   bg-color1 text-color2 text-4xl
+                   shadow-inner
+                   transition-all duration-500
+                   group-hover:bg-color2 group-hover:text-white
+                   group-hover:rotate-6"
+      >
+        {box.icon}
+      </div>
+    </div>
+
+    {/* Title */}
+    <h3
+      className="relative z-10 text-center
+                 text-lg md:text-xl font-semibold
+                 text-zinc-800
+                 group-hover:text-color2
+                 transition duration-300"
+    >
+      {box.title}
+    </h3>
+
+    {/* Divider */}
+    <div className="relative z-10 my-4 mx-auto h-[2px] w-12
+                    bg-color2 rounded-full
+                    group-hover:w-20
+                    transition-all duration-500" />
+
+    {/* Description */}
+    <p
+      className="relative z-10 text-center text-sm
+                 text-color3 leading-relaxed"
+    >
+      {box.para}
+    </p>
+  </div>
+))}
+
+    </section>
+  )
+}
+
+export default Homeoxes
