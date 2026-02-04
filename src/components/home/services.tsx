@@ -12,49 +12,12 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { IoSettingsOutline } from "react-icons/io5";
+import { Servicedata as data } from "@/data/homeData";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import Buttonmain from "../global/button";
 
 export default function ServiceSlider() {
-  const data = {
-  title1: "OUR SERVICES",
-  title2: "Engineering Excellence Across Diverse Infrastructure Domains",
-  service: [
-    {
-      title: "Pipeline Networks",
-      text: "Water, sewer, and stormwater systems are executed through open-cut and advanced trenchless technologies.",
-      img: banner,
-      icon: <IoSettingsOutline />,
-    },
-    {
-      title: "Drainage & Utility Diversions",
-      text: "Strategic diversion, rerouting, and restoration of complex urban utility networks with minimal disruption.",
-      img: about2,
-      icon: <IoSettingsOutline />,
-    },
-    {
-      title: "Roads and Footpaths",
-      text: "Durable surface infrastructure seamlessly coordinated with underlying utility and service networks.",
-      img: about8,
-      icon: <IoSettingsOutline />,
-    },
-    {
-      title: "Civil Structures & Finishing Works",
-      text: "Structural construction combined with precise finishing for functional and visually refined outcomes.",
-      img: banner,
-      icon: <IoSettingsOutline />,
-    },
-    {
-      title: "Horticulture & Landscaping",
-      text: "Sustainable landscaping solutions that enhance environmental value and create aesthetically pleasing green spaces.",
-      img: about2,
-      icon: <IoSettingsOutline />,
-    },
-  ],
-};
-
-
+ 
   return (
     <section className="lg:p-12 bg-color1 font1 relative overflow-hidden">
       {/* Background Decorative Elements */}

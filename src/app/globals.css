@@ -80,8 +80,7 @@ h4{
 
 .blog-content {
   max-width: 900px;
-  margin: 40px auto;
-  padding: 30px;
+  margin: 40px 0px;
   background-color: #ffffff;
   line-height: 1.7;
   font-family: Arial, Helvetica, sans-serif;
@@ -113,19 +112,38 @@ h4{
   color: #333333;
   font-size: 16px;
   margin-bottom: 15px;
+    font-family: var(--font-dm-sans);
+
 }
 
 /* Lists */
 .blog-content ul {
   margin: 15px 0 20px 20px;
-  padding-left: 20px;
+}
+
+.blog-content ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .blog-content li {
   font-size: 16px;
   color: #333333;
   margin-bottom: 8px;
+  padding-left: 28px;
+  position: relative;
 }
+
+.blog-content li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #D37B24;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 
 /* Strong text */
 .blog-content strong {
@@ -157,9 +175,7 @@ h4{
 
 /* Responsive tweaks */
 @media (max-width: 768px) {
-  .blog-content {
-    padding: 20px;
-  }
+  
 
   .blog-content h1 {
     font-size: 26px;

@@ -1,14 +1,7 @@
 import AboutSection from "@/components/home/AboutSection";
-import { aboutdata, howwork, ourService } from "@/data/homeData";
-
 import Blogs from "@/components/home/blog";
-import CountDown from "@/components/global/Contdown";
 import BannerSlider from "@/components/home/HomeBanner";
 import ServiceSlider from "@/components/home/services";
-import Testimonials from "@/components/global/testimonial";
-import { countDown } from "@/data/homeData";
-import Craft from "@/components/home/crafting";
-import HowweWork from "@/components/home/workprocess";
 import WhyChoose from "@/components/home/whychoose";
 import Project from "@/components/home/projects";
 import Homeoxes from "@/components/home/boxes";

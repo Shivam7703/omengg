@@ -34,7 +34,7 @@ export default function Blogs() {
         {/* Featured Post - Left Side */}
         {featuredPost && (
           <div className="w-full lg:w-[48%] bg-white p-6 rounded-3xl overflow-hidden group shadow-sm hover:shadow-md transition-shadow duration-300">
-            <div className="relative w-full h-52 md:h-[300px] rounded-2xl overflow-hidden ">
+            <div className="relative w-full h-52 md:h-[300px] !mb-6 rounded-2xl overflow-hidden ">
               <Image
                 src={featuredPost.img}
                 alt={featuredPost.title}
@@ -46,9 +46,9 @@ export default function Blogs() {
                 href={`/blogs/${featuredPost?.title
                   .replace(/\s+/g, "-")
                   .toLowerCase()}`}
-                className="mt-6"
+                className="!mt-6"
               >              {/* Date and Author */}
-              <div className="flex items-center gap-4 mb-4 text-sm text-color2">
+              <div className="flex items-center gap-4 mb-4 mt-6 text-sm text-color2">
                 <div className="flex items-center gap-2">
                   <FiCalendar className="w-4 h-4" />
                   <span>{featuredPost.date}</span>

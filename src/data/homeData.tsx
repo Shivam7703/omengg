@@ -36,7 +36,7 @@ import {
   GiTakeMyMoney,
 } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
-import { IoDiamondSharp } from "react-icons/io5";
+import { IoDiamondSharp, IoSettingsOutline } from "react-icons/io5";
 import { LuPhone } from "react-icons/lu";
 
 import { RiMailSendLine, RiSofaFill } from "react-icons/ri";
@@ -129,6 +129,43 @@ export const sliderContent = [
   },
 ];
 
+
+export const Servicedata = {
+  title1: "OUR SERVICES",
+  title2: "Engineering Excellence Across Diverse Infrastructure Domains",
+  service: [
+    {
+      title: "Pipeline Networks",
+      text: "Water, sewer, and stormwater systems are executed through open-cut and advanced trenchless technologies.",
+      img: banner,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Drainage & Utility Diversions",
+      text: "Strategic diversion, rerouting, and restoration of complex urban utility networks with minimal disruption.",
+      img: about2,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Roads and Footpaths",
+      text: "Durable surface infrastructure seamlessly coordinated with underlying utility and service networks.",
+      img: about8,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Civil Structures & Finishing Works",
+      text: "Structural construction combined with precise finishing for functional and visually refined outcomes.",
+      img: banner,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Horticulture & Landscaping",
+      text: "Sustainable landscaping solutions that enhance environmental value and create aesthetically pleasing green spaces.",
+      img: about2,
+      icon: <IoSettingsOutline />,
+    },
+  ],
+};
 
 // section3
 export const crafting = {
@@ -248,8 +285,8 @@ export const blogData = {
       id: 1,
       title: "Best Builders in Delhi NCR",
       text:
-        "The Delhi National Capital Region (NCR) is one of India’s fastest-growing real estate hubs. With rapid urbanization, infrastructure development, and ...",
-      text2: `<div style="max-width: 900px; margin: 40px auto; padding: 30px; background-color: #fff;">
+        "The Delhi National Capital Region (NCR) is one of India’s fastest-growing real estate hubs. With rapid urbanization, infrastructure development, and increasing demand for modern housing and commercial spaces, the need for reliable and high-quality builders has never been greater. Choosing the right builder is critical—not only for securing a property but for...",
+      text2: `<div class="blog-content">
 
   <h1 style="color: #2c3e50;">Best Builders in Delhi NCR</h1>
 

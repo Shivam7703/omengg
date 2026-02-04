@@ -123,7 +123,7 @@ const Header = ({ header }: any) => {
             <Image
               src={logo}
               alt="logo"
-              className="w-[25vw] max-w-40 my-2 object-contain "
+              className="w-[25vw] max-w-52 my-2 object-contain "
             />
           </Link>
           <Menu
