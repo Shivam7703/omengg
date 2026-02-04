@@ -52,26 +52,23 @@ export const navItemsArray = [
     subNav: [
       {
         id: 1,
-        label: "In-House Residential Development",
-        href: "/services/in-house-residential-development",
+        label: "Pipeline Networks",
+        href: "/services/pipeline-networks",
       },
       {
         id: 2,
-        label: "Architecture & Interior Design",
-        href: "/services/architecture-&-interior-design",
+        label: "Drainage & Utility Diversions",
+        href: "/services/drainage-&-utility-diversions",
       },
-      { id: 3, label: "Property Sale", href: "/services/property-sale" },
+      { id: 3,  label: "Roads & Footpaths",
+        href: "/services/roads-&-footpaths", },
       {
         id: 4,
-        label: "Building Renovation",
-        href: "/services/building-renovation",
+        label: "Civil Structure & Finishing Works",
+        href: "/services/civil-structure-&-finishing-works",
       },
-      { id: 5, label: "Exterior Design", href: "/services/exterior-design" },
-      {
-        id: 6,
-        label: "Property Purchase",
-        href: "/services/property-purchase",
-      },
+      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-&-landscaping" },
+    
     ],
   },
   { id: 4, label: "Projects", href: "/projects" },
@@ -273,14 +270,14 @@ export const ourService = {
     {
       id: 1,
       icon: <GiAbstract052 />,
-      heading: "In-House Residential Development",
+      heading: "Pipeline Networks",
       text:
         "Designing, planning, and building complete residential projects with quality, precision, and consistency.",
     },
     {
       id: 2,
       icon: <GiAqueduct />,
-      heading: "Architecture & Interior Design",
+      heading: "Drainage & Utility Diversions",
       text:
         "Creating functional, aesthetic spaces through innovative planning, smart layouts, and thoughtful design solutions.",
     },
@@ -294,7 +291,7 @@ export const ourService = {
     {
       id: 4,
       icon: <GiOilPump />,
-      heading: "Building Renovation",
+      heading: "Roads & Footpaths",
       text:
         "Our company performs space construction repairs to create rejuvenating looks that maintain comfortable use features.",
     },
@@ -864,18 +861,18 @@ export const footer = {
     links: [
       {
         id: 1,
-        label: "In-House Residential Development",
+        label: "Pipeline Networks",
         href: "/services/in-house-residential-development",
       },
       {
         id: 2,
-        label: "Architecture & Interior Design",
+        label: "Drainage & Utility Diversions",
         href: "/services/architecture-&-interior-design",
       },
       { id: 3, label: "Property Sale", href: "/services/property-sale" },
       {
         id: 4,
-        label: "Building Renovation",
+        label: "Roads & Footpaths",
         href: "/services/building-renovation",
       },
       { id: 5, label: "Exterior Design", href: "/services/exterior-design" },
@@ -1006,7 +1003,7 @@ export const serviceData = {
   services: [
     {
       id: 1,
-      title: "In-House Residential Development",
+      title: "Pipeline Networks",
       banner:
         "Creating beautiful and practical spaces that reflect your style perfectly.",
       description:
@@ -1042,7 +1039,7 @@ export const serviceData = {
         {
           id: 1,
           que:
-            "How is in-house residential development different from regular construction?",
+            "How is Pipeline Networks different from regular construction?",
           ans:
             "All planning, design, and execution are handled internally, resulting in smoother coordination, faster decisions, and better quality control.",
         },
@@ -1074,7 +1071,7 @@ export const serviceData = {
     },
     {
       id: 2,
-      title: "Architecture & Interior Design",
+      title: "Drainage & Utility Diversions",
       banner:
         "We design innovative, functional, and timeless structures for every unique need.",
       description:
@@ -1204,7 +1201,7 @@ export const serviceData = {
     },
     {
       id: 4,
-      title: "Building Renovation",
+      title: "Roads & Footpaths",
       banner:
         "We convert old spaces into modern, functional, and stylish ones effortlessly.",
       description:
