@@ -1,47 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import { banner, banner2, banner3 } from "@/assets";
-import Buttonmain from "../global/button";
+import {blogData as data} from "@/data/homeData";
+import Link from "next/link";
 import { FiCalendar, FiUser } from "react-icons/fi";
 
 export default function Blogs() {
 
-  const data = {
-    img2: banner,
-    title1: "RECENT UPDATES",
-    title2: "Explore The Latest News",
-    blog: [
-      { 
-        img: banner, 
-        heading: "Reviving Traditional Architecture With A Modern Twist", 
-        text: "Cultural heritage is finding new life in contemporary designs. By incorporating traditional patterns, local craftsmanship, and indigenous materials into modern structures.", 
-        date: "May 24, 2025",
-        author: "Developer",
-        featured: true
-      },
-      { 
-        img: banner2, 
-        heading: "Luxury Living Redefined Through Simplicity", 
-        date: "June 13, 2025",
-        author: "Developer"
-      },
-      { 
-        img: banner3, 
-        heading: "The Art Of Designing Timeless Spaces", 
-        date: "May 30, 2025",
-        author: "Developer"
-      }, 
-      { 
-        img: banner2, 
-        heading: "Wellness-Centered Homes For Better Living", 
-        date: "May 28, 2025",
-        author: "Developer"
-      },
-    ],
-  };
 
-  const featuredPost = data.blog.find(post => post.featured);
-  const regularPosts = data.blog.filter(post => !post.featured);
+  const featuredPost = data.blogs.find(post => post.featured);
+  const regularPosts = data.blogs.filter(post => !post.featured);
 
   return (
     <section className="lg:px-28 md:px-20 sm:p-16 px-6 py-8 md:py-24 font1 bg-color1 mx-auto">
@@ -70,13 +37,17 @@ export default function Blogs() {
             <div className="relative w-full h-52 md:h-[300px] rounded-2xl overflow-hidden ">
               <Image
                 src={featuredPost.img}
-                alt={featuredPost.heading}
+                alt={featuredPost.title}
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700"
               />
             </div>
-            <div className="pt-8">
-              {/* Date and Author */}
+<Link
+                href={`/blogs/${featuredPost?.title
+                  .replace(/\s+/g, "-")
+                  .toLowerCase()}`}
+                className="mt-6"
+              >              {/* Date and Author */}
               <div className="flex items-center gap-4 mb-4 text-sm text-color2">
                 <div className="flex items-center gap-2">
                   <FiCalendar className="w-4 h-4" />
@@ -90,29 +61,32 @@ export default function Blogs() {
 
               {/* Title */}
               <h3 className="text-black font-bold text-xl md:text-2xl mb-4">
-                {featuredPost.heading}
+                {featuredPost.title}
               </h3>
 
               {/* Description */}
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                 {featuredPost.text}
               </p>
-            </div>
+            </Link>
           </div>
         )}
 
         {/* Regular Posts - Right Side */}
         <div className="w-full lg:w-[52%] flex flex-col gap-6 ">
           {regularPosts.map((post, index) => (
-            <div 
+            <Link  
               key={index}
+              href={`/blogs/${post?.title
+                .replace(/\s+/g, "-")
+                .toLowerCase()}`}
               className="bg-white rounded-3xl p-6 lg:p-4 overflow-hidden group shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col sm:flex-row"
             >
               {/* Image */}
               <div className="relative w-full sm:w-52 h-48 sm:h-auto rounded-xl overflow-hidden flex-shrink-0">
                 <Image
                   src={post.img}
-                  alt={post.heading}
+                  alt={post.title}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -134,10 +108,10 @@ export default function Blogs() {
 
                 {/* Title */}
                 <h3 className="text-black font-normal text-xl md:text-2xl">
-                  {post.heading}
+                  {post.title}
                 </h3>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

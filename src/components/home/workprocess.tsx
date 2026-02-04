@@ -8,15 +8,28 @@ import { FaWpforms } from "react-icons/fa";
 
 export default function WorkProcess() {
   const data = [
-    {icon:<FaWpforms />
-, heading: "Space Planning", text: "Detailed project planning and scheduling to ensure timely needs completion."},
-    {icon:<FaWpforms />
-, heading: "Digital Marketing", text: "Creating innovative and functional designs tailored to client needs completion."},
- {icon:<FaWpforms />
-, heading: "Space Planning", text: "Detailed project planning and scheduling to ensure timely need completion."},
-    {icon:<FaWpforms />
-, heading: "Digital Marketing", text: "Creating innovative and functional designs tailored to client needs completion."}
-  ]
+  {
+    icon: <FaWpforms />,
+    heading: "Planning & Assessment",
+    text: "Understanding project requirements, site conditions, timelines, and execution feasibility thoroughly.",
+  },
+  {
+    icon: <FaWpforms />,
+    heading: "Design & Engineering",
+    text: "Developing precise engineering designs aligned with safety standards and project goals.",
+  },
+  {
+    icon: <FaWpforms />,
+    heading: "Execution & Supervision",
+    text: "Executing construction activities with strict supervision, safety compliance, and quality control.",
+  },
+  {
+    icon: <FaWpforms />,
+    heading: "Completion & Handover",
+    text: "Final inspections, documentation, and smooth project handover within committed timelines.",
+  },
+];
+
   return (
     <section className=" lg:px-20 sm:p-12 p-7 bg-color1 mx-auto font1">
       {/* Heading Section */}
@@ -30,8 +43,7 @@ export default function WorkProcess() {
 
           {/* Main Heading */}
           <h2 className=" font-bold text-3xl text-black md:text-5xl max-w-5xl mx-auto ">
-              Work Process
-              Work Process
+              Clear process with expert execution and guaranteed success
           </h2>
         </div>
 

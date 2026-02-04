@@ -8,10 +8,10 @@ function WhyChoose() {
   const data = {
     img2: banner,
     title1: "WHy Choose us",
-    title2: "lorem ipsum dolor sit amet consectetur.",
-    para:"lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title2: "Exceptional Infrastructure Solutions Providers.",
+    para:"With 42 years’ legacy, we deliver innovative, reliable infrastructure solutions—ensuring quality, safety, and guaranteed results.",
     count: [
-    { heading: "10+", text: "Tasks Completed" },
+    { heading: "42+", text: "Years of Experience" },
     { heading: "500+", text: "Projects Completed" },
     { heading: "300+", text: "Satisfied Clients" },
     ],

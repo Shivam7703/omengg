@@ -102,63 +102,37 @@ export const sliderContent = [
   {
     id: 1,
     img: banner4,
-    welcome: "BEST BUILDERS IN DELHI",
-    title: "Designing Spaces That Combine Beauty & Purpose",
+    welcome: "Om ENGINEERS",
+    title: "Turning Blueprints Into Living Landmarks",
     para:
-      "We create beautiful and purposeful spaces that feel as good as they look.",
+      "Building modern spaces through thoughtful design, engineering strength, and architectural vision.",
     btntext: "Explore More",
     href: "/services",
   },
   {
     id: 2,
     img: banner,
-    welcome: "BEST BUILDERS IN DELHI",
-    title: "Creating Estates & Legacy That Feel Like Home",
-    para: "Handpicked elements that make your interior shine with charm.",
+    welcome: "om ENGINEERS",
+    title: "Building Spaces That Last Generations",
+    para: "Thoughtfully designed projects combining comfort, durability, and timeless value for families.",
+    btntext: "Contact Us",
+    href: "/contact-us",
+  },
+    {
+    id: 3,
+    img: banner3,
+    welcome: "om ENGINEERS",
+    title: "Creating Comfortable Spaces that Feel Like Home",
+    para: "Designing warm, functional environments that support everyday living and lasting comfort.",
     btntext: "Contact Us",
     href: "/contact-us",
   },
 ];
 
-// section2
-export const aboutdata = {
-  img2: banner,
-  img: man,
-
-  title1: "WHO ARE WE",
-  title2: "We Are The Best Builder in Delhi",
-  para:
-    "Under the visionary leadership of Sandeep Soni, OmEngineers has established itself as the best builder in Delhi. We take immense pride in delivering high-end, reliable, and architecturally stunning constructions that redefine urban living. Our company takes great pride in delivering strong, reliable, and beautiful construction. We only design buildings we know will be around soon and look nice along the way. The quality and attention to detail we look into make us the best builders in Delhi, and many people come to us to turn their dreams into a reality. ",
-  vision: [
-    {
-      id: 1,
-      icon: <BsFillPatchCheckFill />,
-
-      heading: "Best Quality",
-      text:
-        "We build structures to exceptional standards for enduring structural integrity.",
-    },
-    {
-      id: 2,
-      icon: <BsFillPatchCheckFill />,
-
-      heading: "Timely Delivery",
-      text:
-        "Our projects meet their deadlines with complete observation of the set timeline.",
-    },
-    {
-      id: 3,
-      icon: <BsFillPatchCheckFill />,
-
-      heading: "Exceeding the Expectations",
-      text: "Our customers' satisfaction remains our highest priority.",
-    },
-  ],
-};
 
 // section3
 export const crafting = {
-  icon: <AiFillOpenAI />,
+  
 
   title1: "BUILDING THE FUTURE",
   title2: "Experts in Innovative & Modern Design",
@@ -226,116 +200,6 @@ export const countDown = [
   },
 ];
 
-export const howwork = {
-  icon: <AiFillOpenAI />,
-  title1: "HOW DO WE WORK",
-  title2: "OmEngineers Converts Your Thoughts to Living Spaces",
-  cards: [
-    {
-      id: 1,
-      icon: <FcAcceptDatabase />,
-      heading: "Understanding Concept",
-      text:
-        "We confirm your design approach by discussing your goals and desired outcomes to create the perfect final result.",
-    },
-    {
-      id: 2,
-      icon: <FcFinePrint />,
-      heading: "Site and survey visit",
-      text:
-        "We conduct thorough site evaluations and surveys to ensure precise planning and material selection.",
-    },
-    {
-      id: 3,
-      icon: <FcServices />,
-      heading: "Planning & Designing",
-      text:
-        "Our team designs precise layouts that merge functionality with style and comfort based on your preferences.",
-    },
-    {
-      id: 4,
-      icon: <FcHome />,
-      heading: "Execution & Construction",
-      text:
-        "Through our expertise, we execute plans by implementing perfect workmanship and maintaining continuous focus on every part.",
-    },
-  ],
-};
-
-export const ourService = {
-  icon: <AiFillOpenAI />,
-  title1: "OUR SERVICES",
-  title2: "Services Offered That Match Your Style",
-  cards: [
-    {
-      id: 1,
-      icon: <GiAbstract052 />,
-      heading: "Pipeline Networks",
-      text:
-        "Designing, planning, and building complete residential projects with quality, precision, and consistency.",
-    },
-    {
-      id: 2,
-      icon: <GiAqueduct />,
-      heading: "Drainage & Utility Diversions",
-      text:
-        "Creating functional, aesthetic spaces through innovative planning, smart layouts, and thoughtful design solutions.",
-    },
-    {
-      id: 3,
-      icon: <GiDiceTwentyFacesTwenty />,
-      heading: "Exterior Design",
-      text:
-        "Our work includes outdoor building improvements that transform your structure into an attractive structure.",
-    },
-    {
-      id: 4,
-      icon: <GiOilPump />,
-      heading: "Roads & Footpaths",
-      text:
-        "Our company performs space construction repairs to create rejuvenating looks that maintain comfortable use features.",
-    },
-    {
-      id: 5,
-      icon: <IoDiamondSharp />,
-      heading: "Property Sale",
-      text:
-        "Our organization provides expert assistance to help you find quick property sales at competitive market prices along with dependable service.",
-    },
-    {
-      id: 6,
-      icon: <GiTakeMyMoney />,
-      heading: "Property Purchase",
-      text:
-        "We assist in finding and buying the perfect property that fits your needs, budget, and preferences.",
-    },
-  ],
-};
-
-export const WhychooseData = {
-  img2: about2,
-  img: about3,
-
-  title1: " WHY CHOOSE US",
-  title2: "The Best Interior Designer in Delhi",
-  para:
-    "We design spaces that are comfortable, stylish, and practical for your everyday life.",
-  counts: [
-    {
-      id: 1,
-      amount: 150,
-      title: "Happy Client",
-      text:
-        "Building long-term success through precision, reliability, and superior craftsmanship..",
-    },
-    {
-      id: 2,
-      amount: 150,
-      title: "Successful Projects",
-      text: "Engineering excellence into every build across the region.",
-    },
-  ],
-};
 
 export const testimonialData = {
   title1: "TESTIMONIALS",
@@ -373,468 +237,571 @@ export const testimonialData = {
   ],
 };
 
-export const projectData = {
-  icon: <AiFillOpenAI />,
-  title1: "OUR PROJECTS",
-  title2: "Mixing Smart Ideas with Creative Designs",
-  para:
-    "Our approach stands on individual and distinct designs to develop functional spaces that meet both aesthetic and operational needs. Our careful planning determines everything to achieve functional and attractive spaces.",
-  projects: [
-    {
-      id: 1,
-      title: "R86, GK2",
-      text: "OmEngineers Construction",
-      img: banner,
-      para: [
-        "This luxury 4BHK flat is located in Greater Kailash 2 (GK2) – R86, one of the most popular and high-end residential areas in South Delhi.",
-        "It offers a great location advantage—just minutes away from Nehru Place IT Hub, GK Market, Lajpat Nagar, and South Ex. Whether for daily needs or city connectivity, everything is close by. This beautiful residential property is designed and presented by Tech Innovations Inc. It’s a perfect choice for those who want to live in a well-connected and luxurious space in South Delhi.",
-      ],
-      detail: [
-        { heading: "Area", info: "232 Yards" },
-        { heading: "Plot Type", info: "Corner / North East" },
-        { heading: "category", info: "Completed" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Completed",
-    },
 
-    {
-      id: 2,
-      title: "B- 244, CHITTARANJAN PARK",
-      text:
-        "232 YARDS CORNER / NORTH EAST - FIRST FLOOR & SECOND FLOOR for sale",
-      img: about8,
-      para: [
-        "This premium residential project is located at B-244, Chittaranjan Park, on a 232-yard corner plot with a North-East facing orientation. The property offers First Floor and Second Floor options and is currently under construction. Designed with a focus on space, ventilation, and modern living, the project promises well-planned interiors and quality construction.",
-        "The location provides excellent connectivity to key areas of South Delhi, daily markets, schools, and healthcare facilities, making it ideal for families and investors alike. This ongoing project is a great opportunity for those looking to own a well-located and thoughtfully designed home in a peaceful residential neighborhood.",
-      ],
-      detail: [
-        { heading: "Area", info: "232 Yards" },
-        { heading: "Plot Type", info: "Corner / North East" },
-        { heading: "category", info: "Ongoing" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Ongoing",
-    },
-
-    {
-      id: 3,
-      title: "S-178 GREATER KAILASH 2",
-      text: "300 YARDS BOOKING Basement/GF/FF for sale",
-      img: about4,
-      para: [
-        "Located in one of the most prestigious blocks of Greater Kailash 2, this luxury residential project is built on a 300-yard plot and offers Basement, Ground Floor, and First Floor options for sale. The project is currently ongoing and open for bookings.",
-        "The property is designed to offer spacious layouts, modern architecture, and a comfortable living experience. Its prime location ensures close proximity to GK Market, South Extension, and major business hubs, making it an excellent choice for families seeking a premium lifestyle in South Delhi.",
-      ],
-      detail: [
-        { heading: "Area", info: "300 Yards" },
-        { heading: "Plot Type", info: "Booking Basement/GF/FF" },
-        { heading: "category", info: "Ongoing" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Ongoing",
-    },
-
-    {
-      id: 4,
-      title: "D-13 GREATER KAILASH ENCLAVE -2",
-      text: " AREA - 375 YARDS, CORNER BOOKING",
-      img: banner2,
-      para: [
-        "This spacious luxury project is situated at D-13, Greater Kailash Enclave-2, on a 375-yard corner plot. All floors are available for booking, making it suitable for both end-users and investors. The project is currently under construction with a focus on high-end finishes and functional design.",
-        "The area is well-connected to major roads, markets, and social infrastructure. With large floor plans and a prime corner location, this property offers a perfect blend of comfort, exclusivity, and long-term value.",
-      ],
-      detail: [
-        { heading: "Area", info: "375 Yards" },
-        { heading: "Plot Type", info: "Corner Booking" },
-        { heading: "category", info: "Ongoing" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Ongoing",
-    },
-    {
-      id: 5,
-      title: "R-86, GREATER KAILASH-1",
-      text: "AREA - 310 YARDS, FF/SF- ready to move in",
-      img: banner,
-      para: [
-        "This ready-to-move-in luxury flat is located at R-86, Greater Kailash-1, built on a 310-yard plot. First Floor and Second Floor options are available, offering spacious rooms, elegant interiors, and a peaceful residential environment.",
-        "The property enjoys excellent connectivity to Nehru Place, GK Market, Lajpat Nagar, and South Extension. Ideal for families looking for immediate possession, this home offers both convenience and a premium South Delhi lifestyle.",
-      ],
-      detail: [
-        { heading: "Area", info: "310 Yards" },
-        { heading: "Plot Type", info: "FF/SF- ready to move in" },
-        { heading: "category", info: "Completed" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Completed",
-    },
-
-    {
-      id: 6,
-      title: "S-441, GREATER KAILASH-2",
-      text: "AREA - 300 YARDS, FF- ready to move in",
-      img: about5,
-      para: [
-        "Located at S-441, Greater Kailash-2, this ready-to-move-in First Floor flat is built on a 300-yard plot. The property offers a well-planned layout with modern specifications and ample natural light.",
-        "Situated in a prime residential block, it provides easy access to major markets, schools, and commercial hubs. This home is an ideal option for buyers looking for a high-quality, ready residence in one of South Delhi’s most desirable locations.",
-      ],
-      detail: [
-        { heading: "Area", info: "300 Yards" },
-        { heading: "Plot Type", info: "FF- ready to move in" },
-        { heading: "category", info: "Completed" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Completed",
-    },
-
-    {
-      id: 7,
-      title: "C-5 GREATER KAILASH ENCLAVE -1",
-      text: "AREA - 400 YARDS, FF- ongoing - ready in 6 months",
-      img: about5,
-      para: [
-        "This premium residential project at C-5, Greater Kailash Enclave-1, is built on a 400-yard plot and offers a First Floor option. The project is currently under construction and is expected to be ready within 6 months.",
-        "Designed for luxury living, the property features spacious interiors, modern design elements, and quality construction. Its prime location ensures excellent connectivity and a comfortable lifestyle, making it a strong choice for both living and investment purposes.",
-      ],
-      detail: [
-        { heading: "Area", info: "400 Yards" },
-        { heading: "Plot Type", info: "FF- ongoing - ready in 6 months" },
-        { heading: "category", info: "Upcoming" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Upcoming",
-    },
-
-    {
-      id: 8,
-      title: "F-11, SOUTH EXT. PART- II",
-      text: "AREA - 300 YARDS, SF- ongoing ready in 6 months",
-      img: about5,
-      para: [
-        "Located at F-11, South Extension Part-II, this luxury residential project is developed on a 300-yard plot and offers a Second Floor option. The project is ongoing and expected to be ready within 6 months.",
-        "South Extension is one of South Delhi’s most vibrant and well-connected areas, close to shopping hubs, offices, and healthcare facilities. This property is ideal for buyers looking for a modern home in a premium and centrally located neighborhood.",
-      ],
-      detail: [
-        { heading: "Area", info: "300 Yards" },
-        { heading: "Plot Type", info: "SF- ongoing ready in 6 months" },
-        { heading: "category", info: "Upcoming" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Upcoming",
-    },
-
-    {
-      id: 9,
-      title: "E-79, GREATER KAILASH -2",
-      text: "AREA - 250 YARDS, ALL FLOORS ",
-      img: about5,
-      para: [
-        "This ongoing residential project is located at E-79, Greater Kailash-2, on a 250-yard plot with all floors available for sale. The project is designed to offer functional layouts, contemporary design, and quality finishes.",
-        "The location provides excellent connectivity to major markets and business districts, making it suitable for families as well as investors. This property offers a great opportunity to own a modern home in a prime South Delhi location.",
-      ],
-      detail: [
-        { heading: "Area", info: "250 Yards" },
-        { heading: "Plot Type", info: "ALL FLOORS" },
-        { heading: "category", info: "Ongoing" },
-        { heading: "Created by", info: "OmEngineers  Constructions" },
-      ],
-      cat: "Ongoing",
-    },
-  ],
-};
 
 export const blogData = {
-  icon: <AiFillOpenAI />,
+  
   title1: "Blogs & News",
   title2: "Stay Updated With our Latest News And Blogs",
   blogs: [
     {
       id: 1,
-      title: "The Best Builders in Delhi-Building Comfort For Your Living",
+      title: "Best Builders in Delhi NCR",
       text:
-        "People strive for their dreams through the selection of top builders who operate well. OmEngineers, the best builders in Delhi, successfully developing any quality property or space requires selecting an appropriate builder who does matters. People face difficulties when choosing a builder from the many available choices. Certain builders gain distinction because they combine their superior workmanship with revolutionary designs and their ability to finish projects on schedule.",
+        "The Delhi National Capital Region (NCR) is one of India’s fastest-growing real estate hubs. With rapid urbanization, infrastructure development, and ...",
       text2: `<div style="max-width: 900px; margin: 40px auto; padding: 30px; background-color: #fff;">
 
-    <h1 style=" color: #2c3e50;">The Best Builders in Delhi - Building Comfort For Your Living</h1>
+  <h1 style="color: #2c3e50;">Best Builders in Delhi NCR</h1>
 
-    <p>People strive for their dreams through the selection of top builders who operate well. OmEngineers, the best builders in Delhi, successfully developing any quality property or space requires selecting an appropriate builder who does matters. People face difficulties when choosing a builder from the many available choices. Certain builders gain distinction because they combine their superior workmanship with revolutionary designs and their ability to finish projects on schedule.</p>
+  <p>The Delhi National Capital Region (NCR) is one of India’s fastest-growing real estate hubs. With rapid urbanization, infrastructure development, and increasing demand for modern housing and commercial spaces, the need for reliable and high-quality builders has never been greater. Choosing the right builder is critical—not only for securing a property but for ensuring that your investment is safe, and your dream home or project is delivered on time with the highest standards.</p>
 
-    <p>Selecting the best builders in Delhi means investing in long-term quality and value. A reliable builder ensures that every project is well-planned, structurally sound, and aesthetically pleasing. They work with expert interior designers in Delhi NCR to create functional and elegant spaces tailored to your needs. With their experience and expertise, they turn construction into an art form, making your dream home or office a reality.</p>
+  <p>Among the many players in this competitive market, OM Engineers stands out as a leading name in the infrastructure and real estate development space in Delhi NCR. Backed by over four decades of engineering legacy, OM Engineers combines experience, innovation, and a client-focused approach to deliver exceptional projects that set benchmarks for quality, safety, and sustainability.</p>
 
-    <h2 style="color: #34495e;">Why Choosing the Best Builders in Delhi Matters</h2>
-    <p>The building market in Delhi currently experiences strong growth while various developers offer to produce high-end construction projects. A majority of builders fail to produce the results they advertise to customers. The best builders in Delhi promise the following commitments—</p>
-    <ul>
-      <li>High-quality construction with premium materials</li>
-      <li>Modern and aesthetic architectural designs</li>
-      <li>Compliance with legal and safety regulations</li>
-      <li>Timely project delivery without unnecessary delays</li>
-      <li>Affordable pricing with flexible payment plans</li>
-    </ul>
+  <h2 style="color: #34495e;">Why OM Engineers is One of the Best Builders in Delhi NCR</h2>
 
-    <h2 style="color: #34495e;">OmEngineers—Redefining Construction and Interior Design in Delhi</h2>
-    <p>The reliable builders that stand out in the industry are found within OmEngineers. The company established itself through its work and is the best interior designer in Delhi. Their construction sector expertise extends to interior design, where they operate as a leading Delhi-based company that delivers homes along with professional office structures featuring elegance and style.</p>
+  <p>OM Engineers has carved a niche in the region with its commitment to precision, transparency, and forward-thinking project management. Here's why they are considered among the best:</p>
 
-    <h2 style="color: #34495e;">Why Choose OmEngineers?</h2>
-    <ul>
-      <li><strong>Quality Construction</strong>—OmEngineers Contracts builds durable structures using premium materials along with expert craftsmanship for permanent use.</li>
-      <li><strong>Innovative Designs</strong>—OmEngineers is the best interior designer in Delhi NCR who specializes in modern contemporary approaches for living spaces and business premises.</li>
-      <li><strong>On-Time Delivery</strong>—The organization completes projects at the right time to let customers obtain their desired homes without any delays.</li>
-      <li><strong>Affordable Pricing</strong>—At OmEngineers, customers find excellent affordability combined with superior quality standards for which they choose to conduct business.</li>
-      <li><strong>Customization Options</strong>—Each project developed at their company benefits from specific design customization according to personal client needs.</li>
-    </ul>
+  <h3 style="color: #3b556e;">1. Legacy and Experience</h3>
+  <p>With 42 years of rich legacy in engineering and infrastructure, OM Engineers brings unmatched expertise to every project. This long-standing experience translates into a deep understanding of complex site conditions, regulatory requirements, and advanced construction technologies.</p>
 
-    <h2 style="color: #34495e;">Interior Designers in Delhi NCR—Creating Stylish Spaces</h2>
-    <p>Quality structures need extraordinary interior finishes to be truly done. Seeking a professional interior design company in Delhi is as important as selecting a suitable builder for a home project. Superior builders operating in Delhi cooperate with competent interior designers throughout Delhi NCR to deliver comprehensive residential and office solutions.</p>
+  <h3 style="color: #3b556e;">2. Quality and Safety</h3>
+  <p>Quality assurance and safety are non-negotiable pillars at OM Engineers. They strictly adhere to rigorous quality standards and environmental safety norms, ensuring that each project is structurally sound, durable, and environmentally responsible.</p>
 
-    <p>Each space receives innovative and elegant treatment through the creative work of the best interior designers in Delhi NCR, regardless of the chosen modern minimalist or traditional royal aesthetic. We specialize in—</p>
-    <ul>
-      <li>Home interior design</li>
-      <li>Office and commercial space decor</li>
-      <li>Luxury and theme-based designs</li>
-      <li>Modular kitchen and bathroom designs</li>
-      <li>Space optimization and smart storage solutions</li>
-    </ul>
+  <h3 style="color: #3b556e;">3. Innovative Construction Practices</h3>
+  <p>OM Engineers leverage modern engineering techniques and technologies such as trenchless pipeline installation and mechanized construction methods. These innovations enable efficient, less disruptive, and cost-effective project execution even in challenging urban environments.</p>
 
-    <h2 style="color: #34495e;">Best Builders in Delhi—Enhancing Aesthetics with Elegance</h2>
-    <p>The interior design goes beyond the proper framework because it includes aesthetic components. Interior decorators in Delhi hold a crucial position because they finish all residential and commercial spaces in the city. Interior designers carefully choose the furniture items and match colors to guarantee that each element works well with the designated space.</p>
+  <h3 style="color: #3b556e;">4. Client-Centric Approach</h3>
+  <p>Understanding client needs and maintaining transparent communication is central to OM Engineers’ philosophy. From planning to execution and post-delivery support, they prioritize customer satisfaction, building long-term trust and relationships.</p>
 
-    <p>The best interior designers in Delhi furnish their clients with the following professional services—</p>
-    <ul>
-      <li>Furniture selection and its placement</li>
-      <li>Color theme and wallpaper designs</li>
-      <li>Lighting and décor arrangement</li>
-      <li>Curtain and upholstery selection</li>
-      <li>Art and accessory styling</li>
-    </ul>
+  <h3 style="color: #3b556e;">5. Diverse Infrastructure Expertise</h3>
+  <p>OM Engineers offers comprehensive infrastructure solutions across various verticals:</p>
 
-    <h2 style="color: #34495e;">Why the Best Builders in Delhi Are a Game Changer</h2>
-    <p>The infrastructure, together with the real estate sector of Delhi, has experienced substantial advancement through the years. The best builders in Delhi infrastructure incorporate contemporary architectural elements into their new building projects. Some key points are—</p>
-    <ul>
-      <li><strong>Structural Strength</strong>—Building materials of superior quality make these structures durable.</li>
-      <li><strong>Energy Efficiency</strong>—The orientation of several builders includes environmentally sensitive, sustainable construction approaches.</li>
-      <li><strong>Smart Homes</strong>—Top builders now implement automated lighting systems as well as security systems, which integrate technological features into their work.</li>
-      <li><strong>Space Optimization</strong>—Builders maximize space usage to build contemporary and practical house designs.</li>
-      <li><strong>Investment Value</strong>—Homes constructed by sanctioned builders gain premium resale value and yield rewards of superior value.</li>
-    </ul>
+  <ul>
+    <li>Pipeline networks (water, sewer, stormwater)</li>
+    <li>Drainage and utility diversions</li>
+    <li>Roads and footpaths</li>
+    <li>Civil structures and finishing works</li>
+    <li>Horticulture and landscaping</li>
+  </ul>
 
-    <h2 style="color: #34495e;">Choosing the Best Builders in Delhi</h2>
-    <p>The builders establish solid structures, yet interior design applications breathe new life into space. Selecting a trusted interior design company in Delhi ensures your home reflects your personality. Here’s what to look for—</p>
-    <ul>
-      <li>Portfolio of previous projects</li>
-      <li>Customer reviews and testimonials</li>
-      <li>Builders use top-end construction materials together with current design trends.</li>
-      <li>Customization and personalized approach</li>
-      <li>Budget-friendly solutions with quality assurance</li>
-    </ul>
+  <p>This broad expertise allows them to manage complex, multi-disciplinary projects with precision.</p>
 
-    <h2 style="color: #34495e;">Conclusion</h2>
-    <p>The search for the best builders in Delhi leads to crucial success in developing high-quality permanent spaces that possess both durability and stylish aesthetics. OmEngineers builds superior homes while providing top-quality interior design support to its clients. OmEngineers represents a complete solution that supplies interior designers in Delhi NCR alongside interior decorators in Delhi and a trusted interior design company in Delhi.</p>
+  <h2 style="color: #34495e;">What Sets OM Engineers Apart</h2>
 
-  </div>
+  <p>OM Engineers is not just another builder; they are your strategic partner in building sustainable and future-ready infrastructure. Here's how they add value:</p>
+
+  <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+      <tr>
+        <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f4f6f8;">Feature</th>
+        <th style="border: 1px solid #ddd; padding: 10px; text-align: left; background-color: #f4f6f8;">OM Engineers’ Strength</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Project Delivery</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">Proven track record of timely and on-budget project completions</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Sustainability Focus</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">Commitment to green infrastructure and eco-friendly construction methods</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Technological Edge</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">Use of advanced machinery and trenchless technology for efficient execution</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Safety Standards</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">Comprehensive safety protocols ensuring zero compromise on worker and public safety</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px;">Client Engagement</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">Transparent communication and dedicated support throughout the project lifecycle</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 style="color: #34495e;">How OM Engineers Ensure Successful Project Execution</h2>
+
+  <p>OM Engineers follows a structured work process to guarantee excellence at every stage:</p>
+
+  <h3 style="color: #3b556e;">1. Planning and Design</h3>
+  <p>Careful assessment of project requirements, site conditions, and client expectations to create detailed and feasible plans.</p>
+
+  <h3 style="color: #3b556e;">2. Engineering and Technology</h3>
+  <p>Applying innovative engineering methods and leveraging mechanized equipment to optimize construction efficiency and quality.</p>
+
+  <h3 style="color: #3b556e;">3. Execution and Supervision</h3>
+  <p>Strict adherence to quality controls, safety protocols, and regular monitoring to ensure timely, error-free delivery.</p>
+
+  <h3 style="color: #3b556e;">4. Completion and Support</h3>
+  <p>Final inspections, handovers, and ongoing client support to maintain lasting relationships and satisfaction.</p>
+
+  <h2 style="color: #34495e;">Why Investing in Quality Builders Matters in Delhi NCR</h2>
+
+  <p>The real estate market in Delhi NCR offers many opportunities, but it also has challenges like delayed projects, substandard construction, and legal hassles with some developers. Choosing a reputed and experienced builder like OM Engineers minimizes these risks.</p>
+
+  <p>Benefits of choosing OM Engineers include:</p>
+
+  <ul>
+    <li>Assurance of RERA-compliant projects that protect buyer interests</li>
+    <li>Transparent pricing with no hidden costs</li>
+    <li>Use of premium-quality materials and modern construction standards</li>
+    <li>Projects designed to offer excellent connectivity and amenities</li>
+    <li>Emphasis on sustainability and environmental safety</li>
+  </ul>
+
+  <h2 style="color: #34495e;">The Growing Real Estate Landscape in Delhi NCR</h2>
+
+  <p>Delhi NCR continues to expand with new infrastructure developments such as metro connectivity, expressways, and commercial hubs. This growth fuels demand for reliable builders who can deliver smart, eco-friendly, and well-planned communities.</p>
+
+  <p>OM Engineers aligns with this vision by embracing sustainability, innovation, and quality as their core values, making them the ideal choice for homebuyers, investors, and government projects alike.</p>
+
+  <h2 style="color: #34495e;">OM Engineers — Building the Future of Delhi NCR</h2>
+
+  <p>When looking for the best builders in Delhi NCR, OM Engineers represents a perfect blend of tradition, innovation, and professionalism. Their decades of experience, client-first approach, and technical expertise make them a trusted partner for infrastructure projects that define modern urban living.</p>
+
+  <p>Whether it’s residential complexes, commercial buildings, or large infrastructure ventures, OM Engineers consistently delivers projects that meet the highest standards of safety, quality, and sustainability.</p>
+
+  <p>Choosing OM Engineers means choosing peace of mind, timely delivery, and a future-ready investment in the heart of India’s most vibrant region.</p>
+
+</div>
 `,
-      date: "05/09/23",
-      img: about7,
+      date: "Feb 13, 2026",
+      img: banner2,
+        author: "Admin",
+        featured: true
     },
     {
       id: 2,
-      title: "Best Interior Designers in Delhi-Designing Beautiful Spaces",
+      title: "How to Choose the Perfect Property in the Ideal Location",
       text:
-        "Delhi's Top Interior Designer What you need is the service that the best interior designers in Delhi provide to create a magical and useful space. The right design is the one that makes your home, office, or commercial space feel better to live in, look at, and work in. Healthy and diverse options for designers can be overwhelming as well. Minimalism aside, experienced professionals do make quality work, new designs, and on-time delivery.",
-      text2: ` <div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
+        "Buying a property is one of the biggest decisions you’ll make, whether it’s for your home, investment, or business. Choosing the perfect property means more than just liking...",
+      text2: `<div class="blog-content">
 
-    <h1 style=" color: #2c3e50;">Best Interior Designers in Delhi—Designing Beautiful Spaces</h1>
+  <h1>How to Choose the Perfect Property in the Ideal Location</h1>
 
-    <p>Delhi's Top Interior Designer What you need is the service that the best interior designers in Delhi provide to create a magical and useful space. The right design is the one that makes your home, office, or commercial space feel better to live in, look at, and work in. Healthy and diverse options for designers can be overwhelming as well. Minimalism aside, experienced professionals do make quality work, new designs, and on-time delivery.</p>
+  <p>Buying a property is one of the biggest decisions you’ll make, whether it’s for your home, investment, or business. Choosing the perfect property means more than just liking the building itself — location plays a crucial role in determining your comfort, convenience, and the property’s future value.</p>
 
-    <p>The best designers blend creativity with functionality, ensuring that designs are not just visually appealing but also enhance the overall experience of the space. Whether it's optimizing small areas for maximum utility or adding luxurious elements to large spaces, professional designers bring a balance of aesthetics and practicality, making every project truly exceptional.</p>
+  <p>In this blog, we will guide you through the essential factors to consider when selecting a property and provide insights on how to find the right place that fits your needs and budget.</p>
 
-    <h2 style="color: #34495e;">Why Choose the Best Interior Designers in Delhi?</h2>
-    <p>Finding the best interior designers in Delhi is a must for getting the right mix of aesthetics and functionality. Here are some key advantages of hiring the best interior designers—</p>
-    <ul>
-      <li>Designs that reflect your lifestyle and are one of a kind</li>
-      <li>Versatility for Big, Green, and Smart Space Small Space Solutions</li>
-      <li>Best quality material to last and look good</li>
-      <li>Familiarity with design, both traditional and modern</li>
-      <li>Security to execute with project management by professionals</li>
-    </ul>
+  <h2>Why Location Matters in Property Buying</h2>
 
-    <h2 style="color: #34495e;">Best Interior Designers in Delhi for Home Interiors</h2>
-    <p>Home is no less a manifestation of your identity, and the best interior designers in Delhi take care that nothing goes unnoticed. They specialize in—</p>
-    <ul>
-      <li>Stylish living room decor, extravagant furniture & lighting</li>
-      <li>Space-saving interior of luxury bedroom</li>
-      <li>High-End Kitchen Modular Designs</li>
-      <li>Beautiful dining spaces that are cool and cozy</li>
-      <li>Custom accent ideas to cozy your home</li>
-    </ul>
+  <p>Location affects:</p>
 
-    <h2 style="color: #34495e;">Best Interior Designers in Delhi for Office Spaces</h2>
-    <p>A well-designed office maximizes productivity and provides you with a healthy place to work. The best interior designers in Delhi offer—</p>
-    <ul>
-      <li>Modern office layouts and workspaces that deliver high performance</li>
-      <li>Ideas For Creative Work Spaces to Stimulate Creativity</li>
-      <li>The reception and lobby make a good first impression</li>
-      <li>Conference room to smart technology configuration setup</li>
-      <li>Storage and organization solutions for a clutter-free environment</li>
-    </ul>
+  <ul>
+    <li><strong>Resale Value:</strong> Properties in prime locations tend to appreciate faster.</li>
+    <li><strong>Lifestyle:</strong> Proximity to work, schools, hospitals, and recreational spots.</li>
+    <li><strong>Accessibility:</strong> Ease of commute and availability of public transport.</li>
+    <li><strong>Safety:</strong> Neighborhood security and infrastructure.</li>
+    <li><strong>Future Development:</strong> Planned infrastructure can boost property value.</li>
+  </ul>
 
-    <h2 style="color: #34495e;">Best Interior Designers in Delhi for Commercial Spaces</h2>
-    <p>The best interior designers in Delhi focus on commercial interior design solutions, which drive customers toward businesses and build brand image recognition. Their services include—</p>
-    <ul>
-      <li>The best interior designers in Delhi create retail spaces through designs emphasizing product presentation and attracting customer interest</li>
-      <li>The best interior designers in Delhi transform restaurant spaces with lighting along themed decorative elements.</li>
-      <li>Hotel and hospitality interiors with luxury and comfort</li>
-      <li>Product showcases at showrooms become more effective when properly displayed</li>
-      <li>The modern features incorporated in contemporary co-working spaces</li>
-    </ul>
+  <h2>Key Factors to Consider When Choosing a Property Location</h2>
 
-    <h2 style="color: #34495e;">Best Interior Designers in Delhi and Their Collaboration with Builders</h2>
-    <p>Achieving superb internal spaces begins with developing a dependable structural basis. Stunning spaces are achieved through regular partnerships between the best builders and interior designers in Delhi. Such partnerships establish multiple essential aspects between architects and builders—</p>
-    <ul>
-      <li>Seamless coordination between construction and interior design</li>
-      <li>Information-based space optimization starts at planning time</li>
-      <li>High-quality finishes that enhance aesthetics</li>
-      <li>Cost-effective solutions for long-term durability</li>
-      <li>Faster project completion with expert management</li>
-    </ul>
+  <h3>1. Neighborhood and Community</h3>
+  <p>Understand the vibe and demographic of the area. Visit at different times to observe noise levels, traffic, and cleanliness. A good neighborhood improves quality of life.</p>
 
-    <h2 style="color: #34495e;">Choosing the Best Interior Designers in Delhi</h2>
-    <p>Seeking top-quality interior designers in Delhi requires evaluation based on these selection criteria—</p>
-    <ul>
-      <li>A designer's career background, along with their achieved projects, showcase their competence</li>
-      <li>Client reviews and testimonials</li>
-      <li>Understanding of the latest design trends</li>
-      <li>The ability to modify designs according to individual choices remains amongst their capabilities.</li>
-      <li>Budget-friendly solutions with high-quality execution</li>
-    </ul>
+  <h3>2. Connectivity</h3>
+  <p>Check accessibility to major roads, highways, metro stations, and public transport. Consider your daily commute and the convenience for family members.</p>
 
-    <h2 style="color: #34495e;">Why Choose OmEngineers?</h2>
-    <p>OmEngineers Contracts maintains a position among the best interior designers in Delhi while attracting praise through its trailblazing designs and remarkable workmanship standards. The interior experts at their firm merge aesthetic appeal with comfort and user experience for residential, office, and commercial space development. OmEngineers achieves customized modern solutions through its team of professional designers who transform preferences into reflective designs. Each feature of space transformation receives careful handling by experts who select materials and plan spaces to create flawless spaces.</p>
+  <h3>3. Amenities and Facilities</h3>
+  <p>Look for nearby schools, hospitals, shopping centers, parks, and entertainment options. These amenities add comfort and increase property demand.</p>
 
-    <p>Time-bound project delivery together with top-quality service distinguishes OmEngineers. The company uses premium materials to extend product durability along with creating designs that keep their appearance stylish yet functional. The expert team at OmEngineers checks off multiple projects with their deadline experience while upholding creativity and detailed work. Additionally, they offer cost-effective solutions, making high-end interior design accessible to a wide range of clients. Choosing OmEngineers means getting a space that is not only visually appealing but also designed for comfort and long-term functionality.</p>
+  <h3>4. Safety and Security</h3>
+  <p>Research crime rates and safety measures in the locality. Gated communities or areas with active neighborhood groups often offer better security.</p>
 
-    <h2 style="color: #34495e;">Conclusion</h2>
-    <p>Finding the best interior designers in Delhi is essential for creating beautiful, functional, and comfortable spaces. Whether you need home interiors, office designs, or commercial space transformations, choosing the right professionals makes all the difference. With expertise in various styles and modern innovations, they bring creativity and elegance to every project. Invest in top-quality interior design and transform your space with the best experts in Delhi!</p>
+  <h3>5. Future Growth Potential</h3>
+  <p>Investigate upcoming projects like new infrastructure, commercial hubs, or government developments. These can enhance your property’s value.</p>
 
-  </div>
+  <h3>6. Budget and Affordability</h3>
+  <p>Balance your dream location with your budget. Sometimes, slightly offbeat areas offer better value for money and good growth prospects.</p>
+
+  <h2>Popular Property Types and Their Suitability</h2>
+
+  <p>Choosing the property type is as important as choosing the location. Below is a table that summarizes common property types, their key specialties, and average price ranges in Delhi NCR. Prices can vary widely based on exact location, size, and amenities.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Property Type</th>
+        <th>Specialty</th>
+        <th>Price Range (INR)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Apartments</td>
+        <td>Security, amenities, and community living</td>
+        <td>₹50 Lakh – ₹3 Crore</td>
+      </tr>
+      <tr>
+        <td>Independent Houses</td>
+        <td>Privacy, space, customization</td>
+        <td>₹1 Crore – ₹10 Crore+</td>
+      </tr>
+      <tr>
+        <td>Villas</td>
+        <td>Luxury, exclusivity, gated community</td>
+        <td>₹2 Crore – ₹15 Crore+</td>
+      </tr>
+      <tr>
+        <td>Plots / Land</td>
+        <td>Custom construction, investment</td>
+        <td>₹30 Lakh – ₹5 Crore+</td>
+      </tr>
+      <tr>
+        <td>Commercial Spaces</td>
+        <td>Business use, high visibility</td>
+        <td>₹1 Crore – ₹20 Crore+</td>
+      </tr>
+      <tr>
+        <td>Studio Apartments</td>
+        <td>Affordable, easy maintenance</td>
+        <td>₹25 Lakh – ₹70 Lakh</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>How to Narrow Down Your Property Search</h2>
+
+  <ul>
+    <li><strong>Set Clear Priorities:</strong> List what matters most — location, price, property type, amenities.</li>
+    <li><strong>Research Extensively:</strong> Use online portals, visit sites, and check reviews.</li>
+    <li><strong>Consult Real Estate Experts:</strong> Trusted consultants provide insights and verified listings.</li>
+    <li><strong>Visit Multiple Properties:</strong> Don’t settle for the first option. Compare locations and features.</li>
+    <li><strong>Check Legalities:</strong> Ensure clear titles, no disputes, and compliance with local regulations.</li>
+  </ul>
+
+  <h2>Tips for Smart Property Selection</h2>
+
+  <ul>
+    <li>Always keep future resale and rental potential in mind.</li>
+    <li>Don’t overlook hidden costs like maintenance, property taxes, and association fees.</li>
+    <li>Factor in lifestyle needs for all family members.</li>
+    <li>Keep an eye on government policies that may impact property prices.</li>
+    <li>Trust your instincts, but back decisions with solid research.</li>
+  </ul>
+
+  <p>Choosing the perfect property in the ideal location is a balance of smart research, understanding your priorities, and careful planning. Whether you want a cozy apartment near your workplace or a spacious villa in a serene locality, investing time upfront will save you headaches later.</p>
+
+  <p>If you need expert advice or assistance in finding your ideal property, feel free to connect with trusted professionals who understand the Delhi NCR real estate market well and can guide you every step of the way.</p>
+
+</div>
 `,
-      date: "15/12/23",
-      img: about8,
+ date: "Feb 01, 2025",
+        author: "Developer", 
+             img: banner,
     },
     {
       id: 3,
       title:
-        "Best Exterior Designers in Delhi-Designing Outdoor Spaces with Ease",
+        "Why People Are Choosing 4BHK Flats in Delhi",
       text:
-        "Strategic exterior planning creates a memorable initial response about properties that remain both distinctive and practical. The best exterior designer in Delhi, who develops durable outdoor environments through sophisticated materials, creative designs, and advanced construction methods. Master designers and architects deliver spaces that unite building design with exterior elements, which satisfy both architectural styles and individual client needs for residential properties, commercial complexes, and landscaped gardens.",
-      text2: `<div style="max-width: 900px; margin: 40px auto; background-color: white; padding: 30px;">
+        "Delhi’s homebuyers are thinking bigger—and smarter. Over the last few years, the demand for 4BHK flats in Delhi has grown steadi...",
+      text2: `<div class="blog-content">
 
-    <h1 style=" color: #2c3e50;">Best Exterior Designers in Delhi—Designing Outdoor Spaces with Ease</h1>
+  <h1>Why People Are Choosing 4BHK Flats in Delhi</h1>
 
-    <p>Strategic exterior planning creates a memorable initial response about properties that remain both distinctive and practical. The best exterior designer in Delhi, who develops durable outdoor environments through sophisticated materials, creative designs, and advanced construction methods. Master designers and architects deliver spaces that unite building design with exterior elements, which satisfy both architectural styles and individual client needs for residential properties, commercial complexes, and landscaped gardens.</p>
+  <p>Delhi’s homebuyers are thinking bigger—and smarter. Over the last few years, the demand for 4BHK flats in Delhi has grown steadily, transforming what was once seen as pure luxury into a practical lifestyle choice. Today, space is no longer a privilege; it’s a necessity shaped by evolving family dynamics, work culture, and long-term planning.</p>
 
-    <p>Exterior planning ensures benefits for energy conservation along with safety measures and environmental sustainability. Outdoor design professionals work with green solutions and weather-resistant components as well as smart outdoor elements to offer high-functioning, comfortable outdoor areas. The best designers in Delhi pay attention to every component, from modern building surfaces to green landscape elements, to establish a welcoming, refined outdoor environment.</p>
+  <p>So, what’s driving this shift? Let’s explore why 4BHK flats are becoming the preferred choice for modern Delhi families.</p>
 
-    <h2 style="color: #34495e;">Why Choose the Best Exterior Designers in Delhi?</h2>
-    <p>The correct planning of building exteriors leads to attractive looks and valuation improvements with better practical designs for properties. The best exterior designers in Delhi guarantee the creation every time of visually attractive results</p>
-    <ul>
-      <li>The designers create purposeful designs that complement building style</li>
-      <li>High-quality materials for durability and weather resistance</li>
-      <li>Sustainable and eco-friendly design solutions</li>
-      <li>Personal preferences and individual style guide exterior customization options.</li>
-      <li>External lighting elements connect harmoniously with landscaping installations</li>
-    </ul>
+  <h2>Bigger Families, Better Living</h2>
 
-    <h2 style="color: #34495e;">Services Offered by the Best Exterior Designers in Delhi</h2>
+  <p>Family structures in Delhi are changing. Many households now include multiple generations living under one roof. Parents, children, and grandparents sharing a home need space that supports privacy as well as togetherness.</p>
 
-    <h3 style="color: #2c3e50;">Facade Design for Residential and Commercial Buildings</h3>
-    <p>The best exterior designers in Delhi create innovative facade designs that blend elegance with modern trends. They construct eye-catching exteriors through their selection of premium glass, stone, and wood materials.</p>
+  <p>A 4BHK flat provides that balance. Each member gets a private room, while shared spaces encourage family bonding. This setup makes everyday living smoother and more harmonious—especially for joint families.</p>
 
-    <h3 style="color: #2c3e50;">Landscape and Garden Designing</h3>
-    <p>External spaces must contain practical design with an appealing appearance. The best exterior designers in Delhi offer landscaping services that include—</p>
-    <ul>
-      <li>Habitats containing properly arranged vegetation and horticulture elements</li>
-      <li>The walkways, together with driveways, should help complete the design scheme.</li>
-      <li>The exterior design incorporates fountains together with ponds.</li>
-      <li>Outdoor seating areas for relaxation and gatherings</li>
-    </ul>
+  <h2>Homes That Work as Hard as You Do</h2>
 
-    <h3 style="color: #2c3e50;">Exterior Lighting Solutions</h3>
-    <p>The combination of lighting and safety levels improves space appearance. The best exterior designers in Delhi integrate</p>
-    <ul>
-      <li>LED lighting for energy efficiency</li>
-      <li>Accent lighting acts as a technique to display architectural elements better.</li>
-      <li>Exciting pathway lights serve security functions and enable easy access.</li>
-    </ul>
+  <p>The rise of work-from-home and hybrid work models has completely redefined residential needs. Homes are no longer just places to relax; they are also offices, classrooms, and creative spaces.</p>
 
-    <h3 style="color: #2c3e50;">Custom Outdoor Structures</h3>
-    <p>The best exterior designers in Delhi create outdoor areas that seamlessly mix convenience and attractiveness through their design of pergolas, patios, gazebos, and terrace gardens.</p>
+  <p>With a 4BHK flat, one room can easily be dedicated as a home office or study without disturbing daily routines. This flexibility is one of the biggest reasons professionals in Delhi are upgrading to larger homes.</p>
 
-    <h2 style="color: #34495e;">How Do the Best Exterior Designers in Delhi Work?</h2>
-    <p>Professional designers provide a smooth design process to their clients. The process includes—</p>
-    <ul>
-      <li>Consultation and Requirement Analysis—The designer needs to understand what the client envisions as well as their specific preferences.</li>
-      <li>Site Inspection and Planning—Design feasibility assessments are conducted on the available space.</li>
-      <li>Design Concept and Approval—The designer provides design mock-ups to clients so they can inspect and authorize them.</li>
-      <li>Material Selection and Execution—The implementation of precise design requires selecting top-quality materials.</li>
-      <li>Final Touches and Quality Check—Aligning every facet exactly as the client desires.</li>
-    </ul>
+  <h2>Privacy Is the New Luxury</h2>
 
-    <h2 style="color: #34495e;">Incorporating Modern Trends with the Best Exterior Designers in Delhi</h2>
-    <p>The best exterior designers in Delhi keep their practice relevant and blended—</p>
-    <ul>
-      <li>Minimalist and sleek designs for modern aesthetics</li>
-      <li>Sustainable materials to promote eco-friendliness</li>
-      <li>The implementation of smart technology enables automated control of lighting systems with irrigation functions.</li>
-      <li>Fusion designs unite architectural elements from both the past and present.</li>
-    </ul>
+  <p>In a fast-paced city like Delhi, privacy has become invaluable. A 4BHK flat allows family members to maintain individual schedules, hobbies, and lifestyles without constant interruptions.</p>
 
-    <h2 style="color: #34495e;">Why Does Exterior Design Matter for Residential and Commercial Properties?</h2>
-    <p>The exterior design of a property needs proper planning for overall success.</p>
-    <ul>
-      <li>The first encounter with a property receives a powerful transformation</li>
-      <li>Increasing property value in real estate markets</li>
-      <li>Exterior regions need enhancement to work better for leisure activities and professional pursuits.</li>
-      <li>The space should welcome visitors and clients at the entrance.</li>
-    </ul>
+  <p>Whether it’s hosting guests, managing different work timings, or simply enjoying quiet personal time, larger homes offer freedom that smaller apartments cannot match.</p>
 
-    <h2 style="color: #34495e;">Choosing the Right Exterior Designers in Delhi</h2>
-    <p>Selecting the best exterior designers in Delhi demands evaluation of the following factors—</p>
-    <ul>
-      <li>Previous projects, together with experience along portfolio demonstration</li>
-      <li>Client reviews and testimonials</li>
-      <li>The use of advanced sustainable design principles constitutes one of their core strategies</li>
-      <li>The designer team has the skill to adapt their designs according to individual project specifications.</li>
-      <li>Transparent pricing and project timeline commitment</li>
-    </ul>
+  <h2>A Clear Upgrade in Lifestyle</h2>
 
-    <h2 style="color: #34495e;">Why Choose OmEngineers for Exterior Designing?</h2>
-    <p>OmEngineers operates as the best exterior designer in Delhi, delivering premium solutions for residential and commercial buildings. Their staff delivers expertise in facade work and landscape design to create functional spaces that also maintain visual appeal. The skilled professionals at their organization use their creative skills to convert ordinary exteriors into breathtaking architectural works. They design buildings with a modern style through creations that combine both beautiful looks and solid construction. Every project requires detailed attention, which enables the combination of durability with beauty in a perfect, seamless manner.</p>
+  <p>4BHK flats are usually part of premium residential developments. These projects often come with better planning, modern architecture, and thoughtfully designed layouts.</p>
 
-    <p>What sets OmEngineers apart is its focus on quality, durability, and timely execution.</p>
-    <ul>
-      <li>Design team members keep track of fresh design developments to build contemporary and trendy exterior designs.</li>
-      <li>Modern techniques, together with sophisticated technology, work to combine attractive design with operational effectiveness.</li>
-      <li>The cost-efficient solutions these providers deliver preserve quality standards at all times.</li>
-      <li>Through cohesive project management, all operational aspects flow without interruption from initial planning stages until final execution.</li>
-      <li>A strong portfolio of completed projects reflects expertise and reliability in the industry.</li>
-    </ul>
+  <p>Residents enjoy benefits such as:</p>
 
-    <h2 style="color: #34495e;">Conclusion</h2>
-    <p>The best exterior designer in Delhi makes a big task of changing outdoor spaces to visually appealing & functional areas. From homes, offices, or commercial establishments, professional exterior designers create creativity with the right amount of innovation and expertise for each project. By going for the professionally trained designers such as OmEngineers, you will have a property that not only differentiates but also creates long-term value. Grab the decision and beautify exteriors today!</p>
-  </div>
+  <ul>
+    <li>Spacious living and dining areas</li>
+    <li>Better ventilation and natural light</li>
+    <li>Dedicated servant or utility rooms</li>
+    <li>Enhanced security and parking facilities</li>
+  </ul>
+
+  <p>All these features contribute to a more comfortable and refined lifestyle.</p>
+
+  <h2>A Smart Long-Term Investment</h2>
+
+  <p>From an investment perspective, 4BHK flats in Delhi make strong financial sense. Larger homes tend to appreciate better over time, especially in well-connected and established localities.</p>
+
+  <p>They are also highly attractive to:</p>
+
+  <ul>
+    <li>Corporate tenants</li>
+    <li>Senior executives</li>
+    <li>Expatriate families</li>
+  </ul>
+
+  <p>This results in higher rental yields and better long-term returns compared to smaller configurations.</p>
+
+  <h2>Planning for the Future, Not Just Today</h2>
+
+  <p>Modern homebuyers are thinking long term. Instead of upgrading every few years, many prefer investing once in a home that can adapt to changing needs.</p>
+
+  <p>A 4BHK flat provides room for:</p>
+
+  <ul>
+    <li>Growing families</li>
+    <li>Elderly parents</li>
+    <li>Home offices or hobby rooms</li>
+    <li>Occasional guests</li>
+  </ul>
+
+  <p>This future-ready approach makes 4BHK homes a sensible and forward-looking choice.</p>
+
+  <h2>3BHK vs 4BHK: Why Buyers Are Upgrading</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Aspect</th>
+        <th>3BHK Flat</th>
+        <th>4BHK Flat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Living Space</td>
+        <td>Adequate</td>
+        <td>Expansive</td>
+      </tr>
+      <tr>
+        <td>Privacy</td>
+        <td>Limited for large families</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Work-from-Home</td>
+        <td>Shared arrangements</td>
+        <td>Dedicated room</td>
+      </tr>
+      <tr>
+        <td>Guest Comfort</td>
+        <td>Restricted</td>
+        <td>Comfortable</td>
+      </tr>
+      <tr>
+        <td>Long-Term Value</td>
+        <td>Stable</td>
+        <td>Strong appreciation</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Better Design, Smarter Layouts</h2>
+
+  <p>Today’s developers are designing 4BHK flats with intelligent layouts that maximize usable space. Open floor plans, smart storage solutions, and efficient room placement ensure that homes feel spacious yet cozy—not overwhelming.</p>
+
+  <p>Modern architecture has made large homes more functional, elegant, and easy to maintain.</p>
+
+  <h2>Less Clutter, More Calm</h2>
+
+  <p>More space naturally means better organization. With extra rooms and storage, homes feel less crowded and more peaceful. Families can maintain cleaner, calmer environments that positively impact daily life.</p>
+
+  <p>This mental and emotional comfort is a major reason why people are willingly choosing larger homes.</p>
+
+  <h2>More Than a Home, a Statement</h2>
+
+  <p>For many buyers in Delhi, a 4BHK flat represents stability, success, and thoughtful living. It reflects careful planning, lifestyle growth, and a desire for long-term comfort rather than short-term compromises.</p>
+
+  <p>It’s not just about square footage—it’s about how life feels within that space.</p>
+
+  <h2>Key Highlight</h2>
+
+  <p>The rising popularity of 4BHK flats in Delhi is a reflection of changing priorities. With benefits like enhanced privacy, work-from-home flexibility, premium living standards, and strong investment potential, these homes perfectly align with modern urban living.</p>
+
+  <p>As Delhi continues to grow and lifestyles continue to evolve, spacious and well-designed homes like 4BHK flats are no longer an exception—they are becoming the new standard.</p>
+
+</div>
 `,
-      date: "05/09/24",
+       date: "Jan 18, 2026",
       img: banner4,
+        author: "Admin",
+    },
+    {
+      id: 4,
+      title:
+        "Vastu-Compliant Homes: Are They Worth Investing In?",
+      text:
+        "In India, buying a home is not just a financial decision—it’s an emotional one. Along with location, budget, and desig...",
+      text2: `<div class="blog-content">
+
+  <h1>Vastu-Compliant Homes: Are They Worth Investing In?</h1>
+
+  <p>In India, buying a home is not just a financial decision—it’s an emotional one. Along with location, budget, and design, many homebuyers also consider Vastu Shastra before investing. This ancient Indian science of architecture continues to influence modern real estate, especially in cities like Delhi NCR.</p>
+
+  <p>But the real question is: Are Vastu-compliant homes actually worth investing in, or is it just a belief-driven choice? Let’s explore this in a practical and balanced way.</p>
+
+  <h2>What Does a Vastu-Compliant Home Mean?</h2>
+
+  <p>A Vastu-compliant home is designed according to principles that focus on the balance of natural elements—earth, water, fire, air, and space. These principles guide the placement of rooms, entrances, kitchens, bedrooms, and even windows to promote harmony and positive energy.</p>
+
+  <p>For many buyers, Vastu compliance provides peace of mind and a sense of well-being, even if they don’t strictly follow every rule.</p>
+
+  <h2>Why Vastu Still Matters to Homebuyers</h2>
+
+  <p>Despite modern construction techniques and urban planning, Vastu remains relevant for several reasons:</p>
+
+  <ul>
+    <li>Cultural and traditional beliefs</li>
+    <li>Emotional comfort and mental satisfaction</li>
+    <li>Influence on resale and rental demand</li>
+    <li>Perception of positivity and stability</li>
+  </ul>
+
+  <p>For many families, a Vastu-compliant home feels “right” from the moment they step in—and that emotional connection plays a big role in decision-making.</p>
+
+  <h2>Impact on Property Value and Demand</h2>
+
+  <p>One of the strongest reasons people consider Vastu-compliant homes is their market demand. In many Indian cities, properties aligned with Vastu principles often attract more buyers and tenants.</p>
+
+  <p>Homes with favorable orientations—such as east-facing entrances or well-placed kitchens—are usually easier to sell and rent. This doesn’t mean non-Vastu homes lack value, but Vastu compliance can offer an added advantage.</p>
+
+  <h2>Practical Benefits Beyond Belief</h2>
+
+  <p>While Vastu is often associated with spiritual beliefs, many of its principles align with practical design logic:</p>
+
+  <ul>
+    <li>Better natural light and ventilation</li>
+    <li>Efficient space planning</li>
+    <li>Comfortable room placements</li>
+    <li>Improved airflow and openness</li>
+  </ul>
+
+  <p>These factors naturally improve living comfort, energy efficiency, and overall home experience—benefits that even non-believers can appreciate.</p>
+
+  <h2>Common Vastu Features Buyers Look For</h2>
+
+  <p>Here are some Vastu aspects that are commonly preferred and easy to follow in modern homes:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Preferred Placement</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Main Entrance</td>
+        <td>East or North</td>
+      </tr>
+      <tr>
+        <td>Kitchen</td>
+        <td>Southeast</td>
+      </tr>
+      <tr>
+        <td>Master Bedroom</td>
+        <td>Southwest</td>
+      </tr>
+      <tr>
+        <td>Living Room</td>
+        <td>North or East</td>
+      </tr>
+      <tr>
+        <td>Bathrooms</td>
+        <td>Northwest or West</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Many developers now design homes keeping these basics in mind, making it easier for buyers to find partially or fully Vastu-compliant options.</p>
+
+  <h2>Is Vastu a Must or a Preference?</h2>
+
+  <p>It’s important to understand that Vastu is not mandatory for a good home. Many successful, happy families live in homes that don’t strictly follow Vastu guidelines.</p>
+
+  <p>However, for buyers who believe in it, Vastu compliance offers:</p>
+
+  <ul>
+    <li>Mental peace</li>
+    <li>Emotional assurance</li>
+    <li>Greater confidence in their investment</li>
+  </ul>
+
+  <p>The key is balance—choosing a home that meets practical needs while respecting personal beliefs.</p>
+
+  <h2>Vastu and Modern Real Estate Projects</h2>
+
+  <p>Today’s builders and architects often integrate Vastu principles without compromising modern design. Instead of rigid rules, they focus on adaptable layouts that suit urban living.</p>
+
+  <p>This approach allows buyers to enjoy the benefits of Vastu while still getting:</p>
+
+  <ul>
+    <li>Modern aesthetics</li>
+    <li>Efficient floor plans</li>
+    <li>Smart use of space</li>
+    <li>Contemporary amenities</li>
+  </ul>
+
+  <p>As a result, Vastu compliance has become more flexible and buyer-friendly.</p>
+
+  <h2>Investment Perspective: Is It Worth It?</h2>
+
+  <p>From an investment point of view, Vastu-compliant homes can offer certain advantages:</p>
+
+  <ul>
+    <li>Higher buyer interest</li>
+    <li>Faster resale potential</li>
+    <li>Better rental demand</li>
+    <li>Wider audience appeal</li>
+  </ul>
+
+  <p>However, Vastu alone should never be the sole deciding factor. Location, construction quality, connectivity, and builder credibility remain far more important for long-term returns.</p>
+
+  <h2>Things to Keep in Mind Before Investing</h2>
+
+  <p>Before choosing a Vastu-compliant home, consider these points:</p>
+
+  <ul>
+    <li>Don’t compromise on location for Vastu</li>
+    <li>Avoid excessive modification costs</li>
+    <li>Focus on basic Vastu principles, not extremes</li>
+    <li>Choose functionality over superstition</li>
+  </ul>
+
+  <p>A well-planned home that feels comfortable and practical will always hold value—Vastu or not.</p>
+
+  <h2>Is It a Good Choice?</h2>
+
+  <p>So, are Vastu-compliant homes worth investing in? The answer depends on personal belief and investment goals. For many buyers, Vastu adds emotional comfort and improves market appeal. For others, good design and location matter more.</p>
+
+  <p>Ideally, the best investment is a home that balances practical living, modern design, and personal peace of mind. When those elements come together, Vastu becomes a value addition—not a limitation.</p>
+
+</div>
+`,
+       date: "Jan 05, 2026",
+      img: banner4,
+        author: "Admin",
     },
   ],
 };
 
+
 export const footer = {
   logo: logo2,
   text:
-    "OmEngineers Contracts delivers quality excellence, transforming properties into luxurious family homes.",
+    "OM Engineers deliver innovative infrastructure solutions with decades of expertise, committed to quality, safety, and client satisfaction.",
 
   socials: {
     facebook: "https://www.facebook.com/",
@@ -995,7 +962,7 @@ export const serviceBanner = {
 };
 
 export const serviceData = {
-  icon: <AiFillOpenAI />,
+  
   title1: "Services We Offer",
   title2: "Creating Spaces That Give You Peace & Comfort",
   para:
@@ -1407,7 +1374,7 @@ export const contactBanner = {
 };
 
 export const contactData = {
-  title: "Reasons to choose OmEngineers",
+  title: "Reasons to Choose OM Engineers",
   points: [
     {
       id: 1,

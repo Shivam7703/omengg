@@ -12,42 +12,43 @@ function AboutSection() {
   const data = {
     img2: banner,
     title1: "WHO ARE WE",
-    title2: "We Are The Best Builder in Delhi",
+    title2: "Best Builders In Delhi NCR",
     vision: [
-      {
-        heading: "our Vision",
-        text: "We build structures to exceptional standards for enduring structural integrity.",
-        img: banner3,
-        pointers: [
-          "lorem ipsum dolor sit amet",
-          "Sed do eiusmod tempor incididunt",
-          "Ut enim ad minim veniam",
-          "Duis aute irure dolor in reprehenderit",
-        ],
-      },
-      {
-        heading: "our Mission",
-        text: "We build structures to exceptional standards for enduring structural integrity.",
-        img: banner4,
-        pointers: [
-          "lorem ipsum dolor sit amet",
-          "Sed do eiusmod tempor incididunt",
-          "Ut enim ad minim veniam",
-          "Duis aute irure dolor in reprehenderit",
-        ],
-      },
-      {
-        heading: "our Values",
-        text: "We build structures to exceptional standards for enduring structural integrity.",
-        img: banner2,
-        pointers: [
-          "lorem ipsum dolor sit amet",
-          "Sed do eiusmod tempor incididunt",
-          "Ut enim ad minim veniam",
-          "Duis aute irure dolor in reprehenderit",
-        ],
-      },
+  {
+    heading: "Our Vision",
+    text: "Leading innovative, sustainable infrastructure development supporting India’s future growth responsibly.",
+    img: banner3,
+    pointers: [
+      "Innovation-driven engineering",
+      "Sustainable infrastructure focus",
+      "Long-term national impact",
+      "Future-ready development",
     ],
+  },
+  {
+    heading: "Our Mission",
+    text: "Delivering safe, precise infrastructure through ethical practices and modern project management.",
+    img: banner4,
+    pointers: [
+      "Precision engineering",
+      "Safety-first execution",
+      "Ethical work culture",
+      "Timely project delivery",
+    ],
+  },
+  {
+    heading: "Our Values",
+    text: "Building trust through honesty, teamwork, safety, and consistent quality delivery.",
+    img: banner2,
+    pointers: [
+      "Honest communication",
+      "Team-driven approach",
+      "Safety at every stage",
+      "Reliable project outcomes",
+    ],
+  },
+],
+
   };
 
   return (

@@ -116,7 +116,8 @@ function Contactform() {
               {contactData?.title}
             </h2>
           )}
-          <p className="text-zinc-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem ipsa cupiditate voluptatem fuga, ratione, quasi illum voluptatibus aut suscipit maxime nulla dolorem modi quae, natus voluptate delectus? At, quidem aut?</p>
+          <p className="text-zinc-700">Backed by a strong engineering legacy, OM Engineers delivers precise execution, transparent processes, and dependable infrastructure solutions focused on quality, safety, and long-term client value.
+</p>
          
          <Image src={home} alt="Home Image" className="w-full h-auto mt-4" />
         </div>

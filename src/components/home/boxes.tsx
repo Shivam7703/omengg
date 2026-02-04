@@ -4,23 +4,23 @@ import { HiOutlineHomeModern } from 'react-icons/hi2'
 function Homeoxes() {
     const boxesData = [{
         icon:<HiOutlineHomeModern />,
-        title:"Residential Building",
-        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+        title:"Design Excellence",
+        para:"We create functional, aesthetic designs aligned with client vision, regulations, sustainability principles, and modern architectural standards."
     },
     {
         icon:<HiOutlineHomeModern />,
-        title:"Residential Building",
-        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+        title:"Quality Construction",
+        para:"Every project is executed using high-grade materials, skilled craftsmanship, and strict quality control to ensure long-lasting structural integrity."
     },
     {
         icon:<HiOutlineHomeModern />,
-        title:"Residential Building",
-        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+        title:"Project Management",
+        para:"We manage timelines, budgets, and coordination efficiently, ensuring seamless execution from planning to completion without unnecessary delays."
     },
     {
         icon:<HiOutlineHomeModern />,
-        title:"Residential Building",
-        para:"We specialize in constructing beautiful and functional residential buildings that cater to the unique needs of homeowners."
+        title:"Client-Centric Approach",
+        para:"We prioritize clear communication, transparency, and collaboration to deliver solutions that meet expectations and exceed client satisfaction."
     },
 ]
   return (

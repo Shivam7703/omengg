@@ -1,6 +1,5 @@
 "use client";
 
-import { projectData } from "@/data/homeData";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,61 +18,42 @@ import Buttonmain from "../global/button";
 
 export default function ServiceSlider() {
   const data = {
-    title1: "OUR SERVICES",
-    title2: "Our Path To Architectural Greatness",
-    para: "Our approach stands on individual and distinct designs to develop functional spaces that meet both aesthetic and operational needs. Our careful planning determines everything to achieve functional and attractive spaces.",
-    service: [
-      {
-        title: "Business Environments",
-        text: "Dynamic offices, retail spaces, and commercial hubs built to boost productivity.",
-        img: banner,
-        icon: <IoSettingsOutline />
-, // You can add different icons for each service
-      },
-      {
-        title: "Project Oversight",
-        text: "We handle every stage of construction with precision, efficiency, and uncompromising.",
-        img: about2,
-        icon: <IoSettingsOutline />
-,
-      },
-      {
-        title: "Modern Transformations",
-        text: "Breathing new energy into existing spaces with contemporary design solutions.",
-        img: about8,
-        icon: <IoSettingsOutline />
-,
-      },
-      {
-        title: "Residential Excellence",
-        text: "Creating dream homes with attention to detail and luxurious finishes.",
-        img: banner,
-        icon: <IoSettingsOutline />
-,
-      },
-      {
-        title: "Sustainable Design",
-        text: "Eco-friendly construction that balances innovation with environmental responsibility.",
-        img: about2,
-        icon: <IoSettingsOutline />
-,
-      },
-      {
-        title: "Interior Solutions",
-        text: "Comprehensive interior design services that reflect your unique style.",
-        img: banner,
-        icon: <IoSettingsOutline />
-,
-      },
-      {
-        title: "Urban Planning",
-        text: "Strategic development projects that shape vibrant, livable communities.",
-        img: about8,
-        icon: <IoSettingsOutline />
-,
-      },
-    ],
-  };
+  title1: "OUR SERVICES",
+  title2: "Engineering Excellence Across Diverse Infrastructure Domains",
+  service: [
+    {
+      title: "Pipeline Networks",
+      text: "Water, sewer, and stormwater systems are executed through open-cut and advanced trenchless technologies.",
+      img: banner,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Drainage & Utility Diversions",
+      text: "Strategic diversion, rerouting, and restoration of complex urban utility networks with minimal disruption.",
+      img: about2,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Roads and Footpaths",
+      text: "Durable surface infrastructure seamlessly coordinated with underlying utility and service networks.",
+      img: about8,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Civil Structures & Finishing Works",
+      text: "Structural construction combined with precise finishing for functional and visually refined outcomes.",
+      img: banner,
+      icon: <IoSettingsOutline />,
+    },
+    {
+      title: "Horticulture & Landscaping",
+      text: "Sustainable landscaping solutions that enhance environmental value and create aesthetically pleasing green spaces.",
+      img: about2,
+      icon: <IoSettingsOutline />,
+    },
+  ],
+};
+
 
   return (
     <section className="lg:p-12 bg-color1 font1 relative overflow-hidden">
