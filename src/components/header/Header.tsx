@@ -5,19 +5,14 @@ import Link from "next/link";
 import Menu from "./Menu";
 import MenuMobile from "./MenuMobile";
 import { VscChromeClose } from "react-icons/vsc";
-import { IoArrowDownCircleOutline, IoArrowDownCircleSharp, IoMenu, IoSearch } from "react-icons/io5";
+import { IoMenu} from "react-icons/io5";
 import Image from "next/image";
 import { logo } from "@/assets";
-import { BiPhoneCall, BiSolidPhoneCall } from "react-icons/bi";
+import { BiSolidPhoneCall } from "react-icons/bi";
 import { usePathname } from "next/navigation";
-import { MdAttachEmail, MdCall, MdDownloadForOffline, MdDownloading } from "react-icons/md";
-import { BsArrowDownCircleFill } from "react-icons/bs";
-import { ul } from "motion/react-client";
-import { TfiEmail } from "react-icons/tfi";
-import { SlLocationPin } from "react-icons/sl";
-import { FaCircleChevronRight, FaClockRotateLeft, FaFileInvoiceDollar, FaLocationDot } from "react-icons/fa6";
+import { MdAttachEmail,  } from "react-icons/md";
+import { FaClockRotateLeft,  FaLocationDot } from "react-icons/fa6";
 import { social } from "@/data/homeData";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import Buttonmain from "../global/button";
 
 const Header = ({ header }: any) => {

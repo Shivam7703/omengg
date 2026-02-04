@@ -2,10 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaXTwitter } from "react-icons/fa6";
-import { TbBrandYoutubeFilled } from "react-icons/tb";
+
 import { RiWhatsappFill } from "react-icons/ri";
 import { logo } from "@/assets";
 import Buttonmain from "./global/button";
@@ -44,7 +41,7 @@ export default function Footer({ footer }: any) {
       {/* Modal Form */}
       {showForm && (
         <div
-          className="fixed top-0 left-0 z-[230] flex flex-col items-center justify-center bg-black/70"
+          className="fixed top-0 left-0 z-[230] font1 flex flex-col items-center justify-center bg-black/70"
           style={{ width: "100vw", height: "104vh" }}
         >
           <div
