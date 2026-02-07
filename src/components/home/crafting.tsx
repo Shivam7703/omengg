@@ -8,7 +8,7 @@ import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import Link from "next/link";
 import { crafting } from "@/data/homeData";
-import { banner2, logoicon } from "@/assets";
+import { banner2} from "@/assets";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 export default function Craft() {
