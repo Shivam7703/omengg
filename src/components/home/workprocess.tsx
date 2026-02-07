@@ -1,9 +1,5 @@
 "use client";
 import React from "react";
-import Link from "next/link";
-import { BsArrowUpRightCircleFill } from "react-icons/bs";
-import { logoicon } from "@/assets";
-import Image from "next/image";
 import { FaWpforms } from "react-icons/fa";
 
 export default function WorkProcess() {
