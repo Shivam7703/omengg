@@ -83,15 +83,15 @@ const Header = ({ header }: any) => {
               href="mailto:info@omengg.com"
             >
               <MdAttachEmail className=" text-lg mr-2" />
-             <p className="max-lg:hidden">info@omengg.com</p> 
+             <p className="">info@omengg.com</p> 
             </a>
-            <div className="h-6 w-[1px] bg-white/60"></div>
+            <div className="h-6 lg:w-[1px] w-0 bg-white/60"></div>
             <a
-              className="flex items-center  hover:scale-105 duration-300"
+              className="flex items-center max-lg:hidden  hover:scale-105 duration-300"
               href="https://maps.app.goo.gl/EXvkuirmkyZ6pW5x7" target="_blank" rel="noopener noreferrer"
             >
               <FaLocationDot className=" text-lg mr-2" />
-             <p className="max-lg:hidden">201-A Elegant House 
+             <p className="">201-A Elegant House 
 28-A Kipawa ,india
 </p> 
             </a>
@@ -100,11 +100,11 @@ const Header = ({ header }: any) => {
 
            <div className="flex md:gap-4 text-sm">
             <a
-              className="flex items-center  hover:scale-105 duration-300"
+              className="flex items-center max-lg:hidden hover:scale-105 duration-300"
               href="mailto:info@omengg.com"
             >
               <FaClockRotateLeft className=" text-lg mr-2" />
-             <p className="max-lg:hidden">Hours: Mon-Fri: 9.00 am - 6.00 pm</p> 
+             <p className="">Hours: Mon-Fri: 9.00 am - 6.00 pm</p> 
             </a>
             <div className="h-6 w-[1px] bg-white/60"></div>
             <div

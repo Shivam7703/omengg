@@ -3,42 +3,62 @@ import React, { useState } from "react";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 function Faq({ data }: any) {
-  const [expandedCity, setExpandedCity] = useState<number>(1);
+  const [expandedCity, setExpandedCity] = useState<number | null>(1);
 
   function toggleCity(cityId: number) {
-    setExpandedCity(cityId); // Toggles FAQ visibility for cities
+    setExpandedCity(expandedCity === cityId ? null : cityId);
   }
+
   return (
-    <>
-      {data.map((city: any) => (
-        <div key={city.id} className="mt-4 border-b pb-4">
-          {/* FAQ Question */}
-          <div
-            onClick={() => toggleCity(city.id)}
-            className="flex justify-between items-center cursor-pointer text-xl md:text-2xl text-zinc-800 font2 "
-          >
-            {city.que}
+    <div className="space-y-6 font1">
+      {data.map((city: any) => {
+        const isOpen = expandedCity === city.id;
 
-            <BsArrowUpRightCircleFill
-              className={` duration-300 ${
-                expandedCity === city.id ? "rotate-180 " : "text-color2"
-              }`}
-            />
-          </div>
-
-          {/* FAQ Answer with Transition */}
+        return (
           <div
-            className={`overflow-hidden transition-all duration-1000 ${
-              expandedCity === city.id ? "max-h-20 mt-5 " : "max-h-0"
+            key={city.id}
+            className={`group rounded-2xl border border-zinc-200 bg-white p-6 transition-all duration-300 ${
+              isOpen ? "shadow-lg" : "hover:shadow-md"
             }`}
           >
-            <p className="md:!text-base max-h-20 overflow-auto !leading-relaxed text-sm font-medium text-zinc-500">
-              {city.ans}
-            </p>
+            {/* Question */}
+            <div
+              onClick={() => toggleCity(city.id)}
+              className="flex cursor-pointer items-center justify-between gap-6"
+            >
+              <h3
+                className={`text-lg md:text-2xl font-semibold transition-colors ${
+                  isOpen ? "text-color2" : "text-zinc-800"
+                }`}
+              >
+                {city.que}
+              </h3>
+
+              <BsArrowUpRightCircleFill
+                className={`text-2xl transition-all duration-300 ${
+                  isOpen
+                    ? "rotate-180 text-color2"
+                    : "text-zinc-400 group-hover:text-color2"
+                }`}
+              />
+            </div>
+
+            {/* Answer */}
+            <div
+              className={`grid transition-all duration-500 ease-in-out ${
+                isOpen ? "grid-rows-[1fr] opacity-100 mt-4" : "grid-rows-[0fr] opacity-0"
+              }`}
+            >
+              <div className="overflow-hidden">
+                <p className=" md:text-lg leading-relaxed text-zinc-700">
+                  {city.ans}
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      ))}
-    </>
+        );
+      })}
+    </div>
   );
 }
 

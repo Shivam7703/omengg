@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { RiWhatsappFill } from "react-icons/ri";
-import { logo } from "@/assets";
+import { logo2 as logo } from "@/assets";
 import Buttonmain from "./global/button";
 
 export default function Footer({ footer }: any) {
@@ -109,13 +109,44 @@ export default function Footer({ footer }: any) {
 
       {/* Footer Section */}
       <footer className="md:px-20 sm:p-16 sm:pb-8 p-6 w-full z-20 text-white footer-bg relative">
+        <div className="flex flex-wrap p-5 pb-3 mb-4 md:mb-12 border-b border-white gap-4 sm:py-9 justify-between w-full max-w-[1380px] mx-auto items-center">
+        <div className="md:w-[45%] w-full">    <h2 className=" font-semibold text-3xl md:text-5xl">
+Register our newsletter, And stay in touch
+        </h2>
+</div>
+
+<div  className="md:w-[45%] w-full">
+        <div className="relative w-full mb-6">
+          <input
+            type="email"
+            placeholder="Enter Your Email"
+            className="w-full  rounded-full bg-transparent
+                   border border-white/50
+                   pl-6 py-4 pr-[190px] text-white placeholder-white/70
+                   focus:outline-none focus:border-white
+                   transition"
+          />
+
+          <button
+            type="button"
+            className="absolute top-1/2 right-1 -translate-y-1/2
+                   py-4 px-8 rounded-full bg-white
+                   text-color2 font-medium text-sm
+                   transition hover:bg-color2 hover:text-white duration-200"
+          >
+            Subscribe Now
+          </button>
+        </div>
+        </div>
+
+        </div>
         <div className="grid grid-cols-3 pb-5 sm:grid-cols-6 gap-8 lg:grid-cols-12">
           {/* Logo and About */}
           <div className="col-span-3 md:px-5 pb-4">
             <Image
               src={logo}
               alt="logo"
-              className="max-w-44 w-[80vw] object-contain"
+              className="w-full max-w-[80vw] object-contain"
               width={150}
               height={50}
             />

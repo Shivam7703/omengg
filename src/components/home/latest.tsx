@@ -2,6 +2,7 @@ import { home, man } from "@/assets";
 import React from "react";
 import Image from "next/image";
 import { FiCheck } from "react-icons/fi";
+import Link from "next/link";
 
 function Latest() {
   return (
@@ -73,9 +74,9 @@ function Latest() {
   </span>
   <span>
     I accept the{" "}
-    <a href="#" className="underline underline-offset-4 hover:text-white transition">
+    <Link href={"/privacy-policy"} className="underline underline-offset-4 hover:text-white transition">
       Terms & Conditions
-    </a>
+    </Link>
   </span>
 </label>
       </div>

@@ -1,8 +1,7 @@
-import { serviceData as data } from "@/data/homeData";
+import { Servicedata as data } from "@/data/homeData";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import { BsArrowUpRightCircleFill } from "react-icons/bs";
 
 function Servicecards() {
   return (
@@ -27,16 +26,16 @@ function Servicecards() {
         <div className="absolute md:left-1/2 left-3 top-0 bottom-0 w-[2px] bg-gradient-to-b from-color2/50 via-color2/90 to-color2/50 -translate-x-1/2 " />
 
         {/* Cards */}
-        {data?.services?.map((pro, index) => {
+        {data?.service?.map((pro, index) => {
           const isOdd = index % 2 !== 0;
-          return <ProCard key={index} pro={pro} isOdd={isOdd} />;
+          return <ProCard key={index} num={index + 1} pro={pro} isOdd={isOdd} />;
         })}
       </div>
     </div>
   );
 }
 
-const ProCard = ({ pro, isOdd }: any) => (
+const ProCard = ({ pro, isOdd, num }: any) => (
   <div
     className={`flex  md:flex-row flex-row-reverse items-start gap-0 mb-0 md:mb-0 relative group ${
       isOdd ? "md:flex-row-reverse" : ""
@@ -56,16 +55,16 @@ const ProCard = ({ pro, isOdd }: any) => (
       </div>
 
       {/* Content Below Image */}
-      <div className={`space-y-2 ${isOdd ? "md:text-left md:pl-4" : "md:text-right  md:pr-4"}`}>
+      <Link href={`/services/${pro.title.toLowerCase().replace(/\s+/g, '-')}`} className={`space-y-2 ${isOdd ? "md:text-left md:pl-4" : "md:text-right  md:pr-4"}`}>
         <h3 className="text-2xl md:text-3xl  font-medium text-black transition-colors duration-300 group-hover:text-color2">
           {pro.title}
         </h3>
         
         <p className={`text-zinc-700 text-base md:text-lg leading-relaxed`}>
-          {pro.banner}
+          {pro.text}
         </p>
 
-      </div>
+      </Link>
     </div>
 
     {/* Sticky Number Section */}
@@ -83,7 +82,7 @@ const ProCard = ({ pro, isOdd }: any) => (
         <h4 className="font-black text-3xl md:text-8xl lg:text-9xl text-black/40 
                        leading-none select-none transition-all duration-500 
                        group-hover:text-color2">
-          {pro?.id < 10 ? `0${pro?.id}` : pro?.id}
+          {num < 10 ? `0${num}` : num}
         </h4>
       </div>
     </div>

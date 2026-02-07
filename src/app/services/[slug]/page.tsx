@@ -1,6 +1,6 @@
 import Banner from '@/components/global/banner';
 import Servicedetails from '@/components/service/service-details';
-import { serviceData } from '@/data/homeData';
+import { Servicedata } from '@/data/homeData';
 import { notFound } from 'next/navigation';
 import React from 'react';
 
@@ -12,7 +12,7 @@ type Props = {
 
 // Generate static paths for all services
 export async function generateStaticParams() {
-  return serviceData.services.map((service: any) => {
+  return Servicedata.service.map((service: any) => {
     const slug = service.title.replace(/\s+/g, '-').toLowerCase();
     return { slug };
   });
@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 export default function Page({ params }: Props) {
   const decodedSlug = decodeURIComponent(params.slug).toLowerCase();
 
-  const singleService = serviceData.services.find((service: any) => {
+  const singleService = Servicedata.service.find((service: any) => {
     const serviceSlug = service.title.replace(/\s+/g, '-').toLowerCase();
     return serviceSlug === decodedSlug;
   });
@@ -35,7 +35,7 @@ export default function Page({ params }: Props) {
       <Banner
         img={singleService.img}
         title={singleService.title}
-        para={singleService.banner}
+        para={singleService.text}
         slug={`services / ${singleService.title.toLowerCase()}`}
       />
       <Servicedetails service={singleService} />

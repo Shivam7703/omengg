@@ -1,6 +1,5 @@
 import logo2 from "@/assets/logo-white.png";
 import logo from "@/assets/logo.png";
-import logoicon from "@/assets/logo-icon.png";
 import banner from "@/assets/home/Bannner1.jpg";
 import banner2 from "@/assets/home/Bannner2.jpg";
 import banner3 from "@/assets/home/Bannder.jpg";
@@ -49,5 +48,5 @@ import pro116 from "@/assets/pro1/16.png";
 
 
 export {
-    about, about2, about3 , about4, about5, about6, about7, about8, banner, banner2, banner3, banner4 , bgImg, cl1, cl2,cl3,cl4,logo2, logo , pro11, pro12,pro13,pro14,home,pro15,pro16,pro17,pro18,pro19,pro110,pro111,pro113,pro114,pro115,pro116,man,probanner, logoicon, ceo
+    about, about2, about3 , about4, about5, about6, about7, about8, banner, banner2, banner3, banner4 , bgImg, cl1, cl2,cl3,cl4,logo2, logo , pro11, pro12,pro13,pro14,home,pro15,pro16,pro17,pro18,pro19,pro110,pro111,pro113,pro114,pro115,pro116,man,probanner, ceo
    }

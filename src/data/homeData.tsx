@@ -11,34 +11,15 @@ import {
   cl1,
   logo2,
   about8,
-  about7,
-  pro116,
-  man,
   cl2,
   cl3,
   cl4,
 } from "@/assets";
-import { AiFillOpenAI } from "react-icons/ai";
-import { BsFillPatchCheckFill } from "react-icons/bs";
 import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import {
-  FcAcceptDatabase,
-  FcFinePrint,
-  FcHome,
-  FcServices,
-} from "react-icons/fc";
-import {
-  GiAbstract052,
-  GiAqueduct,
-  GiDiceTwentyFacesTwenty,
-  GiOilPump,
-  GiTakeMyMoney,
-} from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
-import { IoDiamondSharp, IoSettingsOutline } from "react-icons/io5";
+import { IoSettingsOutline } from "react-icons/io5";
 import { LuPhone } from "react-icons/lu";
-
 import { RiMailSendLine, RiSofaFill } from "react-icons/ri";
 
 // homepage
@@ -137,32 +118,340 @@ export const Servicedata = {
     {
       title: "Pipeline Networks",
       text: "Water, sewer, and stormwater systems are executed through open-cut and advanced trenchless technologies.",
+
       img: banner,
+
       icon: <IoSettingsOutline />,
+
+        description:
+        "Our in-house engineering team delivers robust pipeline networks designed for efficiency, safety, and long-term reliability. From planning to commissioning, we manage every stage with precision. Each network is executed using proven materials, accurate alignment, and modern methods to ensure uninterrupted flow and durability.",
+
+       how_we_work: [
+        {
+          id: 1,
+          heading: "Planning & Feasibility",
+          para:
+            " We study site conditions, utility requirements, and technical parameters to plan efficient and compliant pipeline routes.",
+        },
+        {
+          id: 2,
+          heading: "Design & Engineering",
+          para:
+            "Detailed pipeline designs are prepared, ensuring correct sizing, alignment, depth, and regulatory compliance.",
+        },
+        {
+          id: 3,
+          heading: "Execution & Installation",
+          para:
+            " Pipelines are installed using open-cut or trenchless methods with strict quality and safety controls.",
+        },
+        {
+          id: 4,
+          heading: "Testing & Commissioning",
+          para:
+            " Each pipeline is pressure-tested and inspected to ensure leak-free performance before final commissioning.",
+        },
+      ],
+      faqs: [
+        {
+          id: 1,
+          que:"How are pipeline networks different from regular construction?",
+          ans:" They require precise engineering, depth control, safety planning, and continuous quality checks to ensure long-term performance.",
+        },
+        {
+          id: 2,
+          que: "Can services continue during pipeline installation?",
+          ans:
+            " Yes, proper planning and phased execution help minimise disruption to existing utilities.",
+        },
+        {
+          id: 3,
+          que: "Are modern construction methods used?",
+          ans:
+            " Yes, we use advanced trenchless and mechanised techniques where required for efficient execution.",
+        },
+        {
+          id: 4,
+          que: "What ensures the long-term durability of pipelines?",
+          ans:
+            "Quality materials, accurate installation, testing procedures, and adherence to engineering standards.",
+        },
+        {
+          id: 5,
+          que: "Does in-house execution improve timelines?",
+          ans:
+            "Yes, internal coordination enables faster decision-making and smoother project completion.",
+        },
+      ],
     },
+
+
     {
       title: "Drainage & Utility Diversions",
       text: "Strategic diversion, rerouting, and restoration of complex urban utility networks with minimal disruption.",
       img: about2,
       icon: <IoSettingsOutline />,
+      description:"Our in-house team delivers well-planned drainage systems and utility diversions designed to support urban infrastructure without interrupting daily operations. From analysis to execution, every stage is managed carefully to ensure safety, accuracy, and long-term reliability of diverted networks.",
+      how_we_work: [
+  {
+    id: 1,
+    heading: "Site Assessment & Planning",
+    para:
+      "We study existing utilities, drainage flows, and site constraints to plan safe and efficient diversion strategies.",
+  },
+  {
+    id: 2,
+    heading: "Engineering & Coordination",
+    para:
+      "Detailed designs are prepared while coordinating with relevant authorities to ensure compliance and necessary approvals.",
+  },
+  {
+    id: 3,
+    heading: "Diversion & Installation",
+    para:
+      "Utilities and drainage lines are diverted using controlled methods that reduce disruption and maintain service continuity.",
+  },
+  {
+    id: 4,
+    heading: "Testing & Restoration",
+    para:
+      "Systems are tested thoroughly, and surfaces are restored to original or improved conditions after completion.",
+  },
+],
+faqs: [
+  {
+    id: 1,
+    que: "Why are utility diversions important?",
+    ans:
+      "They allow infrastructure development without damaging existing drainage and utility networks.",
+  },
+  {
+    id: 2,
+    que: "How is disruption to services minimised?",
+    ans:
+      "Through phased execution, careful planning, and temporary service arrangements.",
+  },
+  {
+    id: 3,
+    que: "Are complex urban areas handled safely?",
+    ans:
+      "Yes, careful mapping and modern techniques ensure safe execution in congested environments.",
+  },
+  {
+    id: 4,
+    que: "What ensures drainage efficiency after diversion?",
+    ans:
+      "Proper gradient design, quality materials, and detailed testing processes.",
+  },
+  {
+    id: 5,
+    que: "Does in-house management improve results?",
+    ans:
+      "Yes, it ensures faster coordination, better control, and reliable project delivery.",
+  },
+],
+
     },
+
+
     {
       title: "Roads and Footpaths",
       text: "Durable surface infrastructure seamlessly coordinated with underlying utility and service networks.",
       img: about8,
-      icon: <IoSettingsOutline />,
+      icon: <IoSettingsOutline />,      description:"We develop high-quality roads and pedestrian pathways designed for safety, durability, and smooth movement. Our team ensures proper coordination between surface works and underlying utilities, delivering infrastructure that performs reliably under daily traffic and long-term usage conditions.",
+how_we_work: [
+  {
+    id: 1,
+    heading: "Site Study & Planning",
+    para:
+      "We assess traffic patterns, ground conditions, and service networks to plan durable and efficient road layouts.",
+  },
+  {
+    id: 2,
+    heading: "Design & Material Selection",
+    para:
+      "Appropriate materials and construction methods are selected to match load requirements and usage intensity.",
+  },
+  {
+    id: 3,
+    heading: "Construction & Surface Works",
+    para:
+      "Roads and footpaths are constructed with accurate layering, proper drainage, and finishing for long-lasting performance.",
+  },
+  {
+    id: 4,
+    heading: "Quality Checks & Completion",
+    para:
+      "Final inspections ensure smooth surfaces, safety standards, and readiness for public use.",
+  },
+],
+faqs: [
+  {
+    id: 1,
+    que: "How do you ensure long-term surface durability?",
+    ans:
+      "Durability is ensured through proper ground preparation, quality materials, accurate layering, controlled compaction, and strict quality checks designed to withstand traffic loads and varying weather conditions.",
+  },
+  {
+    id: 2,
+    que: "Are underground utilities considered during construction?",
+    ans:
+      "Yes, existing and planned utilities are carefully mapped and coordinated before construction to avoid damage, ensure accessibility, and maintain seamless integration with surface infrastructure.",
+  },
+  {
+    id: 3,
+    que: "What measures improve pedestrian safety?",
+    ans:
+      "Pedestrian safety is enhanced through well-defined walkways, non-slip surfaces, proper kerb heights, clear markings, adequate drainage, and designs aligned with local safety standards.",
+  },
+  {
+    id: 4,
+    que: "Can projects be completed in high-traffic areas?",
+    ans:
+      "Yes, phased execution, traffic management plans, and efficient scheduling are used to minimise disruption while maintaining safety and accessibility in busy zones.",
+  },
+  {
+    id: 5,
+    que: "What defines the final quality of roads and footpaths?",
+    ans:
+      "Final quality depends on precision execution, proper drainage design, material consistency, finishing accuracy, and continuous monitoring for smooth, durable, and user-friendly infrastructure.",
+  },
+],
+
     },
+
+    
     {
       title: "Civil Structures & Finishing Works",
       text: "Structural construction combined with precise finishing for functional and visually refined outcomes.",
       img: banner,
-      icon: <IoSettingsOutline />,
+      icon: <IoSettingsOutline />,  
+      description:"We deliver reliable civil structures supported by high-quality finishing that enhances both functionality and appearance. From structural execution to final detailing, every stage is handled with precision, ensuring long-lasting performance and clean, refined outcomes.",
+how_we_work: [
+  {
+    id: 1,
+    heading: "Planning & Structural Assessment",
+    para:
+      "We evaluate design requirements, load conditions, and site constraints to plan safe and efficient structural solutions.",
+  },
+  {
+    id: 2,
+    heading: "Engineering & Detailing",
+    para:
+      "Accurate drawings and specifications are prepared to ensure structural stability and seamless finishing execution.",
+  },
+  {
+    id: 3,
+    heading: "Construction & Structural Works",
+    para:
+      "Structures are executed using quality materials, skilled workmanship, and strict quality control practices.",
+  },
+  {
+    id: 4,
+    heading: "Finishing & Quality Review",
+    para:
+      "Finishing works are completed with attention to detail, followed by inspections to ensure durability and visual consistency.",
+  },
+],
+faqs: [
+  {
+    id: 1,
+    que: "What types of civil structures do you execute?",
+    ans:
+      "We handle a wide range of civil works, including foundations, retaining structures, chambers, boundary walls, and associated structural elements.",
+  },
+  {
+    id: 2,
+    que: "How is structural safety ensured?",
+    ans:
+      "Safety is ensured through proper design calculations, approved materials, skilled execution, and continuous quality and safety inspections.",
+  },
+  {
+    id: 3,
+    que: "How do finishing works add value to structures?",
+    ans:
+      "Finishing enhances usability, protects structural elements, improves appearance, and ensures long-term performance.",
+  },
+  {
+    id: 4,
+    que: "Are finishing works coordinated with structural execution?",
+    ans:
+      "Yes, finishing works are planned alongside structural construction to avoid rework and ensure smooth project flow.",
+  },
+  {
+    id: 5,
+    que: "What ensures the long-term performance of completed works?",
+    ans:
+      "Quality materials, accurate execution, protective finishes, and adherence to engineering standards ensure long-term structural performance.",
+  },
+],
+
     },
     {
       title: "Horticulture & Landscaping",
       text: "Sustainable landscaping solutions that enhance environmental value and create aesthetically pleasing green spaces.",
       img: about2,
-      icon: <IoSettingsOutline />,
+      icon: <IoSettingsOutline />,    
+      description:"We create functional and visually pleasing green spaces that enhance the environment and complement surrounding infrastructure. Our approach focuses on sustainable planting, efficient water use, and long-term maintenance, ensuring landscapes remain healthy and attractive over time.",
+how_we_work: [
+  {
+    id: 1,
+    heading: "Site Analysis & Soil Preparation",
+    para:
+      "We assess soil quality, sunlight, and drainage to prepare the site for healthy plant growth.",
+  },
+  {
+    id: 2,
+    heading: "Landscape Design & Plant Selection",
+    para:
+      "Plant species are selected based on climate suitability, aesthetics, and long-term sustainability.",
+  },
+  {
+    id: 3,
+    heading: "Execution & Plantation",
+    para:
+      "Planting and landscaping are carried out with proper spacing, irrigation planning, and soil treatment.",
+  },
+  {
+    id: 4,
+    heading: "Maintenance Planning & Handover",
+    para:
+      "We provide guidance for upkeep to ensure lasting greenery and consistent landscape performance.",
+  },
+],
+faqs: [
+  {
+    id: 1,
+    que: "How do landscaped areas support sustainability?",
+    ans:
+      "They improve air quality, manage water runoff, reduce heat, and support ecological balance through thoughtful plant selection and layout.",
+  },
+  {
+    id: 2,
+    que: "Are plants chosen based on local conditions?",
+    ans:
+      "Yes, species are selected based on local climate and soil conditions to ensure healthy growth and minimal maintenance.",
+  },
+  {
+    id: 3,
+    que: "How is water usage managed efficiently?",
+    ans:
+      "Efficient irrigation methods and proper soil preparation help optimise water use and reduce wastage.",
+  },
+  {
+    id: 4,
+    que: "Can landscaping be integrated with infrastructure projects?",
+    ans:
+      "Yes, landscaping is planned to align with built structures without affecting utilities or access.",
+  },
+  {
+    id: 5,
+    que: "What ensures long-term landscape health?",
+    ans:
+      "Proper soil treatment, suitable plant selection, and maintenance planning ensure greenery remains healthy and sustainable.",
+  },
+],
+
     },
   ],
 };
@@ -172,36 +461,36 @@ export const crafting = {
   
 
   title1: "BUILDING THE FUTURE",
-  title2: "Experts in Innovative & Modern Design",
+  title2: "Designing Innovation with Modern Expertise",
 
   slides: [
     {
       id: 1,
-      heading: "Trust & Reliable Quality",
+      heading: "Credibility & Commitment",
       img: banner,
       text:
-        "We provide reliable, professional, and high-quality services, ensuring consistency, and accuracy in everything we do.",
+        "Building confidence through honesty, consistency, and dependable project delivery",
     },
     {
       id: 2,
-      heading: "Construction",
+      heading: "Relationship That Lasts",
       img: banner2,
       text:
-        "Construction classes and subjects are about buildings stand up, how they keep us dry and comfortable.",
+        "Strengthening relationships through integrity, transparency, and mutual respect",
     },
     {
       id: 3,
-      heading: "Relationship & Integrity",
+      heading: "Structural Excellence",
       img: banner4,
       text:
-        "We build caring, honest, and trustworthy relationships, always acting with empathy, warmth, and client-focused integrity.",
+        "Creating strong, safe structures with quality materials and expert execution",
     },
     {
       id: 4,
-      heading: "City Planning",
+      heading: "Smart City Solutions",
       img: banner3,
       text:
-        "We support sustainable and inclusive planning and design of cities by developing normative work.",
+        "Planning sustainable urban spaces for efficient, future-ready communities",
     },
   ],
 };
@@ -998,408 +1287,6 @@ export const serviceBanner = {
   img: banner,
 };
 
-export const serviceData = {
-  
-  title1: "Services We Offer",
-  title2: "Creating Spaces That Give You Peace & Comfort",
-  para:
-    "OmEngineers Contracts has built a reputation for delivering homes that are not just structures but masterpieces.",
-  services: [
-    {
-      id: 1,
-      title: "Pipeline Networks",
-      banner:
-        "Creating beautiful and practical spaces that reflect your style perfectly.",
-      description:
-        "Our in-house development team brings your vision to life by delivering high-quality builder floors designed for comfort, functionality, and long-term value. From planning and construction to finishing details, we manage every stage with precision and care. Each builder floor is developed with smart layouts, quality materials, and contemporary aesthetics—ensuring spaces that are practical, durable, and aligned with modern lifestyle needs.",
-      img: banner,
-      how_we_work: [
-        {
-          id: 1,
-          heading: "Planning & Feasibility",
-          para:
-            "We evaluate the plot, local regulations, and lifestyle requirements to ensure optimal floor planning and efficient space utilization.",
-        },
-        {
-          id: 2,
-          heading: "Design & Layout Development",
-          para:
-            "Our experts create practical floor plans that balance ventilation, natural light, privacy, and aesthetics.",
-        },
-        {
-          id: 3,
-          heading: "Construction & Execution",
-          para:
-            "Skilled professionals execute the project using quality materials, modern construction techniques, and strict quality control.",
-        },
-        {
-          id: 4,
-          heading: "Final Inspection & Handover",
-          para:
-            "Each builder floor is thoroughly inspected to ensure it meets quality standards before a smooth handover.",
-        },
-      ],
-      faqs: [
-        {
-          id: 1,
-          que:
-            "How is Pipeline Networks different from regular construction?",
-          ans:
-            "All planning, design, and execution are handled internally, resulting in smoother coordination, faster decisions, and better quality control.",
-        },
-        {
-          id: 2,
-          que: "Can buyers be involved during the development process?",
-          ans:
-            "Yes, buyers can review progress at key stages and provide input early, helping ensure the final outcome matches expectations.",
-        },
-        {
-          id: 3,
-          que: "Are modern construction techniques used?",
-          ans:
-            "Yes, projects follow updated building practices, efficient layouts, and durable materials to meet today’s lifestyle needs.",
-        },
-        {
-          id: 4,
-          que: "What ensures long-term durability of the property?",
-          ans:
-            "Careful material selection, skilled execution, and multiple quality checks help ensure strength, safety, and longevity.",
-        },
-        {
-          id: 5,
-          que: "Does in-house development affect project timelines?",
-          ans:
-            "Yes, managing everything under one team helps reduce delays and keeps the project moving as per planned schedules.",
-        },
-      ],
-    },
-    {
-      id: 2,
-      title: "Drainage & Utility Diversions",
-      banner:
-        "We design innovative, functional, and timeless structures for every unique need.",
-      description:
-        "We offer a seamless blend of architecture and interior design, creating spaces that are innovative, functional, and timeless. From concept planning to final execution, our team manages the entire journey with a strong focus on durability, usability, and visual harmony. Every project is designed to balance aesthetics with practicality while meeting safety standards and environmental considerations—resulting in spaces that are both beautiful and purpose-driven.",
-      img: banner2,
-      how_we_work: [
-        {
-          id: 1,
-          heading: "Planning & Consultation",
-          para:
-            "We analyze the site and understand your functional needs, lifestyle preferences, and design expectations before initiating layouts.",
-        },
-        {
-          id: 2,
-          heading: "Design Development",
-          para:
-            "Detailed architectural drawings, 3D models, and interior concepts are created, including layouts, material selection, and color schemes.",
-        },
-        {
-          id: 3,
-          heading: "Approvals & Compliance",
-          para:
-            "All designs are reviewed to ensure they meet legal regulations, safety norms, and structural standards.",
-        },
-        {
-          id: 4,
-          heading: "Execution & Supervision",
-          para:
-            "Expert professionals execute the design with precision, while continuous supervision ensures quality, accuracy, and durability.",
-        },
-      ],
-      faqs: [
-        {
-          id: 1,
-          que: "Why combine architecture and interior design services?",
-          ans:
-            "Combining both ensures design consistency, better coordination, and a smoother transition from structure to finished space.",
-        },
-        {
-          id: 2,
-          que: "Can I customize both the layout and the interiors?",
-          ans:
-            "Yes, layouts, finishes, materials, and design elements can be customized during the planning and design stages.",
-        },
-        {
-          id: 3,
-          que: "How do you ensure functionality along with aesthetics?",
-          ans:
-            "Each design focuses on space utilization, movement flow, lighting, and practicality without compromising visual appeal.",
-        },
-        {
-          id: 4,
-          que: "Do you handle both residential and commercial projects?",
-          ans:
-            "Yes, services are available for homes, offices, retail spaces, and mixed-use developments.",
-        },
-        {
-          id: 5,
-          que: "What makes this approach beneficial for clients?",
-          ans:
-            "It reduces delays, avoids design conflicts, improves quality control, and delivers a cohesive outcome.",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Exterior Design",
-      banner:
-        "Increase your property's charm with stunning, durable, and unique exteriors.",
-      description:
-        "We, the best exterior designers in Delhi, build exterior designs that combine spectacular looks with exceptional durability to enhance property aesthetics. Your preferences guide our team, allowing them to design solutions that perfectly blend with environmental elements. Each detail, including landscape design and materials, stands at the center of our attention for durability combined with style. Our professional mission is to improve the exterior beauty of your property through an external design that matches your personality and creates a welcoming environment.",
-      img: banner3,
-      how_we_work: [
-        {
-          id: 1,
-          heading: "Consultation",
-          para: "We discuss your desired exterior appearance.",
-        },
-        {
-          id: 2,
-          heading: "Design Concepts",
-          para: "We provide 3D renders and material suggestions.",
-        },
-        {
-          id: 3,
-          heading: "Implementation",
-          para: "The implementation includes durable and appealing materials.",
-        },
-        {
-          id: 4,
-          heading: "Final Inspection",
-          para: "Ensuring the exterior meets expectations.",
-        },
-      ],
-      faqs: [
-        {
-          id: 1,
-          que: "Can you design landscaping as part of the exterior design?",
-          ans:
-            "Despite being considered essential, our exterior design solutions include landscaping establishment as a fundamental component.",
-        },
-        {
-          id: 2,
-          que: "Do you work with weather-resistant materials?",
-          ans:
-            "Our company commits to selecting exterior materials that perform best in regional weather conditions.",
-        },
-        {
-          id: 3,
-          que: "How long does exterior design take?",
-          ans:
-            "Project duration depends on project complexity and size but we supply estimates after discussing with the client.",
-        },
-        {
-          id: 4,
-          que: "Can you renovate old exteriors?",
-          ans:
-            "The company excels at redesigning traditional exteriors into contemporary structures.",
-        },
-        {
-          id: 5,
-          que: "Do you design exteriors for commercial buildings?",
-          ans:
-            "Our company provides exterior design solutions that serve residential buildings along with business-owned properties.",
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "Roads & Footpaths",
-      banner:
-        "We convert old spaces into modern, functional, and stylish ones effortlessly.",
-      description:
-        "Our renovation projects transform whatever space you have by providing it with fresh vitality through both partial and full-scale remodels. Our evaluation of the building locates all necessary improvement zones, whether they focus on structural elements or visual aspects. Our team develops complete renovation programming that satisfies your requirements regarding design preferences, together with schedule length and cost needs. The company applies quality materials and expert craftsmanship to produce spaces that harmonize modern functionality with lasting durability and original architecture.",
-      img: banner4,
-      how_we_work: [
-        {
-          id: 1,
-          heading: "Inspection",
-          para:
-            "The first step involves evaluating present conditions together with identifying regions that require development.",
-        },
-        {
-          id: 2,
-          heading: "Planning",
-          para:
-            "We develop renovation roadmaps that include both time details and spending limits for the project.",
-        },
-        {
-          id: 3,
-          heading: "Execution",
-          para:
-            "Moving things forward with both expert personnel and quality materials.",
-        },
-        {
-          id: 4,
-          heading: "Finishing",
-          para:
-            "The team takes responsibility to present a fully finished, renovated space.",
-        },
-      ],
-      faqs: [
-        {
-          id: 1,
-          que: "Do you renovate both homes and offices?",
-          ans:
-            "The remodeling of residential buildings as well as commercial operations is a core service at our company.",
-        },
-        {
-          id: 2,
-          que: "Can renovations be done while the building is occupied?",
-          ans:
-            "Our work planning activities help reduce disturbances caused to building occupants.",
-        },
-        {
-          id: 3,
-          que: "Do you handle structural changes in renovations?",
-          ans:
-            "Our team can execute both structural enhancement tasks and structural improvement tasks.",
-        },
-        {
-          id: 4,
-          que: "How long does a renovation take?",
-          ans:
-            "Our project timeline is determined based on the final scope assessment we perform after completing inspections.",
-        },
-        {
-          id: 5,
-          que: "Can I include eco-friendly upgrades?",
-          ans:
-            "Yes, we offer green renovation options for a sustainable living space.",
-        },
-      ],
-    },
-    {
-      id: 5,
-      title: "Property Sale",
-      banner: "Sell properties easily with trusted support and guidance.",
-      description:
-        "Our professional guidance makes the property-selling process flow easily for you. Our initial step involves inspecting the property value by examining both market changes and its distinctive characteristics. Our team uses online advertising and qualifies audience contact to discover suitable purchasers. Our team helps you secure optimal prices through price negotiation services. Our team takes care of every requirement and formal procedure to deliver you a convenient and clear, plus stress-free, sales process.",
-      img: about4,
-      how_we_work: [
-        {
-          id: 1,
-          heading: "Valuation",
-          para: "The market trend analysis determines the property's worth.",
-        },
-        {
-          id: 2,
-          heading: "Marketing",
-          para:
-            "Different promotional channels are used to market this property.",
-        },
-        {
-          id: 3,
-          heading: "Negotiation",
-          para:
-            "Our service provides you with the most advantageous terms for your property sale.",
-        },
-        {
-          id: 4,
-          heading: "Closure",
-          para:
-            "The transaction benefits from our organization and management of essential paperwork.",
-        },
-      ],
-      faqs: [
-        {
-          id: 1,
-          que: "Do you handle both residential and commercial properties?",
-          ans:
-            "The company helps clients with selling residential homes and apartments together with commercial business properties.",
-        },
-        {
-          id: 2,
-          que: "How do you determine the property’s value?",
-          ans:
-            "Our company analyzes local market patterns together with location variables along with property condition to determine estimated values.",
-        },
-        {
-          id: 3,
-          que: "Can you help with the paperwork for the sale?",
-          ans:
-            "Our company guarantees the complete lawful handling of every document.",
-        },
-        {
-          id: 4,
-          que: "Do you offer marketing services for property sales?",
-          ans:
-            "Our company employs both internet-based platforms and alternative promotional tools to market your real estate property.",
-        },
-        {
-          id: 5,
-          que: "How long does it take to sell a property?",
-          ans:
-            "Our process duration differs based on factors yet we work on securing both speed and convenience throughout the transaction.",
-        },
-      ],
-    },
-    {
-      id: 6,
-      title: "Property Purchase",
-      banner: "Find your dream property with ease and expert guidance today.",
-      description:
-        "Our team helps property buyers through a seamless and pleasant journey by delivering personalized market information that matches your unique needs. Our team supports clients from start to finish, whether they purchase their dream residence or want to achieve an intelligent property investment. The team provides continuous support, from helping you understand your choices to budgeting, and takes part in every stage of your purchasing journey.",
-      img: about5,
-      how_we_work: [
-        {
-          id: 1,
-          heading: "Requirement Analysis",
-          para:
-            "You need to explain your property needs while sharing your spending plan and specific requirements.",
-        },
-        {
-          id: 2,
-          heading: "Property Search",
-          para:
-            "You need to select possibilities that comply with your specification requirements.",
-        },
-        {
-          id: 3,
-          heading: "Site Visits",
-          para: "You will schedule tours for properties that you select.",
-        },
-        {
-          id: 4,
-          heading: "Deal Finalization",
-          para: "Helping with negotiations and paperwork.",
-        },
-      ],
-      faqs: [
-        {
-          id: 1,
-          que: "Can you help with budget-friendly options?",
-          ans:
-            "The service matches properties that match your budget along with your specific requirements.",
-        },
-        {
-          id: 2,
-          que: "Do you assist with home loans?",
-          ans: "The process of securing a loan receives our complete guidance.",
-        },
-        {
-          id: 3,
-          que: "How do I know if the property is legally clear?",
-          ans:
-            "We verify documentation so you can verify complete accuracy from the property.",
-        },
-        {
-          id: 4,
-          que: "Do you handle commercial property purchases?",
-          ans:
-            "Our company assists buyers in purchasing homes along with business facilities.",
-        },
-        {
-          id: 5,
-          que: "Can you help with investment properties?",
-          ans:
-            "The company delivers market data to assist clients in their investment decisions.",
-        },
-      ],
-    },
-  ],
-};
 
 // contact page
 export const contactBanner = {
