@@ -78,8 +78,10 @@ export default function Blogs() {
             <Link  
               key={index}
               href={`/blogs/${post?.title
-                .replace(/\s+/g, "-")
-                .toLowerCase()}`}
+                .toLowerCase()
+  .replace(/[^a-z0-9\s-]/g, "")  // remove punctuation
+  .trim()
+  .replace(/\s+/g, "-")}`}
               className="bg-white rounded-3xl p-6 lg:p-4 overflow-hidden group shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col sm:flex-row"
             >
               {/* Image */}

@@ -14,7 +14,10 @@ type Props = {
 // Static Params for Export Mode
 export async function generateStaticParams() {
   return blogData.blogs.map((blog: any) => {
-    const slug = blog.title.replace(/\s+/g, '-').toLowerCase();
+    const slug = blog.title.toLowerCase()
+  .replace(/[^a-z0-9\s-]/g, "")  // remove punctuation
+  .trim()
+  .replace(/\s+/g, "-");
     return { slug };
   });
 }
@@ -23,7 +26,10 @@ const Page = ({ params }: Props) => {
   const decodedSlug = decodeURIComponent(params.slug).toLowerCase();
 
   const singleBlog = blogData.blogs.find((blog: any) => {
-    const blogSlug = blog.title.replace(/\s+/g, '-').toLowerCase();
+    const blogSlug = blog.title.toLowerCase()
+  .replace(/[^a-z0-9\s-]/g, "")  // remove punctuation
+  .trim()
+  .replace(/\s+/g, "-");
     return blogSlug === decodedSlug;
   });
 

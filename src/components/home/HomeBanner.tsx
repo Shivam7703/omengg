@@ -60,12 +60,12 @@ export default function HomeBanner() {
 
       {/* Navigation buttons */}
       <div
-        className={`${uniqueId}-next absolute z-30 p-3 bg-white hover:bg-color2 hover:text-white text-black !left-36 !bottom-32  max-md:!hidden`}
+        className={`${uniqueId}-next absolute z-30 p-3 bg-white hover:bg-color2 hover:text-white text-black !left-36 !bottom-14  max-md:!hidden`}
       >
         <FaArrowRightLong className="!text-xl font-bold"/>
       </div>
       <div
-        className={`${uniqueId}-prev absolute z-20 bg-white p-3 hover:bg-color2 hover:text-white text-black !left-24 !bottom-32  max-md:!hidden`}
+        className={`${uniqueId}-prev absolute z-20 bg-white p-3 hover:bg-color2 hover:text-white text-black !left-24 !bottom-14  max-md:!hidden`}
       >
         <FaArrowLeftLong className="!text-xl font-bold"/>
       </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { banner } from "@/assets";
+import { certificate } from "@/assets";
 import Buttonmain from "../global/button";
 
 function WhyChoose() {
 
   const data = {
-    img2: banner,
+    img2: certificate,
     title1: "WHy Choose us",
     title2: "Exceptional Infrastructure Solutions Providers.",
     para:"With 42 years’ legacy, we deliver innovative, reliable infrastructure solutions—ensuring quality, safety, and guaranteed results.",

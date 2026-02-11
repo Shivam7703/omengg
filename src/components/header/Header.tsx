@@ -189,9 +189,7 @@ function RightSide(onTop: any) {
                               <p className="text-lg">+91 1234566770</p>
                  </div>
 </a>
-
-
-<Buttonmain text={"get a quote"} href={"tel:+911234566770"} />        
+<Buttonmain text={"Download Brochure"} href={"tel:+911234566770"} />        
 </div>
   );
 }

@@ -1,5 +1,7 @@
 import React from 'react'
+import { BsBagCheck, BsPersonCheck, BsPersonFillCheck } from 'react-icons/bs'
 import { HiOutlineHomeModern } from 'react-icons/hi2'
+import { IoConstructOutline } from 'react-icons/io5'
 
 function Homeoxes() {
     const boxesData = [{
@@ -8,17 +10,17 @@ function Homeoxes() {
         para:"We create functional, aesthetic designs aligned with client vision, regulations, sustainability principles, and modern architectural standards."
     },
     {
-        icon:<HiOutlineHomeModern />,
+        icon:<IoConstructOutline />,
         title:"Quality Construction",
         para:"Every project is executed using high-grade materials, skilled craftsmanship, and strict quality control to ensure long-lasting structural integrity."
     },
     {
-        icon:<HiOutlineHomeModern />,
+        icon:<BsBagCheck />,
         title:"Project Management",
         para:"We manage timelines, budgets, and coordination efficiently, ensuring seamless execution from planning to completion without unnecessary delays."
     },
     {
-        icon:<HiOutlineHomeModern />,
+        icon:<BsPersonCheck />,
         title:"Client-Centric Approach",
         para:"We prioritize clear communication, transparency, and collaboration to deliver solutions that meet expectations and exceed client satisfaction."
     },

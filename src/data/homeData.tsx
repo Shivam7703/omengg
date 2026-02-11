@@ -1,25 +1,26 @@
 import {
-  about,
-  about2,
-  about3,
-  about5,
-  about4,
-  banner,
-  banner2,
-  banner3,
-  banner4,
-  cl1,
-  logo2,
-  about8,
-  cl2,
-  cl3,
-  cl4,
+  banner, banner2, banner3, banner4 , cl1, cl2,cl3,cl4,logo2, dlf911,dlf912,dlf913,dlf914,dlf931,dlf932,dlf933,dlf934, sewer, sewer2, sewer3, sewer4, sewer5, sewer6, sewer7, sewer8, sewer9, sewer10, sewer11,  sewer13,dlf935,dlf936,dlf937,enclave931,enclave932,enclave933,gmda1,gmda2,gmda3,gmda4,other1,other2,other3,sco841,sco842,sec681, sec682, sec683, sec684, sec685,sec686, sec687, sec688, sec689,
+   sec6810,
+   sco843,
+   dlf915,
+   pipe,
+   drainage,
+   road,
+   civil,
+   horiculture,
+   bg,
+   bhk
 } from "@/assets";
+
 import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { GiPipes } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
-import { IoSettingsOutline } from "react-icons/io5";
+import { IoIosLeaf } from "react-icons/io";
+import { LiaRoadSolid } from "react-icons/lia";
 import { LuPhone } from "react-icons/lu";
+import { MdOutlineAltRoute } from "react-icons/md";
+import { PiCityBold } from "react-icons/pi";
 import { RiMailSendLine, RiSofaFill } from "react-icons/ri";
 
 // homepage
@@ -82,7 +83,7 @@ export const social = [
 export const sliderContent = [
   {
     id: 1,
-    img: banner4,
+    img: banner,
     welcome: "Om ENGINEERS",
     title: "Turning Blueprints Into Living Landmarks",
     para:
@@ -92,7 +93,7 @@ export const sliderContent = [
   },
   {
     id: 2,
-    img: banner,
+    img: banner2,
     welcome: "om ENGINEERS",
     title: "Building Spaces That Last Generations",
     para: "Thoughtfully designed projects combining comfort, durability, and timeless value for families.",
@@ -110,7 +111,6 @@ export const sliderContent = [
   },
 ];
 
-
 export const Servicedata = {
   title1: "OUR SERVICES",
   title2: "Engineering Excellence Across Diverse Infrastructure Domains",
@@ -119,10 +119,9 @@ export const Servicedata = {
       title: "Pipeline Networks",
       text: "Water, sewer, and stormwater systems are executed through open-cut and advanced trenchless technologies.",
 
-      img: banner,
+      img: pipe,
 
-      icon: <IoSettingsOutline />,
-
+      icon: <GiPipes />,
         description:
         "Our in-house engineering team delivers robust pipeline networks designed for efficiency, safety, and long-term reliability. From planning to commissioning, we manage every stage with precision. Each network is executed using proven materials, accurate alignment, and modern methods to ensure uninterrupted flow and durability.",
 
@@ -189,8 +188,8 @@ export const Servicedata = {
     {
       title: "Drainage & Utility Diversions",
       text: "Strategic diversion, rerouting, and restoration of complex urban utility networks with minimal disruption.",
-      img: about2,
-      icon: <IoSettingsOutline />,
+      img: drainage,
+      icon: <MdOutlineAltRoute />,
       description:"Our in-house team delivers well-planned drainage systems and utility diversions designed to support urban infrastructure without interrupting daily operations. From analysis to execution, every stage is managed carefully to ensure safety, accuracy, and long-term reliability of diverted networks.",
       how_we_work: [
   {
@@ -257,8 +256,8 @@ faqs: [
     {
       title: "Roads and Footpaths",
       text: "Durable surface infrastructure seamlessly coordinated with underlying utility and service networks.",
-      img: about8,
-      icon: <IoSettingsOutline />,      description:"We develop high-quality roads and pedestrian pathways designed for safety, durability, and smooth movement. Our team ensures proper coordination between surface works and underlying utilities, delivering infrastructure that performs reliably under daily traffic and long-term usage conditions.",
+      img: road,
+      icon: <LiaRoadSolid />,      description:"We develop high-quality roads and pedestrian pathways designed for safety, durability, and smooth movement. Our team ensures proper coordination between surface works and underlying utilities, delivering infrastructure that performs reliably under daily traffic and long-term usage conditions.",
 how_we_work: [
   {
     id: 1,
@@ -324,8 +323,8 @@ faqs: [
     {
       title: "Civil Structures & Finishing Works",
       text: "Structural construction combined with precise finishing for functional and visually refined outcomes.",
-      img: banner,
-      icon: <IoSettingsOutline />,  
+      img: civil,
+      icon: <PiCityBold />,  
       description:"We deliver reliable civil structures supported by high-quality finishing that enhances both functionality and appearance. From structural execution to final detailing, every stage is handled with precision, ensuring long-lasting performance and clean, refined outcomes.",
 how_we_work: [
   {
@@ -387,11 +386,12 @@ faqs: [
 ],
 
     },
+
     {
       title: "Horticulture & Landscaping",
       text: "Sustainable landscaping solutions that enhance environmental value and create aesthetically pleasing green spaces.",
-      img: about2,
-      icon: <IoSettingsOutline />,    
+      img: horiculture,
+      icon: <IoIosLeaf />,    
       description:"We create functional and visually pleasing green spaces that enhance the environment and complement surrounding infrastructure. Our approach focuses on sustainable planting, efficient water use, and long-term maintenance, ensuring landscapes remain healthy and attractive over time.",
 how_we_work: [
   {
@@ -495,37 +495,36 @@ export const crafting = {
   ],
 };
 
-export const countDown = [
-  {
-    id: 1,
-    para: "Projects Completed Successfully",
-    title: "Projects Completed",
-    Value: "150",
-    value2: "+",
-  },
-  {
-    id: 2,
-    para: "Trusted and Satisfied Clients",
-    title: "Happy Customers",
-    Value: "150",
-    value2: "+",
-  },
-  {
-    id: 3,
-    para: "High Success Rate with Clients",
-    title: "Success Rate",
-    Value: "100",
-    value2: "%",
-  },
-  {
-    id: 4,
-    para: "Expertise Built for Years",
-    title: "Years of Experience",
-    Value: "30",
-    value2: "+",
-  },
-];
-
+// export const countDown = [
+//   {
+//     id: 1,
+//     para: "Projects Completed Successfully",
+//     title: "Projects Completed",
+//     Value: "150",
+//     value2: "+",
+//   },
+//   {
+//     id: 2,
+//     para: "Trusted and Satisfied Clients",
+//     title: "Happy Customers",
+//     Value: "150",
+//     value2: "+",
+//   },
+//   {
+//     id: 3,
+//     para: "High Success Rate with Clients",
+//     title: "Success Rate",
+//     Value: "100",
+//     value2: "%",
+//   },
+//   {
+//     id: 4,
+//     para: "Expertise Built for Years",
+//     title: "Years of Experience",
+//     Value: "30",
+//     value2: "+",
+//   },
+// ];
 
 export const testimonialData = {
   title1: "TESTIMONIALS",
@@ -562,8 +561,6 @@ export const testimonialData = {
     },
   ],
 };
-
-
 
 export const blogData = {
   
@@ -694,7 +691,7 @@ export const blogData = {
 </div>
 `,
       date: "Feb 13, 2026",
-      img: banner2,
+      img: civil,
         author: "Admin",
         featured: true
     },
@@ -817,7 +814,7 @@ export const blogData = {
 `,
  date: "Feb 01, 2025",
         author: "Developer", 
-             img: banner,
+             img: banner4,
     },
     {
       id: 3,
@@ -961,7 +958,7 @@ export const blogData = {
 </div>
 `,
        date: "Jan 18, 2026",
-      img: banner4,
+      img: bhk,
         author: "Admin",
     },
     {
@@ -1117,18 +1114,16 @@ export const blogData = {
 </div>
 `,
        date: "Jan 05, 2026",
-      img: banner4,
+      img: bg,
         author: "Admin",
     },
   ],
 };
 
-
 export const footer = {
   logo: logo2,
   text:
     "OM Engineers deliver innovative infrastructure solutions with decades of expertise, committed to quality, safety, and client satisfaction.",
-
   socials: {
     facebook: "https://www.facebook.com/",
     twitter: "https://twitter.com/",
@@ -1162,18 +1157,15 @@ export const footer = {
         label: "Drainage & Utility Diversions",
         href: "/services/architecture-&-interior-design",
       },
-      { id: 3, label: "Property Sale", href: "/services/property-sale" },
+    
+      { id: 3,  label: "Roads & Footpaths",
+        href: "/services/roads-&-footpaths", },
       {
         id: 4,
-        label: "Roads & Footpaths",
-        href: "/services/building-renovation",
+        label: "Civil Structure & Finishing Works",
+        href: "/services/civil-structure-&-finishing-works",
       },
-      { id: 5, label: "Exterior Design", href: "/services/exterior-design" },
-      {
-        id: 6,
-        label: "Property Purchase",
-        href: "/services/property-purchase",
-      },
+      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-&-landscaping" },
     ],
   },
 };
@@ -1187,43 +1179,43 @@ export const aboutBanner = {
   img: banner2,
 };
 
-export const aboutdata2 = {
-  img2: banner,
-  img: about,
+// export const aboutdata2 = {
+//   img2: banner,
+//   img: about,
 
-  title1: "WHO ARE WE",
-  title2: "We Create Comfortable & Liable Spaces",
-  para:
-    "The real estate and construction industry recognizes OmEngineers Contracts as its premier excellence-based corporate name. For 30 years the respected company has maintained its dedication to quality as it continues to establish new benchmarks in turning properties into luxurious family residences. If you're looking to turn your vision of a perfect home into reality, OmEngineers Contracts is the builder that will exceed your expectations and deliver a space that is as luxurious as it is functional.",
-  vision: [
-    {
-      id: 1,
-      icon: <RiSofaFill />,
+//   title1: "WHO ARE WE",
+//   title2: "We Create Comfortable & Liable Spaces",
+//   para:
+//     "The real estate and construction industry recognizes OmEngineers Contracts as its premier excellence-based corporate name. For 30 years the respected company has maintained its dedication to quality as it continues to establish new benchmarks in turning properties into luxurious family residences. If you're looking to turn your vision of a perfect home into reality, OmEngineers Contracts is the builder that will exceed your expectations and deliver a space that is as luxurious as it is functional.",
+//   vision: [
+//     {
+//       id: 1,
+//       icon: <RiSofaFill />,
 
-      heading: "Superior Quality",
-      text: "We build structures that provide long-lasting dependability",
-    },
-    {
-      id: 2,
-      icon: <RiSofaFill />,
+//       heading: "Superior Quality",
+//       text: "We build structures that provide long-lasting dependability",
+//     },
+//     {
+//       id: 2,
+//       icon: <RiSofaFill />,
 
-      heading: "On-Time Completion",
-      text:
-        "We meet every project deadline, which we have communicated to clients at the start",
-    },
-    {
-      id: 3,
-      icon: <RiSofaFill />,
+//       heading: "On-Time Completion",
+//       text:
+//         "We meet every project deadline, which we have communicated to clients at the start",
+//     },
+//     {
+//       id: 3,
+//       icon: <RiSofaFill />,
 
-      heading: "Exceeding Expectations",
-      text: "Your satisfaction is our commitment and highest priority.",
-    },
-  ],
-};
+//       heading: "Exceeding Expectations",
+//       text: "Your satisfaction is our commitment and highest priority.",
+//     },
+//   ],
+// };
 
 export const WhychooseData2 = {
-  img2: about2,
-  img: about3,
+  img2: civil,
+  img:banner4,
 
   title1: " WHY CHOOSE US",
   title2: "Smart Design That Matters ",
@@ -1251,34 +1243,36 @@ export const WhychooseData2 = {
   ],
 };
 
-export const thoughts = {
-  img: cl1,
-  title1: " WHY CHOOSE US",
-  title2: "Smart Design That Matters ",
-  para:
-    "We design comfortable environments that look beautiful and serve their purpose to enhance the functional aspects of daily living.",
-  faqs: [
-    {
-      id: 1,
-      que: "Unmatched Experience",
-      ans:
-        "With 30 years of industry expertise, OmEngineers Contracts brings a wealth of knowledge to every project, ensuring seamless construction and exceptional results.",
-    },
-    {
-      id: 2,
-      que: "Tailored Solutions",
-      ans:
-        "The company specializes in customizing homes to suit individual tastes, creating spaces that feel uniquely yours.",
-    },
-    {
-      id: 3,
-      que: "Customer-Centric Approach",
-      ans:
-        "OmEngineers Contracts prides itself on delivering not just a service but a partnership, ensuring that every client is heard and their needs are met.",
-    },
-  ],
-};
+// export const thoughts = {
+//   img: cl1,
+//   title1: " WHY CHOOSE US",
+//   title2: "Smart Design That Matters ",
+//   para:
+//     "We design comfortable environments that look beautiful and serve their purpose to enhance the functional aspects of daily living.",
+//   faqs: [
+//     {
+//       id: 1,
+//       que: "Unmatched Experience",
+//       ans:
+//         "With 30 years of industry expertise, OmEngineers Contracts brings a wealth of knowledge to every project, ensuring seamless construction and exceptional results.",
+//     },
+//     {
+//       id: 2,
+//       que: "Tailored Solutions",
+//       ans:
+//         "The company specializes in customizing homes to suit individual tastes, creating spaces that feel uniquely yours.",
+//     },
+//     {
+//       id: 3,
+//       que: "Customer-Centric Approach",
+//       ans:
+//         "OmEngineers Contracts prides itself on delivering not just a service but a partnership, ensuring that every client is heard and their needs are met.",
+//     },
+//   ],
+// };
 // service page
+
+
 export const serviceBanner = {
   title: "Our Services",
   para:
@@ -1286,7 +1280,6 @@ export const serviceBanner = {
   slug: "services",
   img: banner,
 };
-
 
 // contact page
 export const contactBanner = {
@@ -1372,5 +1365,152 @@ export const contactData = {
       
       ],
     },
+  ],
+};
+
+export const projectData = {
+  projects: [
+    {
+      id: 1,
+      title: "ENCLAVE 93 FLOORS",
+      text:"CONSTRUCTION OF FLOORS & ROUGH FINISHING WORKS – DLF GARDENCITY ENCLAVE, SECTOR 93",
+      imgs: [enclave931,enclave932,enclave933],
+      para: [
+        "Construction of residential Cluster 19 & 20 floors and rough finishing works, contributing to township-scale housing development.",
+
+        "The execution contributes directly to the structural readiness and functional framework of the residential units, enabling subsequent finishing, MEP, and interior works, while supporting the overall development objectives of the DLF Gardencity Enclave township.",
+      ],
+      detail: [
+        { heading: "VALUE", info: "RS. 2.00 CR" },
+        { heading: "COMPLETION", info: "2025" },
+        { heading: "CLIENT", info: "DLF LIMITED" },
+      ],
+      cat: "DLF",
+    },
+
+    {
+      id: 2,
+      title: "1000MM DIA SEWER & 1200MM DIA STORM DIVERSION",
+      text:"DIVERSION OF 1000MM DIA SEWER LINE – SHANKAR CHOWK, GURUGRAM",
+      imgs: [sewer,sewer2,sewer3,sewer4,sewer5,sewer6,sewer7,sewer8,sewer9,sewer10,sewer11,sewer13],
+      para: [
+        "Diversion of GMDA master sewer line at a depth of 7m using the manual jacking trenchless method, executed under live traffic conditions for subway underpass construction.",
+
+        "The successful execution of this ensures seamless sewer flow continuity, minimal public inconvenience, and timely support for the subway underpass infrastructure development at Shankar Chowk.",
+      ],
+      detail: [
+        { heading: "VALUE", info: "RS. 3.28 CR" },
+        { heading: "COMPLETION", info: "2025" },
+        { heading: "CLIENT", info: "DLF FOUNDATION " },
+       
+      ],
+      cat: "DLF",
+    },
+
+     {
+      id: 3,
+      title: "GMDA PROJECT",
+      text:"EMERGENCY REHABILITATION OF COLLAPSED SEWER LINES – GURUGRAM",
+      imgs: [gmda1,gmda2,gmda3,gmda4,],
+      para: [
+        " Immediate rectification of collapsed master sewer lines across multiple high risk zones, restoring functionality under emergency response timelines.",
+
+        "The execution of this emergency ensures the swift restoration of sewer functionality, minimized public inconvenience, and safeguarded surrounding infrastructure, reinforcing system reliability under critical conditions.",
+      ],
+      detail: [
+        { heading: "VALUE", info: "RS. 35 LAKHS" },
+        { heading: "COMPLETION", info: "2025" },
+        { heading: "CLIENT", info: "GMDA" },
+      ],
+      cat: "GMDA",
+     },
+
+     {
+      id: 4,
+      title: "SECTOR-68",
+      text:"INTEGRATED DEVELOPMENT WORKS – DLF ARCADE 68, SCO SECTOR 68, GURUGRAM",
+      imgs: [sec681,sec682,sec683,sec684,sec685,sec686,sec687,sec688,sec689,sec6810,],
+      para: [
+        "End-to-end infrastructure creation comprising roads, footpaths, PHE networks, UGT, STP, LT/HT rooms, and horticulture works, transforming SCO plots into a fully developed commercial hub.",
+
+        "The successful execution results in a fully developed, service-ready commercial ecosystem with integrated infrastructure, utilities, and landscape elements. It effectively supports retail and office operations while enhancing functionality, accessibility, and the overall urban character of DLF Arcade 68.",
+      ],
+      detail: [
+        { heading: "VALUE", info: "RS. 8.50 CR" },
+        { heading: "COMPLETION", info: "2025" },
+        { heading: "CLIENT", info: "DLF HOME DEVELOPERS LTD." },
+       
+      ],
+      cat: "DLF",
+     },
+
+     {
+      id: 5,
+      title: "SCO-84",
+      text:"BALANCE CIVIL & FINISHING WORKS – DLF SCO 84, SECTOR 84, GURUGRAM",
+      imgs: [sco841,sco842,sco843,],
+      para: [
+        "Completion of civil, UGT, STP, meter room structures, along with finishing works and landscape development.",
+
+        "The execution ensures completion of all balance civil, utility, and finishing works, delivering a ready-to-operate commercial environment. The development aligns with DLF’s design intent, functional planning, and quality benchmarks, ensuring operational efficiency, safety, and long-term asset value.",
+      ],
+      detail: [
+        { heading: "VALUE", info: "RS. 3.50 CR" },
+        { heading: "COMPLETION", info: "2024" },
+        { heading: "CLIENT", info: "DLF HOME DEVELOPERS LTD." },
+       
+      ],
+      cat: "DLF",
+     },
+
+      {
+      id: 6,
+      title: "DLF SEC-93",
+      text:"PHE WORKS – DLF GARDENCITY ENCLAVE, SECTOR 93, GURUGRAM",
+      imgs: [dlf931,dlf932,dlf933,dlf934,dlf935,dlf936,dlf937],
+      para: [
+        "Installation of complete PHE service networks, RCC boundary walls, feeder pillars, and CSS systems for township expansion.",
+
+        "The execution ensures robust, reliable, and scalable PHE infrastructure, facilitating uninterrupted water supply, sewerage, and drainage services. This enables efficient service delivery, supports sustainable growth, and ensures long-term operational sustainability for the expanding DLF Gardencity Enclave township.",
+      ],
+      detail: [
+        { heading: "VALUE", info: "RS. 13.00 CR" },
+        { heading: "COMPLETION", info: "2025" },
+        { heading: "CLIENT", info: "DLF LIMITED" },
+       
+      ],
+      cat: "DLF",
+      },
+
+      {
+      id: 7,
+      title: "DLF SEC-91 & SEC-92",
+      text:"PHE AND INFRASTRUCTURE DEVELOPMENT – DLF GARDENCITY,    SECTOR 91 & 92",
+      imgs: [dlf911,dlf912,dlf913,dlf914,dlf915],
+      para: [
+        "Comprehensive PHE works including sewer, stormwater, water supply, and treated water lines, executed through a combination of open-cut excavation and  trenchless techniques across ",
+
+        "The successful execution delivers a robust, efficient, and future-ready PHE network with reliable water supply, sewerage, and stormwater systems. It supports sustainable urban living through efficient resource management and reduced environmental impact. This infrastructure enhances long-term service reliability across DLF Gardencity, Sector 91 & 92.",
+      ],
+      detail: [
+        { heading: "VALUE", info: "RS. 7.48 CR" },
+        { heading: "COMPLETION", info: "2024" },
+        { heading: "CLIENT", info: "DLF LIMITED" },
+       
+      ],
+      cat: "DLF",
+      },
+
+      {
+      id: 8,
+      title: "MORE PROJECTS",
+      text:"",
+      imgs: [other1,other2,other3],
+      para: [
+        "",
+      ],
+      detail: [],
+      cat: "More",
+      },
   ],
 };

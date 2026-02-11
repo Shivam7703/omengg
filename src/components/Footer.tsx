@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { RiWhatsappFill } from "react-icons/ri";
-import { logo2 as logo } from "@/assets";
+import { logo2 as logo, logo as logo2 } from "@/assets";
 import Buttonmain from "./global/button";
 
 export default function Footer({ footer }: any) {
@@ -57,11 +57,11 @@ export default function Footer({ footer }: any) {
           >
             <div className="flex items-center justify-between mb-5">
               <Image
-                src={logo}
+                src={logo2}
                 alt="OmEngineers"
                 width={150}
                 height={80}
-                className="mr-3 w-[25vw] max-w-[100px]"
+                className="mr-3 w-[25vw] max-w-[150px]"
               />
               <h2 className="text-xl sm:text-2xl text-color2 font-bold w-max">
                 Book A Site Visit

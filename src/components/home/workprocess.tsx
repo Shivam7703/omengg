@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
 import { FaWpforms } from "react-icons/fa";
+import { GiDeadEye } from "react-icons/gi";
+import { LuHandshake } from "react-icons/lu";
+import { MdOutlineEngineering, MdOutlineSettings } from "react-icons/md";
 
 export default function WorkProcess() {
   const data = [
@@ -10,17 +13,17 @@ export default function WorkProcess() {
     text: "Understanding project requirements, site conditions, timelines, and execution feasibility thoroughly.",
   },
   {
-    icon: <FaWpforms />,
+    icon: <MdOutlineSettings />, 
     heading: "Design & Engineering",
     text: "Developing precise engineering designs aligned with safety standards and project goals.",
   },
   {
-    icon: <FaWpforms />,
+    icon: <MdOutlineEngineering />,
     heading: "Execution & Supervision",
     text: "Executing construction activities with strict supervision, safety compliance, and quality control.",
   },
   {
-    icon: <FaWpforms />,
+    icon: <LuHandshake />,
     heading: "Completion & Handover",
     text: "Final inspections, documentation, and smooth project handover within committed timelines.",
   },
