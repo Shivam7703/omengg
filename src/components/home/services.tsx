@@ -3,8 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { about2, about8, banner,
- } from "@/assets";
 
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";

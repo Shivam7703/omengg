@@ -8,7 +8,7 @@ import { sliderText } from "@/utils/motion";
 import Link from "next/link";
 
 export default function Banner({ title, para, img, slug }: any) {
-  // Trigger useEffect whenever currentSlide changes     https://wedesignthemes.s3.us-east-1.amazonaws.com/lattice/architech.mp4
+
 
   return (
     <>

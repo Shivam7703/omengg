@@ -1,7 +1,6 @@
 import React from 'react'
 import Servicesec2 from './section2'
 import Servicemain from './main'
-import { WhychooseData2 } from '@/data/homeData'
 import Faq from '../global/faq'
 import Aside from './aside'
 

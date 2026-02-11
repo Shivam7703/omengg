@@ -1,7 +1,6 @@
 import { home } from "@/assets";
 import { contactData } from "@/data/homeData";
 import React from "react";
-import { AiFillRightCircle } from "react-icons/ai";
 import Image from "next/image";
 import {Button} from "../global/button";
 function Contactform() {

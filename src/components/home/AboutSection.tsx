@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { banner, banner2, banner3, banner4 } from "@/assets";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import Buttonmain from "../global/button";
 
 function AboutSection() {

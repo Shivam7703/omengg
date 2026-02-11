@@ -3,14 +3,13 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/utils/motion";
-import Faq from "../global/faq";
-import { about2, about3 } from "@/assets";
+import { bhk, banner } from "@/assets";
 import Buttonmain from "../global/button";
 
 export default function WhyChoose2() {
   var data = {
-    img1: about2,
-    img2: about3,
+    img1: bhk,  
+    img2: banner,
     title1: "Why Choose Us",
     title2: "We Are The Best Builder in Delhi",
     para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
