@@ -55,7 +55,10 @@ const ProCard = ({ pro, isOdd, num }: any) => (
       </div>
 
       {/* Content Below Image */}
-      <Link href={`/services/${pro.title.toLowerCase().replace(/\s+/g, '-')}`} className={`space-y-2 ${isOdd ? "md:text-left md:pl-4" : "md:text-right  md:pr-4"}`}>
+      <Link href={`/services/${pro.title.trim()
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-+|-+$/g, "")}`} className={`space-y-2 ${isOdd ? "md:text-left md:pl-4" : "md:text-right  md:pr-4"}`}>
         <h3 className="text-2xl md:text-3xl  font-medium text-black transition-colors duration-300 group-hover:text-color2">
           {pro.title}
         </h3>
