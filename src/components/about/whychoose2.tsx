@@ -11,24 +11,24 @@ export default function WhyChoose2() {
     img1: about,  
     img2: bhk,
     title1: "Why Choose Us",
-    title2: "We Are The Best Builder in Delhi",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title2: "Trusted quality delivered with proven expertise.",
+    para: "We design and build modern, functional, and visually appealing spaces that fits to your lifestyle. Our focus is on quality construction, smart planning, and long-lasting results that enhance your property.",
     count: [
       {
-        number: "25+",
+        number: "42+",
         text: "Years of Experience"
       },
       {
-        number: "100+",
+        number: "500+",
         text: "Projects Completed"
       },
       {
-        number: "50+",
-        text: "Happy Clients"
+        number: "300+",
+        text: "Satisfied Clients"
       },
       {
-        number: "25+",
-        text: "Years of Experience"
+        number: "99%",
+        text: "Success Rate"
       }
     ]
   };
@@ -71,7 +71,7 @@ export default function WhyChoose2() {
             <p className="!mb-7 md:text-lg text-zinc-600 font-medium">
               {data.para}
             </p>
-            <Buttonmain text={"Know more"} href={"/"} />
+            <Buttonmain text={"Know more"} href={"/contact-us"} />
           </div>
           <div className="md:w-[48%] h-[360px] w-full relative group overflow-hidden rounded-2xl">
             <Image

@@ -70,7 +70,7 @@ function AboutSection() {
           <div className="absolute z-20 bottom-6 left-6 md:bottom-8 md:left-8">
             <div className="backdrop-blur-xl bg-color2/95 text-white rounded-2xl p-5 md:p-6 shadow-2xl border border-white/20 transform transition-all duration-300 hover:scale-105">
               <h3 className="text-4xl md:text-5xl font-bold mb-1 bg-gradient-to-br from-white to-white/70 bg-clip-text">
-                100+
+                42+
               </h3>
               <p className="text-sm md:text-base text-white/90 font-medium">Years of Experience</p>
             </div>
@@ -165,7 +165,7 @@ function AboutSection() {
             </div>
           </div>
 
-<Buttonmain text={"Learn More"} href={"/about"} />        
+<Buttonmain text={"Learn More"} href={"/about-us"} />        
         </div>
       </div>
     </section>

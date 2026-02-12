@@ -152,7 +152,7 @@ Register our newsletter, And stay in touch
             />
             <p className="w-full text-base mt-3 text-white">{footer?.text}</p>
 <div className="scale-[0.9] -ml-4 mt-8">
-          <Buttonmain text={"Request consultation"} href={"/about"} />        
+          <Buttonmain text={"Request consultation"} href={"/contact-us"} />        
 </div>
           </div>
 

@@ -52,6 +52,7 @@ export default function HomeBanner() {
               welcome={item?.welcome}
               btntext={item?.btntext}
               para={item?.para}
+              link={item?.href}
               key={currentSlide} // Re-trigger animation when slide changes
             />
           </SwiperSlide>
@@ -78,7 +79,7 @@ function HomeBannerCard({
   title,
   para,
   welcome,
-  btntext,
+  btntext, link
 }: any) {
   return (
     <div className="relative w-full overflow-hidden font1 text-white md:h-[98vh] min-h-[520px]">
@@ -109,9 +110,8 @@ function HomeBannerCard({
             {title} 
           </h1>
           <p className=" !mb-7 md:text-lg text-zinc-600 font-medium ">{para}</p>
-         <Buttonmain text={btntext} href={"/"} />        
+         <Buttonmain text={btntext} href={link}/>        
         </motion.div>
-      
       </div>
     </div>
   );

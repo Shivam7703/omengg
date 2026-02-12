@@ -43,13 +43,13 @@ export const navItemsArray = [
         href: "/services/drainage-&-utility-diversions",
       },
       { id: 3,  label: "Roads & Footpaths",
-        href: "/services/roads-&-footpaths", },
+        href: "/services/roads-footpaths", },
       {
         id: 4,
         label: "Civil Structure & Finishing Works",
         href: "/services/civil-structure-&-finishing-works",
       },
-      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-&-landscaping" },
+      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-landscaping" },
     
     ],
   },
@@ -535,28 +535,28 @@ export const testimonialData = {
       id: 1,
       title: "R.M. Mathur",
       text:
-        "OmEngineers perfected the design of our home that we truly love. The group implemented our vision to build the perfect outcome. The complete process moved without trouble, leading to a result that satisfied us highly. ",
+        "Working with OM Engineering Constructions Pvt. Ltd. was a smooth experience from start to finish. The team was professional, transparent, and always available to answer our queries. The quality of work and timely delivery truly impressed us. We felt confident throughout the entire construction process.",
       img: cl1,
     },
     {
       id: 2,
       title: "Shivam Goyal",
       text:
-        "The project finished on time without causing any problems for us. The interior design elements present a beautiful appearance. The finished design of OmEngineers transformed our house into a perfect residence. They are the best interior designers in Delhi. Highly recommended for quality work! ",
+        "We were looking for the best builders in Delhi for our commercial project, and choosing OM Engineering was the right decision. Their planning, coordination, and execution were excellent. The final outcome matched exactly what was promised, with no compromise on quality or deadlines.",
       img: cl2,
     },
     {
       id: 3,
       title: "Sageer Ansari",
       text:
-        "Through their work, OmEngineers created elegant, functional interior designs for our house. The team members demonstrated professionalism throughout while giving full attention to all specified details. We have achieved a comfortable area that welcomes everyone. They truly are the best builders in Delhi.",
+        "What I appreciated most was their honesty and attention to detail. Every stage of construction was clearly explained, and updates were shared regularly. The team handled challenges calmly and professionally. It felt reassuring to work with a company that truly values trust and commitment.",
       img: cl3,
     },
     {
-      id: 3,
+      id: 4,
       title: "Prashant",
       text:
-        "The construction process, along with design delivery, was executed with excellence by OmEngineers. Our house now combines spaciousness and modern design characteristics, which perfectly meet our family needs. Great experience with a highly skilled team! Truly the best builders in Delhi.",
+        "After comparing several companies, we chose OM Engineering because of their reputation as one of the best builders in Delhi. They delivered high standards, maintained safety at the site, and completed the project on time. We are extremely satisfied with the overall experience.",
       img: cl4,
     },
   ],
@@ -1147,26 +1147,25 @@ export const footer = {
   list2: {
     title: "Services",
     links: [
-      {
+       {
         id: 1,
         label: "Pipeline Networks",
-        href: "/services/in-house-residential-development",
+        href: "/services/pipeline-networks",
       },
       {
         id: 2,
         label: "Drainage & Utility Diversions",
-        href: "/services/architecture-&-interior-design",
+        href: "/services/drainage-&-utility-diversions",
       },
-    
       { id: 3,  label: "Roads & Footpaths",
-        href: "/services/roads-&-footpaths", },
+        href: "/services/roads-footpaths", },
       {
         id: 4,
         label: "Civil Structure & Finishing Works",
         href: "/services/civil-structure-&-finishing-works",
       },
-      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-&-landscaping" },
-    ],
+      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-landscaping" },
+     ],
   },
 };
 
@@ -1174,7 +1173,7 @@ export const footer = {
 export const aboutBanner = {
   title: "About Us",
   para:
-    "OmEngineers Contracts has been the best builder in Delhi for over 30 years. Surpassing the first design outline to finalize the end product. ",
+    "We build strong, reliable spaces with a commitment to quality and trust. Our focus is on delivering every project with precision, safety, and excellence. ",
   slug: "about-us",
   img: banner2,
 };

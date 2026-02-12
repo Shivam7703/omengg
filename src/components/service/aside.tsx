@@ -103,8 +103,10 @@ function Aside({ title }: { title: string }) {
             >
               <Link
                 href={`/services/${service?.title
-                  .replace(/\s+/g, "-")
-                  .toLowerCase()}`}
+                  .trim()
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-+|-+$/g, "")}`}
                 className={`flex items-center justify-between p-3 rounded-xl transition-all duration-300 ${
                   service?.title === title
                     ? "bg-color2 text-white shadow-md"
@@ -134,8 +136,10 @@ function Aside({ title }: { title: string }) {
             <Link
               key={i}
               href={`/blogs/${post.title
-                .replace(/\s+/g, "-")
-                .toLowerCase()}`}
+                .trim()
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-+|-+$/g, "")}`}
               className="flex gap-3 group"
             >
               <div className="relative w-20 h-20 rounded-lg overflow-hidden shrink-0">

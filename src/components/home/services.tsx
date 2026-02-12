@@ -130,7 +130,7 @@ export default function ServiceSlider() {
           </button>
 
         </div>
-        <div className="w-max mx-auto">         <Buttonmain text={"All Services"} href={"/"} />        
+        <div className="w-max mx-auto">         <Buttonmain text={"All Services"} href={"/services"} />        
         </div>
       </div>
 

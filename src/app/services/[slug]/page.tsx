@@ -13,7 +13,10 @@ type Props = {
 // Generate static paths for all services
 export async function generateStaticParams() {
   return Servicedata.service.map((service: any) => {
-    const slug = service.title.replace(/\s+/g, '-').toLowerCase();
+    const slug = service.title.trim()
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-+|-+$/g, "");
     return { slug };
   });
 }
@@ -22,7 +25,10 @@ export default function Page({ params }: Props) {
   const decodedSlug = decodeURIComponent(params.slug).toLowerCase();
 
   const singleService = Servicedata.service.find((service: any) => {
-    const serviceSlug = service.title.replace(/\s+/g, '-').toLowerCase();
+    const serviceSlug = service.title.trim()
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-+|-+$/g, "");
     return serviceSlug === decodedSlug;
   });
 

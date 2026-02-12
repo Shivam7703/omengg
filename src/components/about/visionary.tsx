@@ -11,14 +11,14 @@ function Visionary() {
     let data = {
         img:banner2,
         title1:"Visionary Builders",
-        title2:"We Are The Best Builder in Delhi",
-        para:"At OM Engineering Constructions Pvt. Ltd., we are dedicated to transforming visions into reality through exceptional construction services. With a commitment to quality.",
+        title2:"Pioneering Excellence in Modern Construction",
+        para:"At OM Engineering Constructions Pvt. Ltd., we are committed to redefining Delhi’s infrastructure landscape through innovation, precision, and reliability. With strong technical expertise and a client-focused approach, we deliver high-quality residential, commercial, and infrastructure projects that reflect durability and excellence.",
         btntext:"Know More",
         points:[
-            "lorem ipsum dolor sit amet",
-            "Sed do eiusmod tempor incididunt",
-            "Ut enim ad minim veniam",
-            "Duis aute irure dolor in reprehenderit",
+            "Advanced engineering and modern construction methods",
+            "Strict quality control at every project stage",
+            "Timely execution with transparent processes",
+            "Strong focus on safety and sustainability",
         ]
     }
   return (
@@ -58,7 +58,7 @@ function Visionary() {
               </div>
             ))}
           </div>
-         <Buttonmain text={data.btntext} href={"/"} />        
+         <Buttonmain text={data.btntext} href={"/projects"} />        
         </motion.div>
           </div>
   )

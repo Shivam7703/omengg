@@ -67,7 +67,6 @@ export default function WorkProcess() {
         ))}
         <div className="flex mx-auto justify-center text-black items-center  gap-4 mt-5">
           <p className="bg-black text-white p-3 rounded-md">Hire Us</p><p>Let’s collaborate to build something extraordinary.<a className="border-b-2 hover:text-color2 border-black" href="tel:+912444455567"> Have a Project in Mind?</a>
-
 </p>
         </div>
       </div>

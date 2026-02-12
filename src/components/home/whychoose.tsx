@@ -49,7 +49,7 @@ function WhyChoose() {
             </div>
             ))}
             </div>
-           <Buttonmain text={"Explore More"} href={"/about"} />        
+           <Buttonmain text={"Explore More"} href={"/projects"} />        
         </div>
          {/* Image Section - Enhanced */}
         <div className=" md:w-[48%] w-full h-full  group">
