@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/Footer";
 import { footer } from "@/data/homeData";
+import  Preloader  from "@/components/loader";
 
 const josefin_Sans = Josefin_Sans({
   subsets: ["latin"],
@@ -27,6 +28,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${josefin_Sans.variable} ${dm_Sans.variable} text-black bg-white`}>
+                <Preloader />
+
         <Header />
         {children}
         <Footer footer={footer} />

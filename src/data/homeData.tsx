@@ -9,8 +9,12 @@ import {
    civil,
    horiculture,
    bg,
-   bhk
+   bhk,
+   pilling,
+   landscape,
+   rmc
 } from "@/assets";
+import { GiConcreteBag,GiPlantRoots, GiTreeBranch,GiFactory,GiDrill} from "react-icons/gi";
 
 import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -32,26 +36,47 @@ export const navItemsArray = [
     label: "Services",
     href: "/services",
     subNav: [
-      {
-        id: 1,
-        label: "Pipeline Networks",
-        href: "/services/pipeline-networks",
-      },
-      {
-        id: 2,
-        label: "Drainage & Utility Diversions",
-        href: "/services/drainage-&-utility-diversions",
-      },
-      { id: 3,  label: "Roads & Footpaths",
-        href: "/services/roads-footpaths", },
-      {
-        id: 4,
-        label: "Civil Structure & Finishing Works",
-        href: "/services/civil-structure-&-finishing-works",
-      },
-      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-landscaping" },
-    
-    ],
+  {
+    id: 1,
+    label: "Drainage & Utilities",
+    href: "/services/drainage-utilities",
+  },
+  {
+    id: 2,
+    label: "Roads & Footpaths",
+    href: "/services/roads-footpaths",
+  },
+  {
+    id: 3,
+    label: "Civil Structures & Finishing Works",
+    href: "/services/civil-structures-finishing-works",
+  },
+  {
+    id: 4,
+    label: "Horticulture",
+    href: "/services/horticulture",
+  },
+  {
+    id: 5,
+    label: "Landscapes & Hardscapes",
+    href: "/services/landscapes-hardscapes",
+  },
+  {
+    id: 6,
+    label: "Utility Diversions & Trenches",
+    href: "/services/utility-diversions-trenches",
+  },
+  {
+    id: 7,
+    label: "Deep Excavations, Piling & Shoring Works",
+    href: "/services/deep-excavations-piling-shoring-works",
+  },
+  {
+    id: 8,
+    label: "RMC Plant Installation & Operations",
+    href: "/services/rmc-plant-installation-&-operations",
+  },
+],
   },
   { id: 4, label: "Projects", href: "/projects" },
   { id: 5, label: "Privacy Policy", href: "/privacy-policy" },
@@ -115,344 +140,454 @@ export const Servicedata = {
   title1: "OUR SERVICES",
   title2: "Engineering Excellence Across Diverse Infrastructure Domains",
   service: [
+   {
+  title: "Drainage & Utilities",
+  text: "Reliable drainage and utility systems built for efficient urban infrastructure",
+  img: drainage,
+  icon: <MdOutlineAltRoute />,
+  description: "We deliver well-planned drainage and utility infrastructure that supports modern developments and public services. Our approach focuses on efficient water management, safe installation of underground utilities, and careful coordination with surrounding infrastructure. From planning to execution, every stage is handled with precision to ensure long-term functionality, safety, and minimal disruption to existing networks.",
+  how_we_work: [
     {
-      title: "Pipeline Networks",
-      text: "Water, sewer, and stormwater systems are executed through open-cut and advanced trenchless technologies.",
-
-      img: pipe,
-
-      icon: <GiPipes />,
-        description:
-        "Our in-house engineering team delivers robust pipeline networks designed for efficiency, safety, and long-term reliability. From planning to commissioning, we manage every stage with precision. Each network is executed using proven materials, accurate alignment, and modern methods to ensure uninterrupted flow and durability.",
-
-       how_we_work: [
-        {
-          id: 1,
-          heading: "Planning & Feasibility",
-          para:
-            " We study site conditions, utility requirements, and technical parameters to plan efficient and compliant pipeline routes.",
-        },
-        {
-          id: 2,
-          heading: "Design & Engineering",
-          para:
-            "Detailed pipeline designs are prepared, ensuring correct sizing, alignment, depth, and regulatory compliance.",
-        },
-        {
-          id: 3,
-          heading: "Execution & Installation",
-          para:
-            " Pipelines are installed using open-cut or trenchless methods with strict quality and safety controls.",
-        },
-        {
-          id: 4,
-          heading: "Testing & Commissioning",
-          para:
-            " Each pipeline is pressure-tested and inspected to ensure leak-free performance before final commissioning.",
-        },
-      ],
-      faqs: [
-        {
-          id: 1,
-          que:"How are pipeline networks different from regular construction?",
-          ans:" They require precise engineering, depth control, safety planning, and continuous quality checks to ensure long-term performance.",
-        },
-        {
-          id: 2,
-          que: "Can services continue during pipeline installation?",
-          ans:
-            " Yes, proper planning and phased execution help minimise disruption to existing utilities.",
-        },
-        {
-          id: 3,
-          que: "Are modern construction methods used?",
-          ans:
-            " Yes, we use advanced trenchless and mechanised techniques where required for efficient execution.",
-        },
-        {
-          id: 4,
-          que: "What ensures the long-term durability of pipelines?",
-          ans:
-            "Quality materials, accurate installation, testing procedures, and adherence to engineering standards.",
-        },
-        {
-          id: 5,
-          que: "Does in-house execution improve timelines?",
-          ans:
-            "Yes, internal coordination enables faster decision-making and smoother project completion.",
-        },
-      ],
+      id: 1,
+      heading: "Site Assessment & System Planning",
+      para: "We evaluate ground conditions, drainage flow patterns, and utility requirements to design systems that manage water effectively and support service networks.",
     },
-
-
     {
-      title: "Drainage & Utility Diversions",
-      text: "Strategic diversion, rerouting, and restoration of complex urban utility networks with minimal disruption.",
-      img: drainage,
-      icon: <MdOutlineAltRoute />,
-      description:"Our in-house team delivers well-planned drainage systems and utility diversions designed to support urban infrastructure without interrupting daily operations. From analysis to execution, every stage is managed carefully to ensure safety, accuracy, and long-term reliability of diverted networks.",
-      how_we_work: [
-  {
-    id: 1,
-    heading: "Site Assessment & Planning",
-    para:
-      "We study existing utilities, drainage flows, and site constraints to plan safe and efficient diversion strategies.",
-  },
-  {
-    id: 2,
-    heading: "Engineering & Coordination",
-    para:
-      "Detailed designs are prepared while coordinating with relevant authorities to ensure compliance and necessary approvals.",
-  },
-  {
-    id: 3,
-    heading: "Diversion & Installation",
-    para:
-      "Utilities and drainage lines are diverted using controlled methods that reduce disruption and maintain service continuity.",
-  },
-  {
-    id: 4,
-    heading: "Testing & Restoration",
-    para:
-      "Systems are tested thoroughly, and surfaces are restored to original or improved conditions after completion.",
-  },
-],
-faqs: [
-  {
-    id: 1,
-    que: "Why are utility diversions important?",
-    ans:
-      "They allow infrastructure development without damaging existing drainage and utility networks.",
-  },
-  {
-    id: 2,
-    que: "How is disruption to services minimised?",
-    ans:
-      "Through phased execution, careful planning, and temporary service arrangements.",
-  },
-  {
-    id: 3,
-    que: "Are complex urban areas handled safely?",
-    ans:
-      "Yes, careful mapping and modern techniques ensure safe execution in congested environments.",
-  },
-  {
-    id: 4,
-    que: "What ensures drainage efficiency after diversion?",
-    ans:
-      "Proper gradient design, quality materials, and detailed testing processes.",
-  },
-  {
-    id: 5,
-    que: "Does in-house management improve results?",
-    ans:
-      "Yes, it ensures faster coordination, better control, and reliable project delivery.",
-  },
-],
-
+      id: 2,
+      heading: "Engineering Design & Coordination",
+      para: "Detailed system layouts are developed while coordinating with relevant authorities and service providers to ensure compliance with technical and regulatory standards.",
     },
-
-
     {
-      title: "Roads and Footpaths",
-      text: "Durable surface infrastructure seamlessly coordinated with underlying utility and service networks.",
-      img: road,
-      icon: <LiaRoadSolid />,      description:"We develop high-quality roads and pedestrian pathways designed for safety, durability, and smooth movement. Our team ensures proper coordination between surface works and underlying utilities, delivering infrastructure that performs reliably under daily traffic and long-term usage conditions.",
-how_we_work: [
-  {
-    id: 1,
-    heading: "Site Study & Planning",
-    para:
-      "We assess traffic patterns, ground conditions, and service networks to plan durable and efficient road layouts.",
-  },
-  {
-    id: 2,
-    heading: "Design & Material Selection",
-    para:
-      "Appropriate materials and construction methods are selected to match load requirements and usage intensity.",
-  },
-  {
-    id: 3,
-    heading: "Construction & Surface Works",
-    para:
-      "Roads and footpaths are constructed with accurate layering, proper drainage, and finishing for long-lasting performance.",
-  },
-  {
-    id: 4,
-    heading: "Quality Checks & Completion",
-    para:
-      "Final inspections ensure smooth surfaces, safety standards, and readiness for public use.",
-  },
-],
-faqs: [
-  {
-    id: 1,
-    que: "How do you ensure long-term surface durability?",
-    ans:
-      "Durability is ensured through proper ground preparation, quality materials, accurate layering, controlled compaction, and strict quality checks designed to withstand traffic loads and varying weather conditions.",
-  },
-  {
-    id: 2,
-    que: "Are underground utilities considered during construction?",
-    ans:
-      "Yes, existing and planned utilities are carefully mapped and coordinated before construction to avoid damage, ensure accessibility, and maintain seamless integration with surface infrastructure.",
-  },
-  {
-    id: 3,
-    que: "What measures improve pedestrian safety?",
-    ans:
-      "Pedestrian safety is enhanced through well-defined walkways, non-slip surfaces, proper kerb heights, clear markings, adequate drainage, and designs aligned with local safety standards.",
-  },
-  {
-    id: 4,
-    que: "Can projects be completed in high-traffic areas?",
-    ans:
-      "Yes, phased execution, traffic management plans, and efficient scheduling are used to minimise disruption while maintaining safety and accessibility in busy zones.",
-  },
-  {
-    id: 5,
-    que: "What defines the final quality of roads and footpaths?",
-    ans:
-      "Final quality depends on precision execution, proper drainage design, material consistency, finishing accuracy, and continuous monitoring for smooth, durable, and user-friendly infrastructure.",
-  },
-],
-
+      id: 3,
+      heading: "Installation & Network Development",
+      para: "Drainage pipelines, utility conduits, and associated infrastructure are installed using controlled construction methods to ensure durability and operational efficiency.",
     },
-
-    
     {
-      title: "Civil Structures & Finishing Works",
-      text: "Structural construction combined with precise finishing for functional and visually refined outcomes.",
-      img: civil,
-      icon: <PiCityBold />,  
-      description:"We deliver reliable civil structures supported by high-quality finishing that enhances both functionality and appearance. From structural execution to final detailing, every stage is handled with precision, ensuring long-lasting performance and clean, refined outcomes.",
-how_we_work: [
-  {
-    id: 1,
-    heading: "Planning & Structural Assessment",
-    para:
-      "We evaluate design requirements, load conditions, and site constraints to plan safe and efficient structural solutions.",
-  },
-  {
-    id: 2,
-    heading: "Engineering & Detailing",
-    para:
-      "Accurate drawings and specifications are prepared to ensure structural stability and seamless finishing execution.",
-  },
-  {
-    id: 3,
-    heading: "Construction & Structural Works",
-    para:
-      "Structures are executed using quality materials, skilled workmanship, and strict quality control practices.",
-  },
-  {
-    id: 4,
-    heading: "Finishing & Quality Review",
-    para:
-      "Finishing works are completed with attention to detail, followed by inspections to ensure durability and visual consistency.",
-  },
-],
-faqs: [
-  {
-    id: 1,
-    que: "What types of civil structures do you execute?",
-    ans:
-      "We handle a wide range of civil works, including foundations, retaining structures, chambers, boundary walls, and associated structural elements.",
-  },
-  {
-    id: 2,
-    que: "How is structural safety ensured?",
-    ans:
-      "Safety is ensured through proper design calculations, approved materials, skilled execution, and continuous quality and safety inspections.",
-  },
-  {
-    id: 3,
-    que: "How do finishing works add value to structures?",
-    ans:
-      "Finishing enhances usability, protects structural elements, improves appearance, and ensures long-term performance.",
-  },
-  {
-    id: 4,
-    que: "Are finishing works coordinated with structural execution?",
-    ans:
-      "Yes, finishing works are planned alongside structural construction to avoid rework and ensure smooth project flow.",
-  },
-  {
-    id: 5,
-    que: "What ensures the long-term performance of completed works?",
-    ans:
-      "Quality materials, accurate execution, protective finishes, and adherence to engineering standards ensure long-term structural performance.",
-  },
-],
-
+      id: 4,
+      heading: "Testing & System Commissioning",
+      para: "Final testing and inspections verify proper water flow, system stability, and overall performance before the infrastructure becomes fully operational.",
     },
-
+  ],
+  faqs: [
     {
-      title: "Horticulture & Landscaping",
-      text: "Sustainable landscaping solutions that enhance environmental value and create aesthetically pleasing green spaces.",
-      img: horiculture,
-      icon: <IoIosLeaf />,    
-      description:"We create functional and visually pleasing green spaces that enhance the environment and complement surrounding infrastructure. Our approach focuses on sustainable planting, efficient water use, and long-term maintenance, ensuring landscapes remain healthy and attractive over time.",
-how_we_work: [
-  {
-    id: 1,
-    heading: "Site Analysis & Soil Preparation",
-    para:
-      "We assess soil quality, sunlight, and drainage to prepare the site for healthy plant growth.",
-  },
-  {
-    id: 2,
-    heading: "Landscape Design & Plant Selection",
-    para:
-      "Plant species are selected based on climate suitability, aesthetics, and long-term sustainability.",
-  },
-  {
-    id: 3,
-    heading: "Execution & Plantation",
-    para:
-      "Planting and landscaping are carried out with proper spacing, irrigation planning, and soil treatment.",
-  },
-  {
-    id: 4,
-    heading: "Maintenance Planning & Handover",
-    para:
-      "We provide guidance for upkeep to ensure lasting greenery and consistent landscape performance.",
-  },
-],
-faqs: [
-  {
-    id: 1,
-    que: "How do landscaped areas support sustainability?",
-    ans:
-      "They improve air quality, manage water runoff, reduce heat, and support ecological balance through thoughtful plant selection and layout.",
-  },
-  {
-    id: 2,
-    que: "Are plants chosen based on local conditions?",
-    ans:
-      "Yes, species are selected based on local climate and soil conditions to ensure healthy growth and minimal maintenance.",
-  },
-  {
-    id: 3,
-    que: "How is water usage managed efficiently?",
-    ans:
-      "Efficient irrigation methods and proper soil preparation help optimise water use and reduce wastage.",
-  },
-  {
-    id: 4,
-    que: "Can landscaping be integrated with infrastructure projects?",
-    ans:
-      "Yes, landscaping is planned to align with built structures without affecting utilities or access.",
-  },
-  {
-    id: 5,
-    que: "What ensures long-term landscape health?",
-    ans:
-      "Proper soil treatment, suitable plant selection, and maintenance planning ensure greenery remains healthy and sustainable.",
-  },
-],
-
+      id: 1,
+      que: "Why are proper drainage systems important in infrastructure projects?",
+      ans: "Efficient drainage systems help manage rainwater and wastewater, preventing flooding, protecting structures, and maintaining safe and functional environments for both urban and residential areas.",
     },
+    {
+      id: 2,
+      que: "How are underground utilities coordinated during construction?",
+      ans: "Utilities such as water supply, electrical conduits, and communication lines are carefully mapped and installed according to engineered layouts to avoid conflicts and ensure accessibility for future maintenance.",
+    },
+    {
+      id: 3,
+      que: "What factors influence drainage system performance?",
+      ans: "Proper gradients, pipe quality, soil conditions, and accurate installation methods all play an important role in maintaining smooth water flow and preventing blockages or system failures.",
+    },
+    {
+      id: 4,
+      que: "How is safety ensured during utility installation?",
+      ans: "Safety is maintained through controlled excavation, proper equipment handling, protective measures for workers, and adherence to engineering and construction standards.",
+    },
+    {
+      id: 5,
+      que: "What ensures long-term reliability of drainage and utility systems?",
+      ans: "Reliable systems depend on quality materials, accurate installation, proper system design, and thorough testing to ensure stable performance and minimal maintenance needs over time.",
+    },
+  ],
+},
+{
+  title: "Roads & Footpaths",
+  text: "Durable roads and footpaths built for daily use",
+  img: road,
+  icon: <LiaRoadSolid />,
+  description: "We develop high-quality roads and pedestrian pathways designed for safety, durability, and smooth movement. Our team ensures proper coordination between surface works and underlying utilities, delivering infrastructure that performs reliably under daily traffic and long-term usage conditions.",
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Site Study & Planning",
+      para: "We assess traffic patterns, ground conditions, and service networks to plan durable and efficient road layouts.",
+    },
+    {
+      id: 2,
+      heading: "Design & Material Selection",
+      para: "Appropriate materials and construction methods are selected to match load requirements and usage intensity.",
+    },
+    {
+      id: 3,
+      heading: "Construction & Surface Works",
+      para: "Roads and footpaths are constructed with accurate layering, proper drainage, and finishing for long-lasting performance.",
+    },
+    {
+      id: 4,
+      heading: "Quality Checks & Completion",
+      para: "Final inspections ensure smooth surfaces, safety standards, and readiness for public use.",
+    },
+  ],
+  faqs: [
+    {
+      id: 1,
+      que: "How do you ensure long-term surface durability?",
+      ans: "We ensure durability through proper ground preparation, quality materials, accurate layering, controlled compaction, and strict quality checks designed to withstand traffic loads and varying weather conditions.",
+    },
+    {
+      id: 2,
+      que: "Are underground utilities considered during construction?",
+      ans: "Yes, we carefully map and coordinate existing and planned utilities before construction to avoid damage, ensure accessibility, and maintain seamless integration between surface infrastructure and underground services.",
+    },
+    {
+      id: 3,
+      que: "What measures improve pedestrian safety?",
+      ans: "Pedestrian safety is enhanced through well-defined walkways, non-slip surfaces, proper kerb heights, clear markings, adequate drainage, and thoughtful design aligned with local safety standards.",
+    },
+    {
+      id: 4,
+      que: "Can projects be completed in high-traffic areas?",
+      ans: "Yes, we use phased execution, traffic management plans, and efficient scheduling to minimize disruption while ensuring safety and maintaining accessibility during construction in busy zones.",
+    },
+    {
+      id: 5,
+      que: "What defines the final quality of roads and footpaths?",
+      ans: "Final quality depends on precise execution, proper drainage design, material consistency, finishing accuracy, and continuous monitoring to deliver smooth, durable, and user-friendly infrastructure.",
+    },
+  ],
+},
+{
+  title: "Civil Structures & Finishing Works",
+  text: "Strong civil structures with precise finishing and durability",
+  img: civil,
+  icon: <GiConcreteBag />,
+  description: "We deliver reliable civil structures supported by high-quality finishing that enhances both functionality and appearance. From structural execution to final detailing, every stage is handled with precision, ensuring long-lasting performance and clean, refined outcomes.",
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Planning & Structural Assessment",
+      para: "We evaluate design requirements, load conditions, and site constraints to plan safe and efficient structural solutions.",
+    },
+    {
+      id: 2,
+      heading: "Engineering & Detailing",
+      para: "Accurate drawings and specifications are prepared to ensure structural stability and seamless finishing execution.",
+    },
+    {
+      id: 3,
+      heading: "Construction & Structural Works",
+      para: "Structures are executed using quality materials, skilled workmanship, and strict quality control practices.",
+    },
+    {
+      id: 4,
+      heading: "Finishing & Quality Review",
+      para: "Finishing works are completed with attention to detail, followed by inspections to ensure durability and visual consistency.",
+    },
+  ],
+  faqs: [
+    {
+      id: 1,
+      que: "What types of civil structures do you execute?",
+      ans: "We handle a wide range of civil works, including foundations, retaining structures, chambers, boundary walls, and associated structural elements.",
+    },
+    {
+      id: 2,
+      que: "How is structural safety ensured?",
+      ans: "Safety is ensured through proper design calculations, approved materials, skilled execution, and continuous quality and safety inspections.",
+    },
+    {
+      id: 3,
+      que: "How do finishing works add value to structures?",
+      ans: "Finishing enhances usability, protects structural elements, improves appearance, and ensures the structure performs well over time.",
+    },
+    {
+      id: 4,
+      que: "Are finishing works coordinated with structural execution?",
+      ans: "Yes, finishing works are planned alongside structural construction to avoid rework and ensure smooth project flow.",
+    },
+    {
+      id: 5,
+      que: "What ensures the long-term performance of completed works?",
+      ans: "Quality materials, accurate execution, protective finishes, and adherence to engineering standards ensure long-term structural performance.",
+    },
+  ],
+},
+{
+  title: "Horticulture",
+  text: "Healthy plant systems developed for sustainable growth and environmental balance",
+  img: horiculture,
+  icon: <GiPlantRoots />,
+  description: "Our horticulture services focus on the scientific cultivation and management of plants to create healthy, sustainable green environments. We apply horticultural best practices to ensure proper plant growth, soil health, and environmental balance. By combining careful planning, appropriate plant selection, and ongoing care strategies, we develop green spaces that remain vibrant, resilient, and beneficial to the surrounding ecosystem.",
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Site Assessment & Soil Evaluation",
+      para: "We evaluate soil structure, nutrient levels, sunlight exposure, and moisture conditions to determine the most suitable planting strategy for healthy plant development.",
+    },
+    {
+      id: 2,
+      heading: "Plant Selection & Growth Planning",
+      para: "Plant species are carefully selected based on climate compatibility, growth patterns, and ecological benefits to ensure sustainable and well-balanced planting.",
+    },
+    {
+      id: 3,
+      heading: "Planting & Cultivation",
+      para: "Our team performs planting with proper spacing, soil treatment, and support systems to encourage strong root development and healthy plant growth.",
+    },
+    {
+      id: 4,
+      heading: "Monitoring & Maintenance Guidance",
+      para: "We provide guidance on watering, pruning, fertilization, and seasonal care to maintain plant health and ensure long-term horticultural success.",
+    },
+  ],
+  faqs: [
+    {
+      id: 1,
+      que: "What does horticulture involve?",
+      ans: "Horticulture involves the cultivation, care, and management of plants, including trees, shrubs, flowers, and ornamental plants. It focuses on improving plant health, productivity, and visual appeal through proper soil management, planting techniques, and maintenance practices.",
+    },
+    {
+      id: 2,
+      que: "How does horticulture support environmental health?",
+      ans: "Healthy plant systems improve air quality, regulate temperatures, support biodiversity, and help manage soil stability. Proper horticultural practices contribute to balanced ecosystems and environmentally sustainable green spaces.",
+    },
+    {
+      id: 3,
+      que: "Are plants selected according to climate conditions?",
+      ans: "Yes, plant species are selected based on climate compatibility, soil conditions, and growth requirements to ensure strong development, minimal stress, and long-term sustainability.",
+    },
+    {
+      id: 4,
+      que: "How is plant health maintained over time?",
+      ans: "Plant health is maintained through regular monitoring, appropriate irrigation, soil nutrient management, pruning, pest control, and seasonal care practices.",
+    },
+    {
+      id: 5,
+      que: "What determines successful horticulture development?",
+      ans: "Successful horticulture depends on soil quality, suitable plant selection, proper planting techniques, environmental conditions, and consistent care to support healthy growth and long-term plant stability.",
+    },
+  ],
+},
+{
+  title: "Landscapes & Hardscapes",
+  text: "Functional landscapes and durable hardscapes designed for lasting outdoor spaces",
+  img: landscape,
+  icon: <GiTreeBranch />,
+  description: "We create balanced outdoor spaces that integrate natural landscapes with durable hardscape features. Our approach combines aesthetic planning, functional layouts, and quality materials to develop environments that enhance usability, visual appeal, and long-term sustainability for residential, commercial, and public spaces.",
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Site Study & Concept Planning",
+      para: "We analyze site conditions, climate factors, soil quality, and space usage to develop landscape concepts that align with environmental conditions and project objectives.",
+    },
+    {
+      id: 2,
+      heading: "Design & Material Selection",
+      para: "Plant species, paving materials, stonework, and structural elements are carefully selected to ensure visual harmony, durability, and low maintenance.",
+    },
+    {
+      id: 3,
+      heading: "Installation & Construction",
+      para: "Our team installs landscape features, hardscape structures, pathways, retaining elements, and planting systems with precise execution and proper ground preparation.",
+    },
+    {
+      id: 4,
+      heading: "Finishing & Quality Review",
+      para: "Final checks ensure healthy planting, proper drainage, stable hardscape structures, and overall landscape balance before project completion.",
+    },
+  ],
+  faqs: [
+    {
+      id: 1,
+      que: "What is the difference between landscaping and hardscaping?",
+      ans: "Landscaping focuses on natural elements such as plants, lawns, trees, and soil preparation, while hardscaping includes structural features like pathways, patios, retaining walls, stone surfaces, and outdoor seating areas that provide durability and functionality.",
+    },
+    {
+      id: 2,
+      que: "How do you ensure long-term landscape sustainability?",
+      ans: "We select climate-suitable plants, prepare soil properly, design efficient irrigation systems, and use durable materials to ensure landscapes remain healthy, visually appealing, and easy to maintain over time.",
+    },
+    {
+      id: 3,
+      que: "Can landscapes be designed for both aesthetics and functionality?",
+      ans: "Yes, well-planned landscapes balance beauty with usability by integrating green areas, walking paths, seating zones, lighting, and drainage systems to create spaces that are both attractive and practical.",
+    },
+    {
+      id: 4,
+      que: "What materials are commonly used in hardscape construction?",
+      ans: "Hardscape projects typically use materials such as natural stone, concrete pavers, bricks, gravel, and treated wood, chosen based on durability, load requirements, and compatibility with the surrounding landscape design.",
+    },
+    {
+      id: 5,
+      que: "What ensures the final quality of landscape and hardscape projects?",
+      ans: "Final quality depends on proper ground preparation, correct installation techniques, plant health management, material durability, and thorough inspection to ensure the outdoor space remains stable, functional, and visually appealing for years.",
+    },
+  ],
+},
+{
+  title: "Utility Diversions & Trenches",
+  text: "Safe utility diversions and trenching solutions for uninterrupted infrastructure development",
+  img: pipe,
+  icon: <MdOutlineAltRoute />,
+  description: "We provide professional utility diversion and trenching services to support infrastructure and development projects. Our work ensures that essential underground utilities such as water lines, electrical cables, communication networks, and drainage systems are safely relocated or installed without disrupting surrounding infrastructure. Through careful planning, precise execution, and strict safety standards, we help maintain service continuity while enabling smooth project progress.",
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Site Survey & Utility Identification",
+      para: "We conduct detailed surveys to locate existing underground utilities, assess site conditions, and plan safe diversion or trenching routes.",
+    },
+    {
+      id: 2,
+      heading: "Planning & Method Selection",
+      para: "Appropriate trenching methods, safety measures, and diversion strategies are selected to ensure minimal disruption and efficient execution.",
+    },
+    {
+      id: 3,
+      heading: "Excavation & Utility Diversion",
+      para: "Trenches are excavated with precision, and utilities are safely relocated, installed, or protected while maintaining structural and service integrity.",
+    },
+    {
+      id: 4,
+      heading: "Restoration & Final Checks",
+      para: "After completion, trenches are properly refilled, surfaces restored, and final inspections conducted to ensure stability, safety, and service continuity.",
+    },
+  ],
+  faqs: [
+    {
+      id: 1,
+      que: "Why are utility diversions necessary during infrastructure projects?",
+      ans: "Utility diversions are required when existing underground services interfere with planned construction. Relocating these utilities ensures infrastructure development can proceed safely without damaging essential public service networks.",
+    },
+    {
+      id: 2,
+      que: "How do you locate underground utilities before excavation?",
+      ans: "We conduct site surveys, review service maps, and use detection techniques to accurately identify underground utilities before trenching begins, reducing the risk of accidental damage.",
+    },
+    {
+      id: 3,
+      que: "What safety measures are followed during trenching work?",
+      ans: "Safety measures include controlled excavation, proper trench support, safe equipment operation, and careful monitoring to protect workers, nearby structures, and existing utilities.",
+    },
+    {
+      id: 4,
+      que: "How is disruption to public services minimized?",
+      ans: "Work is planned in coordination with utility providers, and diversions are executed systematically to maintain continuous service while construction activities are carried out.",
+    },
+    {
+      id: 5,
+      que: "What ensures the quality of trenching and diversion work?",
+      ans: "Quality is ensured through precise excavation, correct utility installation methods, proper backfilling, compaction, and final inspections to maintain long-term ground stability and service reliability.",
+    },
+  ],
+},
+{
+  title: "Deep Excavations, Piling & Shoring Works",
+  text: "Strong foundation systems engineered for stability and structural safety",
+  img: pilling,
+  icon: <GiDrill />,
+  description: "We provide specialised services for deep excavations, piling, and shoring to support complex construction and infrastructure projects. Our team focuses on structural stability, soil safety, and precise engineering to ensure that foundations are strong and reliable. Through careful planning, modern construction techniques, and strict safety measures, we deliver groundwork solutions that support long-term structural performance.",
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Site Investigation & Soil Analysis",
+      para: "We evaluate soil conditions, groundwater levels, and load requirements to determine the most suitable excavation, piling, and shoring methods.",
+    },
+    {
+      id: 2,
+      heading: "Engineering Design & Planning",
+      para: "Detailed structural and geotechnical designs are prepared to ensure excavation safety, proper load transfer, and ground stability.",
+    },
+    {
+      id: 3,
+      heading: "Excavation, Piling & Shoring Execution",
+      para: "Deep excavations are carried out with controlled methods while piling and shoring systems are installed to support surrounding soil and structures.",
+    },
+    {
+      id: 4,
+      heading: "Monitoring & Structural Safety Checks",
+      para: "Continuous monitoring and inspections ensure that excavation depths, pile installations, and support systems maintain stability and meet engineering standards.",
+    },
+  ],
+  faqs: [
+    {
+      id: 1,
+      que: "Why are piling and shoring important in deep excavation projects?",
+      ans: "Piling transfers structural loads to deeper, stronger soil layers, while shoring supports surrounding soil during excavation. Together, they ensure stability and prevent ground movement that could affect nearby structures.",
+    },
+    {
+      id: 2,
+      que: "How is safety maintained during deep excavation work?",
+      ans: "Safety is ensured through soil analysis, engineered support systems, controlled excavation methods, continuous monitoring, and adherence to strict construction safety standards.",
+    },
+    {
+      id: 3,
+      que: "What factors determine the type of piling used?",
+      ans: "Pile selection depends on soil conditions, groundwater levels, structural load requirements, and project design specifications to ensure optimal foundation strength.",
+    },
+    {
+      id: 4,
+      que: "Can deep excavation work be carried out in congested urban areas?",
+      ans: "Yes, specialised techniques, careful planning, and protective support systems allow safe execution even in restricted spaces or areas surrounded by existing structures.",
+    },
+    {
+      id: 5,
+      que: "What ensures the final quality of foundation work?",
+      ans: "Accurate engineering design, precise installation of piles, effective shoring systems, and continuous monitoring ensure long-term structural stability and reliable foundation performance.",
+    },
+  ],
+},
+{
+  title: "RMC Plant Installation & Operations",
+  text: "Efficient ready-mix concrete plants designed for reliable production and supply",
+  img: rmc,
+  icon: <GiFactory />,
+  description: "We provide professional services for the installation and operation of Ready-Mix Concrete (RMC) plants designed to deliver consistent and high-quality concrete for construction projects. Our approach focuses on efficient plant setup, accurate batching systems, and smooth operational processes to ensure reliable concrete supply for infrastructure and building developments.",
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Site Assessment & Layout Planning",
+      para: "We assess site space, logistics access, and production capacity requirements to plan the optimal layout for efficient plant operation.",
+    },
+    {
+      id: 2,
+      heading: "Equipment Selection & Plant Installation",
+      para: "Batching equipment, mixers, storage silos, and conveyor systems are installed with precision to ensure smooth production and material handling.",
+    },
+    {
+      id: 3,
+      heading: "System Testing & Operational Setup",
+      para: "All machinery and batching systems are tested and calibrated to ensure accurate concrete mixing and reliable production performance.",
+    },
+    {
+      id: 4,
+      heading: "Operations Management & Quality Monitoring",
+      para: "Daily operations are monitored to maintain production efficiency, material quality, and consistent supply to meet construction demands.",
+    },
+  ],
+  faqs: [
+    {
+      id: 1,
+      que: "What is the purpose of an RMC plant in construction projects?",
+      ans: "An RMC plant produces ready-mix concrete in controlled conditions, ensuring consistent quality, accurate proportions, and reliable supply for construction sites.",
+    },
+    {
+      id: 2,
+      que: "How is quality maintained during concrete production?",
+      ans: "Quality is maintained through precise batching systems, controlled mixing processes, quality raw materials, and regular monitoring to ensure concrete meets required strength and performance standards.",
+    },
+    {
+      id: 3,
+      que: "What factors influence the efficiency of an RMC plant?",
+      ans: "Plant layout, equipment capacity, raw material handling systems, and effective operational management all contribute to efficient and uninterrupted concrete production.",
+    },
+    {
+      id: 4,
+      que: "Can RMC plants support large construction projects?",
+      ans: "Yes, RMC plants are designed to handle high production volumes, ensuring consistent concrete supply for large infrastructure and building developments.",
+    },
+    {
+      id: 5,
+      que: "What ensures smooth plant operations over time?",
+      ans: "Regular equipment maintenance, calibrated batching systems, trained operators, and continuous quality checks ensure reliable and long-term plant performance.",
+    },
+  ],
+},
   ],
 };
 
@@ -1147,25 +1282,47 @@ export const footer = {
   list2: {
     title: "Services",
     links: [
-       {
-        id: 1,
-        label: "Pipeline Networks",
-        href: "/services/pipeline-networks",
-      },
-      {
-        id: 2,
-        label: "Drainage & Utility Diversions",
-        href: "/services/drainage-&-utility-diversions",
-      },
-      { id: 3,  label: "Roads & Footpaths",
-        href: "/services/roads-footpaths", },
-      {
-        id: 4,
-        label: "Civil Structure & Finishing Works",
-        href: "/services/civil-structure-&-finishing-works",
-      },
-      { id: 5, label: "Horticulture & Landscaping", href: "/services/horticulture-landscaping" },
-     ],
+  {
+    id: 1,
+    label: "Drainage & Utilities",
+    href: "/services/drainage-utilities",
+  },
+  {
+    id: 2,
+    label: "Roads & Footpaths",
+    href: "/services/roads-footpaths",
+  },
+  {
+    id: 3,
+    label: "Civil Structures & Finishing Works",
+    href: "/services/civil-structures-finishing-works",
+  },
+  {
+    id: 4,
+    label: "Horticulture",
+    href: "/services/horticulture",
+  },
+  {
+    id: 5,
+    label: "Landscapes & Hardscapes",
+    href: "/services/landscapes-hardscapes",
+  },
+  {
+    id: 6,
+    label: "Utility Diversions & Trenches",
+    href: "/services/utility-diversions-trenches",
+  },
+  {
+    id: 7,
+    label: "Deep Excavations, Piling & Shoring Works",
+    href: "/services/deep-excavations-piling-shoring-works",
+  },
+  {
+    id: 8,
+    label: "RMC Plant Installation & Operations",
+    href: "/services/rmc-plant-installation-&-operations",
+  },
+],
   },
 };
 

@@ -11,6 +11,8 @@ function AboutSection() {
     img2: banner,
     title1: "WHO ARE WE",
     title2: "Best Builders In Delhi NCR",
+    para:"Om Engineers and Services (OES) is a multidisciplinary infrastructure and engineering solutions provider delivering reliable and high-quality civil construction services. Our expertise covers drainage and utilities, roads and footpaths, civil structures, deep excavation works, landscaping, and utility management. With a focus on technical precision, careful planning, and efficient project execution, OES is committed to building durable infrastructure that supports urban development while maintaining strong standards of safety, quality, and operational efficiency.",
+    para2:"We also work alongside our sister allied firm, RK Enterprises, which is completely specialized in the installation and operation of dedicated Ready-Mix Concrete (RMC) plants. RK Enterprises is associated with UltraTech Cement, one of India’s largest and fastest-growing RMC networks. This collaboration enables us to ensure reliable concrete supply and strong operational support for construction projects, strengthening our ability to deliver efficient and dependable infrastructure solutions.",
     vision: [
   {
     heading: "Our Vision",
@@ -54,7 +56,7 @@ function AboutSection() {
       <div className="flex flex-wrap justify-between gap-y-12">
         
         {/* Image Section - Enhanced */}
-        <div className=" md:w-[49%] w-full min-h-[500px] md:min-h-[600px] relative group">
+        <div className=" md:w-[45%] w-full min-h-[500px] md:min-h-[600px] relative group">
           <div className="relative w-full h-full overflow-hidden rounded-3xl shadow-xl">
             <Image
               src={data.img2}
@@ -78,7 +80,7 @@ function AboutSection() {
         </div>
 
         {/* Content Section - Enhanced */}
-        <div className=" md:w-[47%] w-full md:py-6 space-y-6 md:space-y-8">
+        <div className=" md:w-[49%] w-full space-y-6">
           
           {/* Marquee - Keep same as requested */}
           <div className="max-w-40 overflow-hidden px-4 py-2 rounded-full border-2">
@@ -91,6 +93,7 @@ function AboutSection() {
           <h2 className="text-black font-semibold text-3xl md:text-5xl">
             {data.title2}
           </h2>
+<p>{data?.para}<br/>{data?.para2}</p>
 
           {/* Tabs - Premium Design */}
           <div className="flex flex-wrap gap-2 md:gap-8 mx-auto w-fit ">
@@ -128,7 +131,7 @@ function AboutSection() {
             <div className="flex flex-col sm:flex-row gap-6">
               
               {/* Image */}
-              <div className="relative w-full sm:w-40 h-56 b flex-shrink-0 rounded-xl overflow-hidden shadow-lg group/img">
+              <div className="relative w-full sm:w-40 h-44 b flex-shrink-0 rounded-xl overflow-hidden shadow-lg group/img">
                 <Image
                   src={data.vision[value].img}
                   alt={data.vision[value].heading}
@@ -140,11 +143,9 @@ function AboutSection() {
 
               {/* Content */}
               <div className="flex-1 space-y-4 font2">
-                <h3 className="text-2xl md:text-3xl font1 text-zinc-900 capitalize">
-                  {data.vision[value].heading}
-                </h3>
+               
                 
-                <p className="text-zinc-600 leading-relaxed text-base md:text-lg">
+                <p className="text-zinc-600 leading-relaxed text-base">
                   {data.vision[value].text}
                 </p>
 
