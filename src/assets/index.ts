@@ -72,7 +72,7 @@ import rd7 from "@/assets/pro1/rd7.jpeg";
 
 import rmc1 from "@/assets/pro1/rmc1.jpg";
 import rmc2 from "@/assets/pro1/rmc2.jpg";
-import rmc3 from "@/assets/pro1/rmc3.jpg";
+import rmc3 from "@/assets/pro1/rmc3a.jpg";
 import rmc4 from "@/assets/pro1/rmc4.jpg";
 
 
