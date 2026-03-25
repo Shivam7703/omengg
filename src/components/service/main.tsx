@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Gallery from "../project/gallery";
 
-function Servicemain({ title, para, img }: any) {
+function Servicemain({ title, para, imgss }: any) {
   return (
     <section className="space-y-8 text-zinc-700">
       {/* Title Section */}
@@ -16,15 +17,10 @@ function Servicemain({ title, para, img }: any) {
       </div>
 
       {/* Image Card */}
-      <div className="relative overflow-hidden rounded-2xl md:rounded-3xl shadow-xl group">
-        <Image
-          src={img}
-          alt={title}
-          className="w-full h-full object-cover max-h-[500px] transition-transform duration-500 group-hover:scale-105"
-        />
+        <div className="max-w-7xl mx-auto">
+            <Gallery imgs={imgss} />
+          </div>
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
-      </div>
 
       {/* Description */}
       <p className="max-w-3xl sm:text-xl font1 leading-relaxed text-zinc-800">

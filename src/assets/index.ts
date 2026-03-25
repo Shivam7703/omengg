@@ -31,64 +31,118 @@ import cl3 from "@/assets/home/cl-3.jpg";
 import cl4 from "@/assets/home/cl-4.jpg";
 
 
-import dlf911 from "@/assets/pro1/dlf911.webp";
-import dlf912 from "@/assets/pro1/dlf912.webp";
-import dlf913 from "@/assets/pro1/dlf914.webp";
-import dlf914 from "@/assets/pro1/dlf913.webp";
-import dlf915 from "@/assets/pro1/dlf915.webp";
+import civil1 from "@/assets/pro1/civil1.jpeg";
+import civil2 from "@/assets/pro1/civil2.jpeg";
+import civil3 from "@/assets/pro1/civil3.jpeg";
+import civil4 from "@/assets/pro1/civil4.jpeg";
+import civil5 from "@/assets/pro1/civil5.jpeg";
+import civil6 from "@/assets/pro1/civil6.jpeg";
+import civil7 from "@/assets/pro1/civil7.jpeg";
+import civil8 from "@/assets/pro1/civil8.jpeg";
+import civil9 from "@/assets/pro1/civil9.jpeg";
+import civil10 from "@/assets/pro1/civil10.jpeg";
+import civil11 from "@/assets/pro1/civil11.jpeg";
+import civil12 from "@/assets/pro1/civil12.jpeg";
+import civil13 from "@/assets/pro1/civil13.jpeg";
+import civil14 from "@/assets/pro1/civil14.jpeg";
+import civil15 from "@/assets/pro1/civil15.jpeg";
+import civil16 from "@/assets/pro1/civil16.jpeg";
+import civil17 from "@/assets/pro1/civil17.jpeg";
+import civil18 from "@/assets/pro1/civil18.jpeg";
 
-import dlf931 from "@/assets/pro1/dlf931.webp";
-import dlf932 from "@/assets/pro1/dlf932.webp";
-import dlf933 from "@/assets/pro1/dlf933.webp";
-import dlf934 from "@/assets/pro1/dlf934.webp";
-import dlf935 from "@/assets/pro1/dlf935.webp";
-import dlf936 from "@/assets/pro1/dlf936.webp";
-import dlf937 from "@/assets/pro1/dlf937.webp";
-
-import enclave931 from "@/assets/pro1/enclave931.webp";
-import enclave932 from "@/assets/pro1/enclave932.webp";
-import enclave933 from "@/assets/pro1/enclave933.webp";
-
-import gmda1 from "@/assets/pro1/gmda1.webp";
-import gmda2 from "@/assets/pro1/gmda2.webp";
-import gmda3 from "@/assets/pro1/gmda3.webp";
-import gmda4 from "@/assets/pro1/gmda4.webp";
-
-import other1 from "@/assets/pro1/other1.webp";
-import other2 from "@/assets/pro1/other2.webp";
-import other3 from "@/assets/pro1/other3.webp";
-
-import sco841 from "@/assets/pro1/sco841.webp";
-import sco842 from "@/assets/pro1/sco842.webp";
-import sco843 from "@/assets/pro1/sco843.webp";
+import land1 from "@/assets/pro1/land1.jpeg";
+import land2 from "@/assets/pro1/land2.jpeg";
+import land3 from "@/assets/pro1/land3.jpeg";
+import land4 from "@/assets/pro1/land4.jpeg";
+import land5 from "@/assets/pro1/land5.jpeg";
+import land6 from "@/assets/pro1/land6.jpeg";
 
 
-import sec681 from "@/assets/pro1/sec681.webp";
-import sec682 from "@/assets/pro1/sec682.webp";
-import sec683 from "@/assets/pro1/sec683.webp";
-import sec684 from "@/assets/pro1/sec684.webp";
-import sec685 from "@/assets/pro1/sec686.webp";
-import sec686 from "@/assets/pro1/sec687.webp";
-import sec687 from "@/assets/pro1/sec688.webp";
-import sec688 from "@/assets/pro1/sec689.webp";
-import sec689 from "@/assets/pro1/sec685.webp";
-import sec6810 from "@/assets/pro1/sec6810.webp";
+import land7 from "@/assets/pro1/land7.jpeg";
+import land8 from "@/assets/pro1/land8.jpeg";
+
+import rd1 from "@/assets/pro1/rd1.jpeg";
+import rd2 from "@/assets/pro1/rd2.jpeg";
+import rd3 from "@/assets/pro1/rd3.jpeg";
+import rd4 from "@/assets/pro1/rd4.jpeg";
+import rd5 from "@/assets/pro1/rd5.jpeg";
+import rd6 from "@/assets/pro1/rd6.jpeg";
+import rd7 from "@/assets/pro1/rd7.jpeg";
 
 
-import sewer from "@/assets/pro1/sewer.webp";
-import sewer2 from "@/assets/pro1/sewer2.webp";
-import sewer3 from "@/assets/pro1/sewer3.webp";
-import sewer4 from "@/assets/pro1/sewer4.webp";
-import sewer5 from "@/assets/pro1/sewer5.webp";
-import sewer6 from "@/assets/pro1/sewer6.webp";
-import sewer7 from "@/assets/pro1/sewer7.webp";
-import sewer8 from "@/assets/pro1/sewer8.webp";
-import sewer9 from "@/assets/pro1/sewer9.webp";
-import sewer10 from "@/assets/pro1/sewer10.webp";
-import sewer11 from "@/assets/pro1/sewer11.webp";
-import sewer13 from "@/assets/pro1/sewer13.webp";
+import rmc1 from "@/assets/pro1/rmc1.jpg";
+import rmc2 from "@/assets/pro1/rmc2.jpg";
+import rmc3 from "@/assets/pro1/rmc3.jpg";
+import rmc4 from "@/assets/pro1/rmc4.jpg";
+
+
+import steel1 from "@/assets/pro1/steel1.jpg";
+import steel2 from "@/assets/pro1/steel2.jpg";
+import steel3 from "@/assets/pro1/steel3.jpg";
+import steel4 from "@/assets/pro1/steel4.jpg";
+
+
+
+import ut1 from "@/assets/pro1/ut1.jpeg";
+import ut2 from "@/assets/pro1/ut2.jpeg";
+import ut3 from "@/assets/pro1/ut3.jpeg";
+import ut4 from "@/assets/pro1/ut4.jpeg";
+import ut5 from "@/assets/pro1/ut5.jpeg";
+import ut6 from "@/assets/pro1/ut6.jpeg";
+import ut7 from "@/assets/pro1/ut7.jpeg";
+import ut8 from "@/assets/pro1/ut8.jpeg";
+import ut9 from "@/assets/pro1/ut9.jpeg";
+import ut10 from "@/assets/pro1/ut10.jpeg";
+import ut11 from "@/assets/pro1/ut11.jpeg";
+import ut12 from "@/assets/pro1/ut12.jpeg";
+import ut13 from "@/assets/pro1/ut13.jpeg";
+import ut14 from "@/assets/pro1/ut14.jpeg";
+import ut15 from "@/assets/pro1/ut15.jpeg";
+import ut16 from "@/assets/pro1/ut16.jpeg";
+import ut17 from "@/assets/pro1/ut17.jpeg";
+import ut18 from "@/assets/pro1/ut18.jpeg";
+import ut19 from "@/assets/pro1/ut19.jpeg";
+import ut20 from "@/assets/pro1/ut20.jpeg";
+import ut21 from "@/assets/pro1/ut21.jpeg";
+import ut22 from "@/assets/pro1/ut22.jpeg";
+
+
+import deep1 from "@/assets/pro1/deep1.jpeg";
+import deep2 from "@/assets/pro1/deep2.jpeg";
+import deep3 from "@/assets/pro1/deep3.jpeg";
+import deep4 from "@/assets/pro1/deep4.jpeg";
+import deep5 from "@/assets/pro1/deep5.jpeg";
+import deep6 from "@/assets/pro1/deep6.jpeg";
+import deep7 from "@/assets/pro1/deep7.jpeg";
+import deep8 from "@/assets/pro1/deep8.jpeg";
+
+
+
 
 
 export {
-     banner, banner2, banner3, banner4 ,  cl1, cl2,cl3,cl4,logo2, logo , dlf911,dlf912,dlf913,dlf914,dlf931,dlf932,dlf933,dlf934,man, sewer, sewer2, sewer3, sewer4, sewer5, sewer6, sewer7, sewer8, sewer9, sewer10, sewer11, sewer13,dlf935, dlf936, dlf937, enclave931,enclave932, enclave933, gmda1, gmda2,gmda3, gmda4, other1, other2, other3,sco841, sco842, sec681, sec682, sec683, sec684, sec685,sec686, sec687, sec688, sec689, sec6810,sco843, dlf915, home, civil, pipe, drainage, road, horiculture, certificate, bg, bhk,about,landscape,pilling,rmc
+     banner, banner2, banner3, banner4 ,  cl1, cl2,cl3,cl4,logo2, logo ,man, home, civil, pipe, drainage, road, horiculture, certificate, bg, bhk,about,landscape,pilling,rmc, 
+     // civil
+  civil1, civil2, civil3, civil4, civil5, civil6, civil7, civil8, civil9,
+  civil10, civil11, civil12, civil13, civil14, civil15, civil16, civil17, civil18,
+
+  // land
+  land1, land2, land3, land4, land5, land6,
+land7, land8,
+  // rd
+  rd1, rd2, rd3, rd4, rd5, rd6, rd7,
+
+  // rmc
+  rmc1, rmc2, rmc3, rmc4,
+
+  // steel
+  steel1, steel2, steel3, steel4,
+
+  // ut
+  ut1, ut2, ut3, ut4, ut5, ut6, ut7, ut8, ut9, ut10,
+  ut11, ut12, ut13, ut14, ut15, ut16, ut17, ut18, ut19, ut20,
+  ut21, ut22,
+
+  // deep
+  deep1, deep2, deep3, deep4, deep5, deep6, deep7, deep8,
    }

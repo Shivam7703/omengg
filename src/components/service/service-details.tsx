@@ -11,7 +11,7 @@ export default function Servicedetails({service}:any) {
     <div className='flex flex-wrap justify-between md:flex-row-reverse gap-y-7 lg:px-28 md:p-20 sm:p-16 p-7 relative min-h-screen w-full'>
 
     <div className='md:w-[64%] w-full '>
-      <Servicemain title={service?.title} para={service?.description} img={service?.img}/>
+      <Servicemain title={service?.title} para={service?.description} imgss={service?.imgs}/>
 
       <Servicesec2 data = {service?.how_we_work}/>
       <h2 className="text-black text-3xl font-medium my-8 md:text-5xl">

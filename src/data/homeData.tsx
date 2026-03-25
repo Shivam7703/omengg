@@ -1,8 +1,5 @@
 import {
-  banner, banner2, banner3, banner4 , cl1, cl2,cl3,cl4,logo2, dlf911,dlf912,dlf913,dlf914,dlf931,dlf932,dlf933,dlf934, sewer, sewer2, sewer3, sewer4, sewer5, sewer6, sewer7, sewer8, sewer9, sewer10, sewer11,  sewer13,dlf935,dlf936,dlf937,enclave931,enclave932,enclave933,gmda1,gmda2,gmda3,gmda4,other1,other2,other3,sco841,sco842,sec681, sec682, sec683, sec684, sec685,sec686, sec687, sec688, sec689,
-   sec6810,
-   sco843,
-   dlf915,
+  banner, banner2, banner3, banner4 , cl1, cl2,cl3,cl4,logo2, 
    pipe,
    drainage,
    road,
@@ -12,7 +9,28 @@ import {
    bhk,
    pilling,
    landscape,
-   rmc
+   rmc,   civil1, civil2, civil3, civil4, civil5, civil6, civil7, civil8, civil9,
+  civil10, civil11, civil12, civil13, civil14, civil15, civil16, civil17, civil18,
+
+  // land
+  land1, land2, land3, land4, land5, land6,
+land7, land8,
+  // rd
+  rd1, rd2, rd3, rd4, rd5, rd6, rd7,
+
+  // rmc
+  rmc1, rmc2, rmc3, rmc4,
+
+  // steel
+  steel1, steel2, steel3, steel4,
+
+  // ut
+  ut1, ut2, ut3, ut4, ut5, ut6, ut7, ut8, ut9, ut10,
+  ut11, ut12, ut13, ut14, ut15, ut16, ut17, ut18, ut19, ut20,
+  ut21, ut22,
+
+  // deep
+  deep1, deep2, deep3, deep4, deep5, deep6, deep7, deep8,
 } from "@/assets";
 import { GiConcreteBag,GiPlantRoots, GiTreeBranch,GiFactory,GiDrill} from "react-icons/gi";
 
@@ -144,6 +162,8 @@ export const Servicedata = {
   title: "Drainage & Utilities",
   text: "Reliable drainage and utility systems built for efficient urban infrastructure",
   img: drainage,
+  imgs:[ut1, ut2, ut3, ut4, ut5, ut6, ut7, ut8, ut9, ut10,
+  ut11, ut12, ut13, ut14, ut15, ut16],
   icon: <MdOutlineAltRoute />,
   description: "We deliver well-planned drainage and utility infrastructure that supports modern developments and public services. Our approach focuses on efficient water management, safe installation of underground utilities, and careful coordination with surrounding infrastructure. From planning to execution, every stage is handled with precision to ensure long-term functionality, safety, and minimal disruption to existing networks.",
   how_we_work: [
@@ -200,6 +220,7 @@ export const Servicedata = {
   title: "Roads & Footpaths",
   text: "Durable roads and footpaths built for daily use",
   img: road,
+  imgs:[rd1, rd2, rd3, rd4, rd5, rd6, rd7],
   icon: <LiaRoadSolid />,
   description: "We develop high-quality roads and pedestrian pathways designed for safety, durability, and smooth movement. Our team ensures proper coordination between surface works and underlying utilities, delivering infrastructure that performs reliably under daily traffic and long-term usage conditions.",
   how_we_work: [
@@ -256,6 +277,8 @@ export const Servicedata = {
   title: "Civil Structures & Finishing Works",
   text: "Strong civil structures with precise finishing and durability",
   img: civil,
+  imgs:[civil1, civil2, civil3, civil4, civil5, civil6, civil7, civil8, civil9,
+  civil10, civil11, civil12, civil13, civil14, civil15, civil16, civil17, civil18],
   icon: <GiConcreteBag />,
   description: "We deliver reliable civil structures supported by high-quality finishing that enhances both functionality and appearance. From structural execution to final detailing, every stage is handled with precision, ensuring long-lasting performance and clean, refined outcomes.",
   how_we_work: [
@@ -312,6 +335,7 @@ export const Servicedata = {
   title: "Horticulture",
   text: "Healthy plant systems developed for sustainable growth and environmental balance",
   img: horiculture,
+  imgs:[steel1, steel2, steel3, steel4],
   icon: <GiPlantRoots />,
   description: "Our horticulture services focus on the scientific cultivation and management of plants to create healthy, sustainable green environments. We apply horticultural best practices to ensure proper plant growth, soil health, and environmental balance. By combining careful planning, appropriate plant selection, and ongoing care strategies, we develop green spaces that remain vibrant, resilient, and beneficial to the surrounding ecosystem.",
   how_we_work: [
@@ -368,6 +392,8 @@ export const Servicedata = {
   title: "Landscapes & Hardscapes",
   text: "Functional landscapes and durable hardscapes designed for lasting outdoor spaces",
   img: landscape,
+  imgs:[land1, land2, land3, land4, land5, land6,
+land7, land8],
   icon: <GiTreeBranch />,
   description: "We create balanced outdoor spaces that integrate natural landscapes with durable hardscape features. Our approach combines aesthetic planning, functional layouts, and quality materials to develop environments that enhance usability, visual appeal, and long-term sustainability for residential, commercial, and public spaces.",
   how_we_work: [
@@ -424,6 +450,8 @@ export const Servicedata = {
   title: "Utility Diversions & Trenches",
   text: "Safe utility diversions and trenching solutions for uninterrupted infrastructure development",
   img: pipe,
+  imgs:[ ut17, ut18, ut19, ut20,
+  ut21, ut22],
   icon: <MdOutlineAltRoute />,
   description: "We provide professional utility diversion and trenching services to support infrastructure and development projects. Our work ensures that essential underground utilities such as water lines, electrical cables, communication networks, and drainage systems are safely relocated or installed without disrupting surrounding infrastructure. Through careful planning, precise execution, and strict safety standards, we help maintain service continuity while enabling smooth project progress.",
   how_we_work: [
@@ -480,6 +508,7 @@ export const Servicedata = {
   title: "Deep Excavations, Piling & Shoring Works",
   text: "Strong foundation systems engineered for stability and structural safety",
   img: pilling,
+  imgs:[  deep1, deep2, deep3, deep4, deep5, deep6, deep7, deep8],
   icon: <GiDrill />,
   description: "We provide specialised services for deep excavations, piling, and shoring to support complex construction and infrastructure projects. Our team focuses on structural stability, soil safety, and precise engineering to ensure that foundations are strong and reliable. Through careful planning, modern construction techniques, and strict safety measures, we deliver groundwork solutions that support long-term structural performance.",
   how_we_work: [
@@ -536,6 +565,7 @@ export const Servicedata = {
   title: "RMC Plant Installation & Operations",
   text: "Efficient ready-mix concrete plants designed for reliable production and supply",
   img: rmc,
+  imgs:[  rmc1, rmc2, rmc3, rmc4],
   icon: <GiFactory />,
   description: "We provide professional services for the installation and operation of Ready-Mix Concrete (RMC) plants designed to deliver consistent and high-quality concrete for construction projects. Our approach focuses on efficient plant setup, accurate batching systems, and smooth operational processes to ensure reliable concrete supply for infrastructure and building developments.",
   how_we_work: [
@@ -1524,149 +1554,149 @@ export const contactData = {
   ],
 };
 
-export const projectData = {
-  projects: [
-    {
-      id: 1,
-      title: "ENCLAVE 93 FLOORS",
-      text:"CONSTRUCTION OF FLOORS & ROUGH FINISHING WORKS – DLF GARDENCITY ENCLAVE, SECTOR 93",
-      imgs: [enclave931,enclave932,enclave933],
-      para: [
-        "Construction of residential Cluster 19 & 20 floors and rough finishing works, contributing to township-scale housing development.",
+// export const projectData = {
+//   projects: [
+//     {
+//       id: 1,
+//       title: "ENCLAVE 93 FLOORS",
+//       text:"CONSTRUCTION OF FLOORS & ROUGH FINISHING WORKS – DLF GARDENCITY ENCLAVE, SECTOR 93",
+//       imgs: [enclave931,enclave932,enclave933],
+//       para: [
+//         "Construction of residential Cluster 19 & 20 floors and rough finishing works, contributing to township-scale housing development.",
 
-        "The execution contributes directly to the structural readiness and functional framework of the residential units, enabling subsequent finishing, MEP, and interior works, while supporting the overall development objectives of the DLF Gardencity Enclave township.",
-      ],
-      detail: [
-        { heading: "VALUE", info: "RS. 2.00 CR" },
-        { heading: "COMPLETION", info: "2025" },
-        { heading: "CLIENT", info: "DLF LIMITED" },
-      ],
-      cat: "DLF",
-    },
+//         "The execution contributes directly to the structural readiness and functional framework of the residential units, enabling subsequent finishing, MEP, and interior works, while supporting the overall development objectives of the DLF Gardencity Enclave township.",
+//       ],
+//       detail: [
+//         { heading: "VALUE", info: "RS. 2.00 CR" },
+//         { heading: "COMPLETION", info: "2025" },
+//         { heading: "CLIENT", info: "DLF LIMITED" },
+//       ],
+//       cat: "DLF",
+//     },
 
-    {
-      id: 2,
-      title: "1000MM DIA SEWER & 1200MM DIA STORM DIVERSION",
-      text:"DIVERSION OF 1000MM DIA SEWER LINE – SHANKAR CHOWK, GURUGRAM",
-      imgs: [sewer,sewer2,sewer3,sewer4,sewer5,sewer6,sewer7,sewer8,sewer9,sewer10,sewer11,sewer13],
-      para: [
-        "Diversion of GMDA master sewer line at a depth of 7m using the manual jacking trenchless method, executed under live traffic conditions for subway underpass construction.",
+//     {
+//       id: 2,
+//       title: "1000MM DIA SEWER & 1200MM DIA STORM DIVERSION",
+//       text:"DIVERSION OF 1000MM DIA SEWER LINE – SHANKAR CHOWK, GURUGRAM",
+//       imgs: [sewer,sewer2,sewer3,sewer4,sewer5,sewer6,sewer7,sewer8,sewer9,sewer10,sewer11,sewer13],
+//       para: [
+//         "Diversion of GMDA master sewer line at a depth of 7m using the manual jacking trenchless method, executed under live traffic conditions for subway underpass construction.",
 
-        "The successful execution of this ensures seamless sewer flow continuity, minimal public inconvenience, and timely support for the subway underpass infrastructure development at Shankar Chowk.",
-      ],
-      detail: [
-        { heading: "VALUE", info: "RS. 3.28 CR" },
-        { heading: "COMPLETION", info: "2025" },
-        { heading: "CLIENT", info: "DLF FOUNDATION " },
+//         "The successful execution of this ensures seamless sewer flow continuity, minimal public inconvenience, and timely support for the subway underpass infrastructure development at Shankar Chowk.",
+//       ],
+//       detail: [
+//         { heading: "VALUE", info: "RS. 3.28 CR" },
+//         { heading: "COMPLETION", info: "2025" },
+//         { heading: "CLIENT", info: "DLF FOUNDATION " },
        
-      ],
-      cat: "DLF",
-    },
+//       ],
+//       cat: "DLF",
+//     },
 
-     {
-      id: 3,
-      title: "GMDA PROJECT",
-      text:"EMERGENCY REHABILITATION OF COLLAPSED SEWER LINES – GURUGRAM",
-      imgs: [gmda1,gmda2,gmda3,gmda4,],
-      para: [
-        " Immediate rectification of collapsed master sewer lines across multiple high risk zones, restoring functionality under emergency response timelines.",
+//      {
+//       id: 3,
+//       title: "GMDA PROJECT",
+//       text:"EMERGENCY REHABILITATION OF COLLAPSED SEWER LINES – GURUGRAM",
+//       imgs: [gmda1,gmda2,gmda3,gmda4,],
+//       para: [
+//         " Immediate rectification of collapsed master sewer lines across multiple high risk zones, restoring functionality under emergency response timelines.",
 
-        "The execution of this emergency ensures the swift restoration of sewer functionality, minimized public inconvenience, and safeguarded surrounding infrastructure, reinforcing system reliability under critical conditions.",
-      ],
-      detail: [
-        { heading: "VALUE", info: "RS. 35 LAKHS" },
-        { heading: "COMPLETION", info: "2025" },
-        { heading: "CLIENT", info: "GMDA" },
-      ],
-      cat: "GMDA",
-     },
+//         "The execution of this emergency ensures the swift restoration of sewer functionality, minimized public inconvenience, and safeguarded surrounding infrastructure, reinforcing system reliability under critical conditions.",
+//       ],
+//       detail: [
+//         { heading: "VALUE", info: "RS. 35 LAKHS" },
+//         { heading: "COMPLETION", info: "2025" },
+//         { heading: "CLIENT", info: "GMDA" },
+//       ],
+//       cat: "GMDA",
+//      },
 
-     {
-      id: 4,
-      title: "SECTOR-68",
-      text:"INTEGRATED DEVELOPMENT WORKS – DLF ARCADE 68, SCO SECTOR 68, GURUGRAM",
-      imgs: [sec681,sec682,sec683,sec684,sec685,sec686,sec687,sec688,sec689,sec6810,],
-      para: [
-        "End-to-end infrastructure creation comprising roads, footpaths, PHE networks, UGT, STP, LT/HT rooms, and horticulture works, transforming SCO plots into a fully developed commercial hub.",
+//      {
+//       id: 4,
+//       title: "SECTOR-68",
+//       text:"INTEGRATED DEVELOPMENT WORKS – DLF ARCADE 68, SCO SECTOR 68, GURUGRAM",
+//       imgs: [sec681,sec682,sec683,sec684,sec685,sec686,sec687,sec688,sec689,sec6810,],
+//       para: [
+//         "End-to-end infrastructure creation comprising roads, footpaths, PHE networks, UGT, STP, LT/HT rooms, and horticulture works, transforming SCO plots into a fully developed commercial hub.",
 
-        "The successful execution results in a fully developed, service-ready commercial ecosystem with integrated infrastructure, utilities, and landscape elements. It effectively supports retail and office operations while enhancing functionality, accessibility, and the overall urban character of DLF Arcade 68.",
-      ],
-      detail: [
-        { heading: "VALUE", info: "RS. 8.50 CR" },
-        { heading: "COMPLETION", info: "2025" },
-        { heading: "CLIENT", info: "DLF HOME DEVELOPERS LTD." },
+//         "The successful execution results in a fully developed, service-ready commercial ecosystem with integrated infrastructure, utilities, and landscape elements. It effectively supports retail and office operations while enhancing functionality, accessibility, and the overall urban character of DLF Arcade 68.",
+//       ],
+//       detail: [
+//         { heading: "VALUE", info: "RS. 8.50 CR" },
+//         { heading: "COMPLETION", info: "2025" },
+//         { heading: "CLIENT", info: "DLF HOME DEVELOPERS LTD." },
        
-      ],
-      cat: "DLF",
-     },
+//       ],
+//       cat: "DLF",
+//      },
 
-     {
-      id: 5,
-      title: "SCO-84",
-      text:"BALANCE CIVIL & FINISHING WORKS – DLF SCO 84, SECTOR 84, GURUGRAM",
-      imgs: [sco841,sco842,sco843,],
-      para: [
-        "Completion of civil, UGT, STP, meter room structures, along with finishing works and landscape development.",
+//      {
+//       id: 5,
+//       title: "SCO-84",
+//       text:"BALANCE CIVIL & FINISHING WORKS – DLF SCO 84, SECTOR 84, GURUGRAM",
+//       imgs: [sco841,sco842,sco843,],
+//       para: [
+//         "Completion of civil, UGT, STP, meter room structures, along with finishing works and landscape development.",
 
-        "The execution ensures completion of all balance civil, utility, and finishing works, delivering a ready-to-operate commercial environment. The development aligns with DLF’s design intent, functional planning, and quality benchmarks, ensuring operational efficiency, safety, and long-term asset value.",
-      ],
-      detail: [
-        { heading: "VALUE", info: "RS. 3.50 CR" },
-        { heading: "COMPLETION", info: "2024" },
-        { heading: "CLIENT", info: "DLF HOME DEVELOPERS LTD." },
+//         "The execution ensures completion of all balance civil, utility, and finishing works, delivering a ready-to-operate commercial environment. The development aligns with DLF’s design intent, functional planning, and quality benchmarks, ensuring operational efficiency, safety, and long-term asset value.",
+//       ],
+//       detail: [
+//         { heading: "VALUE", info: "RS. 3.50 CR" },
+//         { heading: "COMPLETION", info: "2024" },
+//         { heading: "CLIENT", info: "DLF HOME DEVELOPERS LTD." },
        
-      ],
-      cat: "DLF",
-     },
+//       ],
+//       cat: "DLF",
+//      },
 
-      {
-      id: 6,
-      title: "DLF SEC-93",
-      text:"PHE WORKS – DLF GARDENCITY ENCLAVE, SECTOR 93, GURUGRAM",
-      imgs: [dlf931,dlf932,dlf933,dlf934,dlf935,dlf936,dlf937],
-      para: [
-        "Installation of complete PHE service networks, RCC boundary walls, feeder pillars, and CSS systems for township expansion.",
+//       {
+//       id: 6,
+//       title: "DLF SEC-93",
+//       text:"PHE WORKS – DLF GARDENCITY ENCLAVE, SECTOR 93, GURUGRAM",
+//       imgs: [dlf931,dlf932,dlf933,dlf934,dlf935,dlf936,dlf937],
+//       para: [
+//         "Installation of complete PHE service networks, RCC boundary walls, feeder pillars, and CSS systems for township expansion.",
 
-        "The execution ensures robust, reliable, and scalable PHE infrastructure, facilitating uninterrupted water supply, sewerage, and drainage services. This enables efficient service delivery, supports sustainable growth, and ensures long-term operational sustainability for the expanding DLF Gardencity Enclave township.",
-      ],
-      detail: [
-        { heading: "VALUE", info: "RS. 13.00 CR" },
-        { heading: "COMPLETION", info: "2025" },
-        { heading: "CLIENT", info: "DLF LIMITED" },
+//         "The execution ensures robust, reliable, and scalable PHE infrastructure, facilitating uninterrupted water supply, sewerage, and drainage services. This enables efficient service delivery, supports sustainable growth, and ensures long-term operational sustainability for the expanding DLF Gardencity Enclave township.",
+//       ],
+//       detail: [
+//         { heading: "VALUE", info: "RS. 13.00 CR" },
+//         { heading: "COMPLETION", info: "2025" },
+//         { heading: "CLIENT", info: "DLF LIMITED" },
        
-      ],
-      cat: "DLF",
-      },
+//       ],
+//       cat: "DLF",
+//       },
 
-      {
-      id: 7,
-      title: "DLF SEC-91 & SEC-92",
-      text:"PHE AND INFRASTRUCTURE DEVELOPMENT – DLF GARDENCITY,    SECTOR 91 & 92",
-      imgs: [dlf911,dlf912,dlf913,dlf914,dlf915],
-      para: [
-        "Comprehensive PHE works including sewer, stormwater, water supply, and treated water lines, executed through a combination of open-cut excavation and  trenchless techniques across ",
+//       {
+//       id: 7,
+//       title: "DLF SEC-91 & SEC-92",
+//       text:"PHE AND INFRASTRUCTURE DEVELOPMENT – DLF GARDENCITY,    SECTOR 91 & 92",
+//       imgs: [dlf911,dlf912,dlf913,dlf914,dlf915],
+//       para: [
+//         "Comprehensive PHE works including sewer, stormwater, water supply, and treated water lines, executed through a combination of open-cut excavation and  trenchless techniques across ",
 
-        "The successful execution delivers a robust, efficient, and future-ready PHE network with reliable water supply, sewerage, and stormwater systems. It supports sustainable urban living through efficient resource management and reduced environmental impact. This infrastructure enhances long-term service reliability across DLF Gardencity, Sector 91 & 92.",
-      ],
-      detail: [
-        { heading: "VALUE", info: "RS. 7.48 CR" },
-        { heading: "COMPLETION", info: "2024" },
-        { heading: "CLIENT", info: "DLF LIMITED" },
+//         "The successful execution delivers a robust, efficient, and future-ready PHE network with reliable water supply, sewerage, and stormwater systems. It supports sustainable urban living through efficient resource management and reduced environmental impact. This infrastructure enhances long-term service reliability across DLF Gardencity, Sector 91 & 92.",
+//       ],
+//       detail: [
+//         { heading: "VALUE", info: "RS. 7.48 CR" },
+//         { heading: "COMPLETION", info: "2024" },
+//         { heading: "CLIENT", info: "DLF LIMITED" },
        
-      ],
-      cat: "DLF",
-      },
+//       ],
+//       cat: "DLF",
+//       },
 
-      {
-      id: 8,
-      title: "MORE PROJECTS",
-      text:"",
-      imgs: [other1,other2,other3],
-      para: [
-        "",
-      ],
-      detail: [],
-      cat: "More",
-      },
-  ],
-};
+//       {
+//       id: 8,
+//       title: "MORE PROJECTS",
+//       text:"",
+//       imgs: [other1,other2,other3],
+//       para: [
+//         "",
+//       ],
+//       detail: [],
+//       cat: "More",
+//       },
+//   ],
+// };
