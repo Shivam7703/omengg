@@ -32,7 +32,7 @@ land7, land8,
   // deep
   deep1, deep2, deep3, deep4, deep5, deep6, deep7, deep8,
 } from "@/assets";
-import { GiConcreteBag,GiPlantRoots, GiTreeBranch,GiFactory,GiDrill} from "react-icons/gi";
+import { GiConcreteBag,GiPlantRoots, GiTreeBranch,GiFactory,GiDrill, GiSteelClaws} from "react-icons/gi";
 
 import { FaFacebookSquare, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -92,8 +92,12 @@ export const navItemsArray = [
   {
     id: 8,
     label: "RMC Plant Installation & Operations",
-    href: "/services/rmc-plant-installation-&-operations",
-  },
+    href: "/services/rmc-plant-installation-operations",
+  }, {
+    id: 9,
+    label: "Mild Steel",
+    href: "/services/mild-steel",
+  }
 ],
   },
   { id: 4, label: "Projects", href: "/projects" },
@@ -335,7 +339,7 @@ export const Servicedata = {
   title: "Horticulture",
   text: "Healthy plant systems developed for sustainable growth and environmental balance",
   img: horiculture,
-  imgs:[steel1, steel2, steel3, steel4],
+  imgs:[horiculture, horiculture, horiculture],
   icon: <GiPlantRoots />,
   description: "Our horticulture services focus on the scientific cultivation and management of plants to create healthy, sustainable green environments. We apply horticultural best practices to ensure proper plant growth, soil health, and environmental balance. By combining careful planning, appropriate plant selection, and ongoing care strategies, we develop green spaces that remain vibrant, resilient, and beneficial to the surrounding ecosystem.",
   how_we_work: [
@@ -618,6 +622,65 @@ land7, land8],
     },
   ],
 },
+ {
+  title: "Mild Steel",
+  text: "High-quality mild steel designed for strength, versatility, and long-term durability.",
+  img: steel1,
+  imgs: [steel1, steel2, steel3, steel4],
+  icon: <GiSteelClaws />,
+  description: "We provide expertly fabricated mild steel solutions that support a wide range of construction and industrial applications. Our approach focuses on precision engineering, quality material selection, and efficient fabrication processes to ensure strong, reliable, and cost-effective structures. From initial design to final installation, every stage is managed with accuracy to deliver durability, safety, and seamless integration into projects.",
+  
+  how_we_work: [
+    {
+      id: 1,
+      heading: "Material Selection & Planning",
+      para: "We choose high-grade mild steel based on project requirements, ensuring the right balance of strength, flexibility, and cost-efficiency for optimal performance.",
+    },
+    {
+      id: 2,
+      heading: "Design & Fabrication",
+      para: "Detailed designs and fabrication processes are carried out using advanced techniques to create accurate and structurally sound components.",
+    },
+    {
+      id: 3,
+      heading: "Processing & Finishing",
+      para: "Cutting, welding, shaping, and surface treatments are performed to enhance durability, corrosion resistance, and overall finish quality.",
+    },
+    {
+      id: 4,
+      heading: "Installation & Quality Check",
+      para: "Final installation is executed with precision, followed by thorough inspections to ensure structural stability, safety, and compliance with standards.",
+    },
+  ],
+
+  faqs: [
+    {
+      id: 1,
+      que: "Why is mild steel widely used in construction?",
+      ans: "Mild steel offers excellent strength, flexibility, and affordability, making it suitable for structural frameworks, supports, and various engineering applications.",
+    },
+    {
+      id: 2,
+      que: "What makes mild steel durable for long-term use?",
+      ans: "Its ability to withstand stress and load, combined with proper coating and finishing, ensures long-lasting performance in different environments.",
+    },
+    {
+      id: 3,
+      que: "Where can mild steel be used?",
+      ans: "It is commonly used in buildings, bridges, industrial structures, fabrication works, and various mechanical applications.",
+    },
+    {
+      id: 4,
+      que: "How is quality maintained in mild steel fabrication?",
+      ans: "Quality is ensured through proper material selection, precise fabrication techniques, skilled workmanship, and strict inspection processes.",
+    },
+    {
+      id: 5,
+      que: "What ensures safety in mild steel structures?",
+      ans: "Safety depends on accurate design, proper welding, load calculations, and adherence to construction and engineering standards.",
+    },
+  ],
+}
   ],
 };
 
@@ -1350,7 +1413,12 @@ export const footer = {
   {
     id: 8,
     label: "RMC Plant Installation & Operations",
-    href: "/services/rmc-plant-installation-&-operations",
+    href: "/services/rmc-plant-installation-operations",
+  },
+   {
+    id: 9,
+    label: "Mild Steel ",
+    href: "/services/mild-steel",
   },
 ],
   },
@@ -1544,9 +1612,9 @@ export const contactData = {
       para: "Office Address",
       data: [
         {
-          text: "2nd Floor, M Block Market, Greater Kailash 2, M 32,",
+          text: "FLAT no - 1108 TOWER - I Signature Global Orchard Avenue 2 Sector 93 gurgaon",
           slug:
-            "https://www.google.com/maps/place/OmEngineers/@28.5330789,77.2413416,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce1905d089649:0x1b43338513750efe!8m2!3d28.5330789!4d77.2413416!16s%2Fg%2F11wxqn0h78",
+            "https://maps.app.goo.gl/tKFQdLFjhkFRxsip9",
         },
       
       ],

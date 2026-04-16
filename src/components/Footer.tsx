@@ -194,9 +194,8 @@ Register our newsletter, And stay in touch
             </p>
             <p className="text-base text-white capitalize leading-relaxed">
               <strong>Address: </strong>
-              <a href="https://www.google.com/maps/place/OmEngineers/@28.5330789,77.2413416,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce1905d089649:0x1b43338513750efe!8m2!3d28.5330789!4d77.2413416!16s%2Fg%2F11wxqn0h78?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D">
-                2nd Floor, M Block Market, Greater Kailash 2, M 32, W Block Rd,
-                New Delhi, Delhi 110048
+              <a href="https://maps.app.goo.gl/tKFQdLFjhkFRxsip9">
+                FLAT no - 1108 TOWER - I Signature Global Orchard Avenue 2 Sector 93 gurgaon
               </a>
             </p>
           </div>

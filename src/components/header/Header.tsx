@@ -88,11 +88,11 @@ const Header = ({ header }: any) => {
             <div className="h-6 lg:w-[1px] w-0 bg-white/60"></div>
             <a
               className="flex items-center max-lg:hidden  hover:scale-105 duration-300"
-              href="https://maps.app.goo.gl/EXvkuirmkyZ6pW5x7" target="_blank" rel="noopener noreferrer"
+              href="https://maps.app.goo.gl/tKFQdLFjhkFRxsip9" target="_blank" rel="noopener noreferrer"
             >
               <FaLocationDot className=" text-lg mr-2" />
-             <p className="">201-A Elegant House 
-28-A Kipawa ,india
+             <p className="">FLAT no - 1108 TOWER - I 
+SGO Avenue 2 Sector 93 gurgaon
 </p> 
             </a>
           </div>
