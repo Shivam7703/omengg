@@ -184,7 +184,7 @@ Register our newsletter, And stay in touch
             </h5>
             <p className="text-base text-white">
               <strong>Phone: </strong>{" "}
-              <a href="tel:+919667622285">+91 9667622285</a>
+              <a href="tel:+919650675645">+91 9650675645</a>
             </p>
             <p className="text-base text-white">
               <strong>E-mail: </strong>{" "}

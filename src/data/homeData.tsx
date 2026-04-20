@@ -1584,13 +1584,13 @@ export const contactData = {
       icon: <LuPhone />,
       para: "Contact No.",
       data: [
-        {
-          text: "+91 1234567890",
-          slug: "tel:+911234567890",
-        },
+        // {
+        //   text: "+91 9650675645",
+        //   slug: "tel:+919650675645",
+        // },
          {
-          text: "+91 1234567890",
-          slug: "tel:+911234567890",
+          text: "+91 9650675645",
+          slug: "tel:+919650675645",
         },
        
       ],

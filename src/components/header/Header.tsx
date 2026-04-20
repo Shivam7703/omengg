@@ -186,10 +186,10 @@ function RightSide(onTop: any) {
 <a href={"/"} className="w-max">
   <div className="flex gap-2 group relative text-zinc-800 hover:text-color2 items-center flex-row h-full">
                    <BiSolidPhoneCall className=" text-5xl p-3 group-hover:bg-zinc-800 text-white bg-color2 duration-200 rounded-full" />
-                              <p className="text-lg">+91 1234566770</p>
+                              <p className="text-lg">+91 9650675645</p>
                  </div>
 </a>
-<Buttonmain text={"Download Brochure"} href={"tel:+911234566770"} />        
+<Buttonmain text={"Download Brochure"} href={"tel:+919650675645"} />        
 </div>
   );
 }
