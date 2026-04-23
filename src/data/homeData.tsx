@@ -1601,8 +1601,8 @@ export const contactData = {
       para: "E-mail Address",
       data: [
         {
-          text: "info@OmEngineers.com",
-          slug: "mailto:info@OmEngineers.com",
+          text: "info@oesgroup.in",
+          slug: "mailto:info@oesgroup.in",
         },
       ],
     },

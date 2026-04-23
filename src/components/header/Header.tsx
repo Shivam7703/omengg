@@ -80,10 +80,10 @@ const Header = ({ header }: any) => {
            
             <a
               className="flex items-center  hover:scale-105 duration-300"
-              href="mailto:info@omengg.com"
+              href="mailto:info@oesgroup.in"
             >
               <MdAttachEmail className=" text-lg mr-2" />
-             <p className="">info@omengg.com</p> 
+             <p className="">info@oesgroup.in</p> 
             </a>
             <div className="h-6 lg:w-[1px] w-0 bg-white/60"></div>
             <a
@@ -101,7 +101,7 @@ SGO Avenue 2 Sector 93 gurgaon
            <div className="flex md:gap-4 text-sm">
             <a
               className="flex items-center max-lg:hidden hover:scale-105 duration-300"
-              href="mailto:info@omengg.com"
+              href="mailto:info@oesgroup.in"
             >
               <FaClockRotateLeft className=" text-lg mr-2" />
              <p className="">Hours: Mon-Fri: 9.00 am - 6.00 pm</p> 

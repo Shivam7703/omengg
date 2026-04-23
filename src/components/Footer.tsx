@@ -188,8 +188,8 @@ Register our newsletter, And stay in touch
             </p>
             <p className="text-base text-white">
               <strong>E-mail: </strong>{" "}
-              <a href="mailto:info@OmEngineers.construction">
-                info@OmEngineers.construction
+              <a href="mailto:info@oesgroup.in">
+                info@oesgroup.in
               </a>
             </p>
             <p className="text-base text-white capitalize leading-relaxed">
